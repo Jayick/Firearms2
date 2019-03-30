@@ -5,6 +5,7 @@
 ![Banner](https://i.imgur.com/510ZTWQ.png)
 
 ## IMPORTANT:
+
 This is an NEW Firearms Modlet. It will NOT work along side the old, or update the old. Suggested that you start fresh. If you choose to update Firearms 1, to this modlet, please insure that ALL existing Firearms assets (guns, ammo, etc) are removed BEFORE you update/install new. There are changes to the progression files within this Modlet. Player Saved Data WILL BE WIPED. Sadly, there is nothing I can do about this, as it's TFP's core files that effects this.
 
 ## Requirements:
@@ -24,11 +25,14 @@ This Modlet will give you full access to 50 custom Firearms, complete with anima
 
 
 # Crafting:
+
 ![Image](https://i.imgur.com/BcMR19Y.png) ![Image](https://i.imgur.com/9bvx2G5.png)
 Crafting has changed in Firearms. It is now centralized entirely around 2 main Workbenches. Gun Workbench, and Ammo Workbench. 
 Inside, you will find the first category containing ALL the ammo and guns. Then each class of Gun and Ammo inside it's own category (Pistols, SMG, Shotguns, Rifles, Large Weapons, Special, Mods)
+
 ![Image](https://i.imgur.com/WwTHrHE.png) The Ammo Bench , is very special. The last 2 categories contain Ammo, and Firearms Recycling. 
 Here, you can turn all your unwanted guns and ammo, back into highly valued parts to craft the items of your choosing. You may also CRAFT (not scrap) these while on-the-go, to help with inventory control, but the value is much greater at a Workbench.
+
 ## Items you may receive from Scrap Ammo: ![Image](https://i.imgur.com/Z29PR5d.png)
 - 1 Bullet Tip
 - 1 Brass Casing
@@ -79,6 +83,7 @@ All mods can be crafted after obtaining the respective schematic, at the Gun Wor
 
 
 # AMMO: 
+
 ![Image](https://i.imgur.com/9nwjRsP.png) ![Image](https://i.imgur.com/FiVXzO6.png) ![Image](https://i.imgur.com/qf7v5BV.png)
 Ammo got a lot of loving! Completely redone icons, making it far easier for everyone to see what goes with what. Ontop of that, I opened up the guns to FAR more ammo options: 
 
@@ -104,6 +109,7 @@ Thankyou RussianDood!
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 ## Changes:
+
 - Fully animated most of the weapons, every gun atleast has shell expenditure. Most have reload/recoil animations.
 - Redid all item and ammo icons, making them far easier to read
 - Added all items to Gun Workshop, and Ammo Workshop for easier crafting and sorting
@@ -117,6 +123,7 @@ Thankyou RussianDood!
 
 
 ## Known bugs:
+
 - Animations run off a bool call (not using scripting). They are all on timers. Sometimes, skills such as faster reloads, might make the animation go fast or slow in accordance with hand movement. I attuned the speeds based on the guns "unlock" level. Finding a M98 early game, might show a slower animation. This will fix itself as you get near the appropriate level
 - Audio might be too high, or too low. Currently in the process of adjusting levels. Feedback would be amazing. I am hard of hearing myself, too many guns IRL :P Nothing legally disabling me. Just god awful range in volume/pitch.
 - AR15 has crappy scopes. Need to break the model apart in 3ds. Will be patched eventually
@@ -124,7 +131,8 @@ Thankyou RussianDood!
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
- How to install
+## How to install
+ 
 - Navagate to your 7 Days to Die Directory (default: C:/ProgramFiles86/Steam/Steamapps/Common/7DaystoDie)
 - Right click anywhere in your MAIN directory (not Data/Configs, not 7DaysToDie_Data), and create New Folder 
 - Name New Folder: Mods [Our directory should look similar to something like this](https://imgur.com/a/pm5sJKc)
@@ -142,8 +150,11 @@ Thankyou RussianDood!
 - [Discord](https://discord.gg/NEBg7r7)
 
 ----------------------------------------------------------------------------------------------------------------------------------------
+
 # A special thankyou!
+
 A special thankyou to the following people, without their help, advice, and guidance this work would not be possible. These people are the backbone to our community, lending their skills to us all so we can complete amazing pieces of art for everyone to enjoy! Very much respect and admiration for these creators!
+
 Ynd21
 
 Sphereii
