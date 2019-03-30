@@ -20,9 +20,9 @@
 			<effect_group><!-- Need to fix this. It's annoying. Can't turn off the particles, and they run every .2 seconds
 				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/Test.unity3d?ExplosiveShotParticle" local_offset="0,0.3,0" parent_transform="Hips"/>
 				<triggered_effect trigger="onSelfBuffFinish" action="RemoveParticleEffectFromEntity" target="otherAOE" particle="#@modfolder:Resources/Test.unity3d?ExplosiveShotParticle" parent_transform="Hips" local_offset="0,0.3,0"/>
-				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveParticleEffectFromEntity" particle="#@modfolder:Resources/Test.unity3d?ExplosiveShotParticle">-->
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveParticleEffectFromEntity" particle="#@modfolder:Resources/Test.unity3d?ExplosiveShotParticle">
 					<requirement name="NotHasBuff" buff="buffExplosiveRound"/>
-					</triggered_effect>
+					</triggered_effect>-->
 				<passive_effect name="HealthChangeOT" operation="base_subtract" value="50" duration="0"/>
 			</effect_group>
 		</buff>
