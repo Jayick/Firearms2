@@ -117,6 +117,7 @@ This was all done by hand, without using scripting. It will take time for me to 
 This mod pack now has Localization Files. This means, that there will be descriptive text in the Information Windows. What ammo goes to what, would be the most prominent feature of Localization, but this has allowed me to properly redo this ENTIRE modlet. Now, if you just drag and drop like normal, all you will see is a bunch of mayicgunMrad, mayicgunChaingun. etc. 
 RussianDood has created an amazing program, to take the hassle out of the complexity behind adding Localization for some of us out there. No one wants to do the leg work of copying one file, finding the original, pasting it, then updating it everytime TFP does. No, Thanks to RussianDood, we have this amazing program to do the leg work for us. Inside this Modlet, you will find a Localization.bat file. After you place the Modlet into the correct location, just simply run the bat file (double click), and hit Enter, Pick whatever option you'd like (I suggest 1), Enter, enter again, and we are DONE! Thats it. You will only need to do this again when the Modlet updates and you download a new version. Other then that, you are free to boot up completely as normal everytime! No need to constantly run the file before you boot the game. 
 Thankyou RussianDood!
+
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 # Updating Existing Worlds with old versions of Firearms: 
