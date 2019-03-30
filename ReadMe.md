@@ -1,28 +1,35 @@
 # FIREARMS 2
-﻿
+
+![GameLogo](https://gamepedia.cursecdn.com/7daystodie_gamepedia/thumb/1/1f/OfficalWiki.png/600px-OfficalWiki.png?version=53cf53a4d2849bbdabf215f58b3b43ef)
+
+![Banner](https://i.imgur.com/510ZTWQ.png)
 
 ## IMPORTANT:
 This is an NEW Firearms Modlet. It will NOT work along side the old, or update the old. Suggested that you start fresh. If you choose to update Firearms 1, to this modlet, please insure that ALL existing Firearms assets (guns, ammo, etc) are removed BEFORE you update/install new. There are changes to the progression files within this Modlet. Player Saved Data WILL BE WIPED. Sadly, there is nothing I can do about this, as it's TFP's core files that effects this.
 
 ## Requirements:
+
 Requires Alpha 17 version of 7 Days to Die. Will not work on A16.4 or lesser.
 Suggested for minigun that you have decent framerates. Pixle textures on fire may cause FPS drops in lower end clients.
 Some guns will skip your game upon loading in the hotbar. Their file size is quite large. Fix coming soon hopefully.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------------------------
 ## About:
+
 Welcome to the new and VASTLY improved Firearms! 
 This Modlet will give you full access to 50 custom Firearms, complete with animations, audio, full gun modification (vanilla and modded), custom sound, custom ammo, the Total Package!
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------------------------
 
 
 
-﻿# Crafting:﻿
-
+# Crafting:
+![Image](https://i.imgur.com/BcMR19Y.png) ![Image](https://i.imgur.com/9bvx2G5.png)
 Crafting has changed in Firearms. It is now centralized entirely around 2 main Workbenches. Gun Workbench, and Ammo Workbench. 
 Inside, you will find the first category containing ALL the ammo and guns. Then each class of Gun and Ammo inside it's own category (Pistols, SMG, Shotguns, Rifles, Large Weapons, Special, Mods)
-﻿The Ammo Bench , is very special. The last 2 categories contain Ammo, and Firearms Recycling. 
+![Image](https://i.imgur.com/WwTHrHE.png) The Ammo Bench , is very special. The last 2 categories contain Ammo, and Firearms Recycling. 
 Here, you can turn all your unwanted guns and ammo, back into highly valued parts to craft the items of your choosing. You may also CRAFT (not scrap) these while on-the-go, to help with inventory control, but the value is much greater at a Workbench.
-## Items you may receive from Scrap Ammo: ﻿
+## Items you may receive from Scrap Ammo: ![Image](https://i.imgur.com/Z29PR5d.png)
 - 1 Bullet Tip
 - 1 Brass Casing
 - 1 Steel Casing
@@ -31,7 +38,7 @@ Here, you can turn all your unwanted guns and ammo, back into highly valued part
 - 1 Rocket Tip (per 10)
 - 1 Rocket Casing (per 10)
 
-## Items you may receive from Firearms Recycling: ﻿
+## Items you may receive from Firearms Recycling: ![Image](https://i.imgur.com/f5RJJOq.png)
 - 50 Scrap Iron
 - 25 Forged Iron (per 2)
 - 10 Forged Steel (per 3)
@@ -52,18 +59,19 @@ Here, you can turn all your unwanted guns and ammo, back into highly valued part
 
 3 main scopes here: 
 ## ACOG: 
+![Image](https://i.imgur.com/wTjhIoy.png)
 ACOG comes in Red, Blue, and Green sights. 
 
 ## Dot Scopes: 
-
+![Image](https://i.imgur.com/x2QRaHv.png)
 Dot scopes come in Red, Green, and Blue dots as well.
 
 ## Holo Scope: 
-
+![Image](https://i.imgur.com/Aj0gBWA.png)
 Standard Holo Scope, comes in only Red (for now)
 
 All mods can be crafted after obtaining the respective schematic, at the Gun Workshop 
-﻿﻿
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -71,7 +79,7 @@ All mods can be crafted after obtaining the respective schematic, at the Gun Wor
 
 
 # AMMO: 
-
+![Image](https://i.imgur.com/9nwjRsP.png) ![Image](https://i.imgur.com/FiVXzO6.png) ![Image](https://i.imgur.com/qf7v5BV.png)
 Ammo got a lot of loving! Completely redone icons, making it far easier for everyone to see what goes with what. Ontop of that, I opened up the guns to FAR more ammo options: 
 
 There are now several options for your shooting pleasure. And even new Elemental Ammo :)
@@ -79,7 +87,7 @@ Elemental Ammo is expensive, but worth it. Explosive Rounds pack quite a punch, 
 For Shotguns, we have Dragonsbreath (Incendiary shotgun version) and Electric Shells!
 Thankyou JaxTeller for the amazing idea of Dragonsbreath. It's truly an amazing thing to have in my mod! Thankyou :)
 
-﻿﻿﻿
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Animations: 
@@ -93,7 +101,7 @@ This mod pack now has Localization Files. This means, that there will be descrip
 RussianDood has created an amazing program, to take the hassle out of the complexity behind adding Localization for some of us out there. No one wants to do the leg work of copying one file, finding the original, pasting it, then updating it everytime TFP does. No, Thanks to RussianDood, we have this amazing program to do the leg work for us. Inside this Modlet, you will find a Localization.bat file. After you place the Modlet into the correct location, just simply run the bat file (double click), and hit Enter, Pick whatever option you'd like (I suggest 1), Enter, enter again, and we are DONE! Thats it. You will only need to do this again when the Modlet updates and you download a new version. Other then that, you are free to boot up completely as normal everytime! No need to constantly run the file before you boot the game. 
 Thankyou RussianDood!
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 
 ## Changes:
 - Fully animated most of the weapons, every gun atleast has shell expenditure. Most have reload/recoil animations.
@@ -113,7 +121,9 @@ Thankyou RussianDood!
 - Audio might be too high, or too low. Currently in the process of adjusting levels. Feedback would be amazing. I am hard of hearing myself, too many guns IRL :P Nothing legally disabling me. Just god awful range in volume/pitch.
 - AR15 has crappy scopes. Need to break the model apart in 3ds. Will be patched eventually
 - Explosive Ammo has no physical graphical effect
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------How to install
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
  How to install
 - Navagate to your 7 Days to Die Directory (default: C:/ProgramFiles86/Steam/Steamapps/Common/7DaystoDie)
 - Right click anywhere in your MAIN directory (not Data/Configs, not 7DaysToDie_Data), and create New Folder 
@@ -124,12 +134,14 @@ Thankyou RussianDood!
 `2018-12-28T22:36:15 2.709 INF [MODS] Trying to load from Firearms`
 `2018-12-28T22:36:15 2.709 INF [MODS] Loaded Mod: Firearms (1.0)`
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
+
 ## For more information, or general help:
 - [Youtube](https://www.youtube.com/channel/UCsmHsTmsfrhFUnhSknv7Trw?view_as=subscriber)
 - [Steam](https://steamcommunity.com/id/Jayick/)
 - [Discord](https://discord.gg/NEBg7r7)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------------------------
 # A special thankyou!
 A special thankyou to the following people, without their help, advice, and guidance this work would not be possible. These people are the backbone to our community, lending their skills to us all so we can complete amazing pieces of art for everyone to enjoy! Very much respect and admiration for these creators!
 Ynd21
@@ -161,6 +173,6 @@ JaxTeller
 - [nexus](https://www.nexusmods.com/users/48679478)
 
 
-﻿
+
 My amazing Testers. A few in particular. CJ and Galaktus for providing me with such amazing feedback, and often. These two have tested extensively for me, and gave me some of the best bug reports I've ever had. Thankyou both very much for all your help!
 All assets are paid/licensed for free use/royalty free.
