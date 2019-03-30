@@ -44,12 +44,12 @@ Here, you can turn all your unwanted guns and ammo, back into highly valued part
 
 ## Items you may receive from Firearms Recycling: ![Image](https://i.imgur.com/f5RJJOq.png)
 - 50 Scrap Iron
-- 25 Forged Iron (per 2)
-- 10 Forged Steel (per 3)
+- 25 Forged Iron
+- 10 Forged Steel
 - 2 Mechanical Parts 
-- 5 Scrap Polymers (per 2)
-- 1 Military Fiber (per 10)
-- 2 Duct Tape (per 2)
+- 5 Scrap Polymers
+- 1 Military Fiber
+- 2 Duct Tape 
 - 1 Spring
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
