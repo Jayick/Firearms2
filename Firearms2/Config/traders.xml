@@ -1,0 +1,135 @@
+<configs>
+
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='modGunT1']">
+	<item name="mayicmodACOGBlue"/>
+	<item name="mayicmodACOGGreen"/>
+	<item name="mayicmodACOGRed"/>
+
+</append>
+
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='modGunT2']">
+	<item name="mayicmodBlueDotSight"/>
+	<item name="mayicmodGreenDotSight"/>
+	<item name="mayicmodRedDotSight"/>
+
+</append>
+
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='modGunT3']">
+	<item name="mayicmodHoloSight"/>
+
+</append>
+
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='weaponsGunsCommon']">
+	<!-- Pistol -->	
+	<item name="mayicgunLuger" prob="0.8"/>
+	<item name="mayicgun38Snubnose" prob="0.8"/>
+	<item name="mayicgunMakarov" prob="0.7"/>
+	<item name="mayicgunBerettaNano" prob="0.7"/>
+	<item name="mayicgunM9" prob="0.5"/>
+	<item name="mayicgunBeretta92" prob="0.5"/>
+	<item name="mayicgunP226" prob="0.5"/>
+	<item name="mayicgunColtPython"/>
+	<!-- SMG -->
+	<item name="mayicgunKlob" prob="0.7"/>
+	<item name="mayicgunMac10" prob="0.7"/>
+	<item name="mayicgunMK1" prob="0.5"/>
+	<item name="mayicgunMP40" prob="0.3"/>
+	<!-- Shotgun -->
+	<item name="mayicgunDoubleBarrelShotgun" prob="0.8"/>
+	<item name="mayicgunSawedOff" prob="0.8"/>
+	<item name="mayicgunHuntingShotgun" prob="0.3"/>
+	<!-- Rifle -->	
+	<item name="mayicgunFNFAL" prob="0.05"/>
+	<item name="mayicgunRustAK" prob="0.3"/>
+	<item name="mayicgunACW" prob="0.05"/>
+	<item name="mayicgunARX160" prob="0.05"/>
+	<item name="mayicgunBullpup" prob="0.3"/>
+	<item name="mayicgunAK47" prob="0.05"/>
+
+</append>
+
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='weaponsGunsMilitary']">
+	<!-- Pistol -->	
+	<item name="mayicgunGlock40" prob="0.5"/>
+	<item name="mayicgunUSP" prob="0.5"/>
+	<item name="mayicgun1911" prob="0.5"/>
+	<item name="mayicgunDesertEagle" prob="0.3"/>
+	<!-- SMG -->	
+	<item name="mayicgunVector" prob="0.7"/>
+	<item name="mayicgunMP5" prob="0.5"/>
+	<item name="mayicgunM1A1Thompson" prob="0.3"/>
+	<item name="mayicgunRCP90" prob="0.3"/>
+	<!-- Shotgun -->	
+	<item name="mayicgunFalloutShotgun" prob="0.5"/>
+	<item name="mayicgunMossberg590A1" prob="0.3"/>
+	<item name="mayicgunSpaz12" prob="0.3"/>
+	<!-- Rifle -->	
+	<item name="mayicgunAR15" prob="0.5"/>
+	<item name="mayicgunM16" prob="0.5"/>
+	<item name="mayicgunM4A1" prob="0.3"/>
+	<item name="mayicgunSCAR" prob="0.3"/>
+	<item name="mayicgunM1" prob="0.2"/>
+	<!-- Large -->	
+	<item name="mayicgunM249Saw" prob="0.05"/>
+	<item name="mayicgunM240" prob="0.05"/>
+	<item name="mayicgunMosinNagant" prob="0.2"/>
+	<item name="mayicgunSR25" prob="0.1"/>
+	<item name="mayicgunMrad" prob="0.1"/>
+	<item name="mayicgunJNG90" prob="0.05"/>
+	<item name="mayicgunM98" prob="0.05"/>
+	<item name="mayicgunM82" prob="0.05"/>
+
+</append>
+
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='ammo']">
+<item name="mayicammo10mm" prob="0.8"/>
+<item name="mayicammo10mmSteel" prob="0.8"/>
+<item name="mayicammo9x19mm" prob="0.8"/>
+<item name="mayicammo9x19mmSteel" prob="0.8"/>
+<item name="mayicammo9mm" prob="0.8"/>
+<item name="mayicammo9mmSteel" prob="0.8"/>
+<item name="mayicammo5.7x28mm" prob="0.8"/>
+<item name="mayicammo5.7x28mmSteel" prob="0.8"/>
+<item name="mayicammo38cal" prob="0.8"/>
+<item name="mayicammo38calSteel" prob="0.8"/>
+<item name="mayicammo40cal" prob="0.5"/>
+<item name="mayicammo40calSteel" prob="0.5"/>
+<item name="mayicammo45acp" prob="0.5"/>
+<item name="mayicammo45acpSteel" prob="0.5"/>
+<item name="mayicammo50ae" prob="0.1"/>
+<item name="mayicammo50aeSteel" prob="0.1"/>
+<item name="mayicammo357magnum" prob="0.1"/>
+<item name="mayicammo357magnumSteel" prob="0.1"/>
+
+<item name="mayicammo7.62x39mm" prob="0.3"/>
+<item name="mayicammo7.62x39mmSteel" prob="0.3"/>
+<item name="mayicammo223cal" prob="0.5"/>
+<item name="mayicammo223calSteel" prob="0.5"/>
+<item name="mayicammo22lr" prob="0.5"/>
+<item name="mayicammo22lrSteel" prob="0.5"/>
+<item name="mayicammo5.56x45mm" prob="0.4"/>
+<item name="mayicammo5.56x45mmSteel" prob="0.4"/>
+<item name="mayicammo30-06" prob="0.1"/>
+<item name="mayicammo30-06Steel" prob="0.1"/>
+<item name="mayicammo7.62x51mm" prob="0.2"/>
+<item name="mayicammo7.62x51mmSteel" prob="0.2"/>
+<item name="mayicammo338cal" prob="0.2"/>
+<item name="mayicammo338calSteel" prob="0.2"/>
+<item name="mayicammo50cal" prob="0.05"/>
+<item name="mayicammo50calSteel" prob="0.05"/>
+<item name="mayicammo5mm" prob="0.3"/>
+<item name="mayicammo5mmSteel" prob="0.3"/>
+
+<item name="mayicammoGoldenbullet" prob="0.003"/>
+<item name="mayicammoExplosiveround" prob="0.003"/>
+<item name="mayicammo40mmExplosive" prob="0.003"/>
+
+<item name="mayicammoCorrosive" prob="0.01"/>
+<item name="mayicammoExplosive" prob="0.01"/>
+<item name="mayicammoIncendiary" prob="0.01"/>
+<item name="mayicammoDragonsbreath" prob="0.01"/>
+<item name="mayicammoElectricshell" prob="0.01"/>
+
+</append>
+<set xpath="/traders/trader_info[@id='1' and @max_inventory='80']/@max_inventory">95</set>
+</configs>
