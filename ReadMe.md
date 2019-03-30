@@ -117,6 +117,20 @@ This was all done by hand, without using scripting. It will take time for me to 
 This mod pack now has Localization Files. This means, that there will be descriptive text in the Information Windows. What ammo goes to what, would be the most prominent feature of Localization, but this has allowed me to properly redo this ENTIRE modlet. Now, if you just drag and drop like normal, all you will see is a bunch of mayicgunMrad, mayicgunChaingun. etc. 
 RussianDood has created an amazing program, to take the hassle out of the complexity behind adding Localization for some of us out there. No one wants to do the leg work of copying one file, finding the original, pasting it, then updating it everytime TFP does. No, Thanks to RussianDood, we have this amazing program to do the leg work for us. Inside this Modlet, you will find a Localization.bat file. After you place the Modlet into the correct location, just simply run the bat file (double click), and hit Enter, Pick whatever option you'd like (I suggest 1), Enter, enter again, and we are DONE! Thats it. You will only need to do this again when the Modlet updates and you download a new version. Other then that, you are free to boot up completely as normal everytime! No need to constantly run the file before you boot the game. 
 Thankyou RussianDood!
+----------------------------------------------------------------------------------------------------------------------------------------
+
+# Updating Existing Worlds with old versions of Firearms: 
+
+
+It is entirely possible to play your OLD WORLD. The only thing you will lose, is your players current level and skills. Now, important steps if you are going to UPDATE the old Firearms Modlet:
+- Remove ALL Firearms related assets (guns, ammo, targets) from your world. Despawn them, do not just put them in a chest.
+- Remove all belongings to your character, put them in a secure place in your home
+- Remove the old Firearms Modlet, place new one in your Mods folder
+- Load back into the game. You will most likely be a fresh spawn out in the wild. No worries. Hit F1. Type 
+- giveselfxp 10000
+- hit enter.
+
+This will give you 1 level. Each level is roughly 10-20% more xp (not sure on exact values) then the one before it. So level 2, would be around 22,000, rather then 20,000. Adjust accordingly to regain your old levels back. 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
