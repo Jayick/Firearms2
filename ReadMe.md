@@ -95,6 +95,18 @@ Thankyou JaxTeller for the amazing idea of Dragonsbreath. It's truly an amazing 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# PROGRESSION: 
+
+Everything is now in its own attribute location. This will make for some exciting updates, chalk full of great skills to compliment your Firearms. With that, will come various challenges and tasks to obtain skillpoints to invest.
+
+Our attribute section will be identified by a Revolver Icon, located at the end of all your perks. From there, we can unlock everything we need to get started on our journey! Because there are so many sections to purchase, the costs are very low (1 point) until the final perk, with the Chaingun and Golden Gun, that will cost 5.
+
+![Image](https://i.imgur.com/y9CWXGV.png)
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 ## Animations: 
 
 All guns have atleast a casing ejection animations when shooting. Most are fully animated, reloads and all.
