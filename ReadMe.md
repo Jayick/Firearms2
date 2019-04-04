@@ -13,6 +13,7 @@ This is an NEW Firearms Modlet. It will NOT work along side the old, or update t
 Requires Alpha 17 version of 7 Days to Die. Will not work on A16.4 or lesser.
 Suggested for minigun that you have decent framerates. Pixle textures on fire may cause FPS drops in lower end clients.
 Some guns will skip your game upon loading in the hotbar. Their file size is quite large. Fix coming soon hopefully.
+
 ----------------------------------------------------------------------------------------------------------------------------------------
 ## Update 1.02 4/4/19:
 Added:
