@@ -268,7 +268,7 @@
 			<property name="EconomicBundleSize" value="1"/>
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
-				<property name="Magazine_items" value="mayicammo9x19mm,mayicammo9x19mmSteel,mayicammo40cal,mayicammo40calSteel,mayicammo9mm,mayicammo9mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
+				<property name="Magazine_items" value="mayicammo40cal,mayicammo40calSteel,mayicammo9mm,mayicammo9mmSteel,mayicammo9x19mm,mayicammo9x19mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
 				<property name="Sound_start" value="uspfire"/>
 				<property name="Sound_repeat" value=""/>
 				<property name="Sound_end" value=""/>
@@ -330,7 +330,7 @@
 			<property name="EconomicBundleSize" value="1"/>
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
-				<property name="Magazine_items" value="mayicammo9x19mm,mayicammo9x19mmSteel,mayicammo40cal,mayicammo40calSteel,mayicammo9mm,mayicammo9mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
+				<property name="Magazine_items" value="mayicammo40cal,mayicammo40calSteel,mayicammo9mm,mayicammo9mmSteel,mayicammo9x19mm,mayicammo9x19mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
 				<property name="Sound_start" value="m9fire"/>
 				<property name="Sound_repeat" value=""/>
 				<property name="Sound_end" value=""/>
@@ -451,7 +451,7 @@
 			<property name="EconomicBundleSize" value="1"/>
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
-				<property name="Magazine_items" value="mayicammo9x19mm,mayicammo9x19mmSteel,mayicammo40cal,mayicammo40calSteel,mayicammo9mm,mayicammo9mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
+				<property name="Magazine_items" value="mayicammo40cal,mayicammo40calSteel,mayicammo9mm,mayicammo9mmSteel,mayicammo9x19mm,mayicammo9x19mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
 				<property name="Sound_start" value="b92fire"/>
 				<property name="Sound_repeat" value=""/>
 				<property name="Sound_end" value=""/>
@@ -875,7 +875,7 @@
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
 				<property name="Delay" value="0.150"/>
-				<property name="Magazine_items" value="mayicammo9x19mm,mayicammo9x19mmSteel,mayicammo40cal,mayicammo40calSteel,mayicammo10mm,mayicammo10mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
+				<property name="Magazine_items" value="mayicammo40cal,mayicammo40calSteel,mayicammo10mm,mayicammo10mmSteel,mayicammo9x19mm,mayicammo9x19mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
 				<property name="Sound_start" value="mp5fire"/>
 				<property name="Sound_empty" value="weapon_empty"/>
 				<property name="Sound_reload" value="ak47_reload"/>
@@ -991,7 +991,7 @@
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
 				<property name="Delay" value="0.150"/>
-				<property name="Magazine_items" value="mayicammo9x19mm,mayicammo9x19mmSteel,mayicammo40cal,mayicammo40calSteel,mayicammo9mm,mayicammo9mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
+				<property name="Magazine_items" value="mayicammo9mm,mayicammo9mmSteel,mayicammo9x19mm,mayicammo9x19mmSteel,mayicammo40cal,mayicammo40calSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
 				<property name="Sound_start" value="vecfire"/>
 				<property name="Sound_empty" value="weapon_empty"/>
 				<property name="Sound_reload" value="ak47_reload"/>
@@ -1439,7 +1439,7 @@
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
 				<property name="Delay" value="0.428"/>
-				<property name="Magazine_items" value="ammoShotgunShell,ammoShotgunSlug,mayicammo20gauge,mayicammoDragonsbreath,mayicammoElectricshell"/>
+				<property name="Magazine_items" value="mayicammo20gauge,ammoShotgunShell,ammoShotgunSlug,mayicammoDragonsbreath,mayicammoElectricshell"/>
 				<property name="Reload_time" value="2.6"/>
 				<property name="Sound_start" value="huntingfire"/>
 				<property name="Sound_repeat" value=""/>
@@ -1504,7 +1504,7 @@
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
 				<property name="Delay" value="0.428"/>
-				<property name="Magazine_items" value="ammoShotgunShell,ammoShotgunSlug,mayicammo20gauge,mayicammoDragonsbreath,mayicammoElectricshell"/>
+				<property name="Magazine_items" value="mayicammo20gauge,ammoShotgunShell,ammoShotgunSlug,mayicammoDragonsbreath,mayicammoElectricshell"/>
 				<property name="Reload_time" value="2.6"/>
 				<property name="Sound_start" value="mossfire"/>
 				<property name="Sound_repeat" value=""/>
@@ -1571,7 +1571,7 @@
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
 				<property name="Delay" value="0.428"/>
-				<property name="Magazine_items" value="ammoShotgunShell,ammoShotgunSlug,mayicammo20gauge,mayicammoDragonsbreath,mayicammoElectricshell"/>
+				<property name="Magazine_items" value="mayicammo20gauge,ammoShotgunShell,ammoShotgunSlug,mayicammoDragonsbreath,mayicammoElectricshell"/>
 				<property name="Reload_time" value="2.6"/>
 				<property name="Sound_start" value="spazfire"/>
 				<property name="Sound_repeat" value=""/>
@@ -1635,7 +1635,7 @@
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
 				<property name="Delay" value="0.150"/>
-				<property name="Magazine_items" value="mayicammo22lr,mayicammo22lrSteel,mayicammo7.62x51mm,mayicammo7.62x51mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
+				<property name="Magazine_items" value="mayicammo223cal,mayicammo223calSteel,mayicammo22lr,mayicammo22lrSteel,mayicammo7.62x51mm,mayicammo7.62x51mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
 				<property name="Sound_start" value="fnfire"/>
 				<property name="Sound_empty" value="weapon_empty"/>
 				<property name="Sound_reload" value="ak47_reload"/>
@@ -1803,7 +1803,7 @@
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
 				<property name="Delay" value="0.150"/>
-				<property name="Magazine_items" value="mayicammo223cal,mayicammo223calSteel,mayicammo5.56x45mm,mayicammo5.56x45mmSteel,mayicammo7.62x39mm,mayicammo7.62x39mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
+				<property name="Magazine_items" value="mayicammo5.56x45mm,mayicammo5.56x45mmSteel,mayicammo223cal,mayicammo223calSteel,mayicammo7.62x39mm,mayicammo7.62x39mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
 				<property name="Sound_start" value="aktest"/>
 				<property name="Sound_empty" value="weapon_empty"/>
 				<property name="Sound_reload" value="ak47_reload"/>
@@ -1861,7 +1861,7 @@
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
 				<property name="Delay" value="0.150"/>
-				<property name="Magazine_items" value="mayicammo223cal,mayicammo223calSteel,mayicammo5.56x45mm,mayicammo5.56x45mmSteel,mayicammo7.62x39mm,mayicammo7.62x39mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
+				<property name="Magazine_items" value="mayicammo5.56x45mm,mayicammo5.56x45mmSteel,mayicammo7.62x39mm,mayicammo7.62x39mmSteel,mayicammo223cal,mayicammo223calSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
 				<property name="Sound_start" value="acwfire"/>
 				<property name="Sound_empty" value="weapon_empty"/>
 				<property name="Sound_reload" value="ak47_reload"/>
@@ -1979,7 +1979,7 @@
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
 				<property name="Delay" value="0.150"/>
-				<property name="Magazine_items" value="mayicammo223cal,mayicammo223calSteel,mayicammo5.56x45mm,mayicammo5.56x45mmSteel,mayicammo7.62x39mm,mayicammo7.62x39mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
+				<property name="Magazine_items" value="mayicammo5.56x45mm,mayicammo5.56x45mmSteel,mayicammo7.62x39mm,mayicammo7.62x39mmSteel,mayicammo223cal,mayicammo223calSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
 				<property name="Sound_start" value="arx160fire"/>
 				<property name="Sound_empty" value="weapon_empty"/>
 				<property name="Sound_reload" value="ak47_reload"/>
@@ -2038,7 +2038,7 @@
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
 				<property name="Delay" value="0.150"/>
-				<property name="Magazine_items" value="mayicammo223cal,mayicammo223calSteel,mayicammo5.56x45mm,mayicammo5.56x45mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
+				<property name="Magazine_items" value="mayicammo5.56x45mm,mayicammo5.56x45mmSteel,mayicammo223cal,mayicammo223calSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
 				<property name="Sound_start" value="m16fire"/>
 				<property name="Sound_empty" value="weapon_empty"/>
 				<property name="Sound_reload" value="ak47_reload"/>
@@ -2092,7 +2092,7 @@
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
 				<property name="Delay" value="0.150"/>
-				<property name="Magazine_items" value="mayicammo223cal,mayicammo223calSteel,mayicammo5.56x45mm,mayicammo5.56x45mmSteel,mayicammo7.62x51mm,mayicammo7.62x51mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
+				<property name="Magazine_items" value="mayicammo7.62x51mm,mayicammo7.62x51mmSteel,mayicammo223cal,mayicammo223calSteel,mayicammo5.56x45mm,mayicammo5.56x45mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
 				<property name="Sound_start" value="m4a1fire"/>
 				<property name="Sound_empty" value="weapon_empty"/>
 				<property name="Sound_reload" value="ak47_reload"/>
@@ -2148,7 +2148,7 @@
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
 				<property name="Delay" value="0.150"/>
-				<property name="Magazine_items" value="mayicammo223cal,mayicammo223calSteel,mayicammo5.56x45mm,mayicammo5.56x45mmSteel,mayicammo7.62x51mm,mayicammo7.62x51mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
+				<property name="Magazine_items" value="mayicammo7.62x51mm,mayicammo7.62x51mmSteel,mayicammo223cal,mayicammo223calSteel,mayicammo5.56x45mm,mayicammo5.56x45mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
 				<property name="Sound_start" value="scarfire"/>
 				<property name="Sound_empty" value="weapon_empty"/>
 				<property name="Sound_reload" value="ak47_reload"/>
@@ -2387,7 +2387,7 @@
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
 				<property name="Delay" value="0.150"/>
-				<property name="Magazine_items" value="mayicammo5.56x45mm,mayicammo5.56x45mmSteel,mayicammo223cal,mayicammo223calSteel,mayicammo7.62x51mm,mayicammo7.62x51mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
+				<property name="Magazine_items" value="mayicammo7.62x51mm,mayicammo7.62x51mmSteel,mayicammo5.56x45mm,mayicammo5.56x45mmSteel,mayicammo223cal,mayicammo223calSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
 				<property name="Sound_start" value="ak47_fire"/>
 				<property name="Sound_empty" value="weapon_empty"/>
 				<property name="Sound_reload" value="ak47_reload"/>
