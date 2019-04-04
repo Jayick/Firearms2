@@ -1,0 +1,28 @@
+<configs>
+	<append xpath="/ui_display_info/crafting_category_display" >
+	
+		<crafting_category_list display_type="mayicblockGunWorkbench">
+			<crafting_category name="allFirearm" icon="ui_game_symbol_gunsmithing" display_name="All Guns"/>
+			<crafting_category name="allBlocks" icon="ui_game_symbol_archery" display_name="Shooting Targets and Storage"/>
+			<crafting_category name="pistolFirearm" icon="ui_game_symbol_pistol" display_name="Pistols"/>
+			<crafting_category name="smgFirearm" icon="ui_game_symbol_weapon_smithing" display_name="SMG"/>
+			<crafting_category name="shotFirearm" icon="ui_game_symbol_shotgun" display_name="Shotguns"/>
+			<crafting_category name="rifleFirearm" icon="ui_game_symbol_rifle" display_name="Rifles"/>
+			<crafting_category name="srifleFirearm" icon="ui_game_symbol_map_cursor" display_name="Sniper Rifles"/>
+			<crafting_category name="modFirearm" icon="ui_game_symbol_assemble" display_name="Scopes and Mods"/>
+			<crafting_category name="specFirearm" icon="ui_game_symbol_star" display_name="Special"/>
+		</crafting_category_list>
+		
+		<crafting_category_list display_type="mayicblockAmmoWorkbench">
+			<crafting_category name="allRounds" icon="ui_game_symbol_gunsmithing" display_name="All"/>
+			<crafting_category name="lowcalRounds" icon="ui_game_symbol_pistol" display_name="Low Caliber"/>
+			<crafting_category name="medRounds" icon="ui_game_symbol_misc_crafting" display_name="Medium Caliber"/>
+			<crafting_category name="highRounds" icon="ui_game_symbol_rifle" display_name="Heavy Caliber"/>
+			<crafting_category name="explosiveRounds" icon="ui_game_symbol_fire" display_name="Explosives and Elemental"/>
+			<crafting_category name="specialAmmo" icon="ui_game_symbol_star" display_name="Special Ammo"/>
+			<crafting_category name="scapAmmo" icon="ui_game_symbol_scrap" display_name="Scrapping Ammo"/>
+			<crafting_category name="scrapFirearm" icon="ui_game_symbol_scrap" display_name="Scrapping Guns"/>
+		</crafting_category_list>
+	</append>
+	
+</configs>

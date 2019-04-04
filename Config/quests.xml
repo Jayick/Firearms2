@@ -1,0 +1,275 @@
+<configs>
+<append xpath="/quests">
+
+<quest id="mayicchallenge_handgunkill">
+		<property name="name_key" value="mayicchallenge_handgunkill" />
+		<property name="subtitle_key" value="mayicchallenge_handgunkill_subtitle" />
+		<property name="description_key" value="mayicchallenge_handgunkill_offer" />
+		<property name="icon" value="ui_game_symbol_zombie" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="offer_key" value="mayicchallenge_handgunkill_offer" />
+		<property name="difficulty" value="hard" />
+
+		<objective type="RandomGoto" value="50-100" phase="1">
+			<property name="completion_distance" value="50" />
+		</objective>
+
+		<objective type="RallyPoint">
+			<property name="start_mode" value="Create" />
+			<property name="phase" value="2" />
+		</objective>
+
+		<action type="SpawnEnemy" id="zombieBurnt" value="10" phase="3" />
+			
+		<objective type="ZombieKill" id="zombieBurnt" value="8" phase="3" />
+		
+	<requirement type="Group" id="mayicrequirementGroupHandgun" value="OR" phase="3">
+			<requirement type="Holding" id="mayicgunLuger" phase="3" />
+			<requirement type="Holding" id="mayicgun38Snubnose" phase="3"/>
+			<requirement type="Holding" id="mayicgunBerettaNano" phase="3"/>
+			<requirement type="Holding" id="mayicgunMakarov" phase="3"/>
+			<requirement type="Holding" id="mayicgunM9" phase="3"/>
+			<requirement type="Holding" id="mayicgunBeretta92" phase="3"/>
+			<requirement type="Holding" id="mayicgunP226" phase="3"/>
+			<requirement type="Holding" id="mayicgunGlock40" phase="3"/>
+			<requirement type="Holding" id="mayicgunUSP" phase="3"/>
+			<requirement type="Holding" id="mayicgun1911" phase="3"/>
+			<requirement type="Holding" id="mayicgunDesertEagle" phase="3"/>
+			<requirement type="Holding" id="mayicgunColtPython" phase="3"/>
+		</requirement>
+		
+		
+		<reward type="SkillPoints" value="1" chainreward="true" />
+		<reward type="Exp" value="1000" />
+		<reward type="Item" id="casinoCoin" value="200-500" />
+	</quest>
+	
+<quest id="mayicchallenge_smgkill">
+		<property name="name_key" value="mayicchallenge_smgkill" />
+		<property name="subtitle_key" value="mayicchallenge_smgkill_subtitle" />
+		<property name="description_key" value="mayicchallenge_smgkill_offer" />
+		<property name="icon" value="ui_game_symbol_zombie" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="offer_key" value="mayicchallenge_smgkill_offer" />
+		<property name="difficulty" value="hard" />
+
+		<objective type="RandomGoto" value="50-100" phase="1">
+			<property name="completion_distance" value="50" />
+		</objective>
+
+		<objective type="RallyPoint">
+			<property name="start_mode" value="Create" />
+			<property name="phase" value="2" />
+		</objective>
+
+		<action type="SpawnEnemy" id="zombieBurnt" value="10" phase="3" />
+		<action type="SpawnEnemy" id="zombieSnow" value="5" phase="3" />
+		<action type="SpawnEnemy" id="zombieSpider" value="2" phase="3" />
+		<action type="SpawnEnemy" id="zombieFatHawaiian" value="2" phase="3" />
+		<action type="SpawnEnemy" id="zombieBurnt" value="2" phase="3" />
+
+
+		<objective type="ZombieKill" id="zombieSpider" value="1" phase="3" />
+		<objective type="ZombieKill" id="zombieFatHawaiian" value="1" phase="3" />
+		<objective type="ZombieKill" id="zombieBurnt" value="1" phase="3" />
+		<objective type="ZombieKill" id="zombieSnow" value="3" phase="3" />
+		<objective type="ZombieKill" id="zombieBurnt" value="8" phase="3" />
+		
+	<requirement type="Group" id="mayicrequirementGroupSMG" value="OR" phase="3">
+			<requirement type="Holding" id="mayicgunKlob" phase="3" />
+			<requirement type="Holding" id="mayicgunMac10" phase="3"/>
+			<requirement type="Holding" id="mayicgunMK1" phase="3"/>
+			<requirement type="Holding" id="mayicgunMP40" phase="3"/>
+			<requirement type="Holding" id="mayicgunVector" phase="3"/>
+			<requirement type="Holding" id="mayicgunMP5" phase="3"/>
+			<requirement type="Holding" id="mayicgunM1A1Thompson" phase="3"/>
+			<requirement type="Holding" id="mayicgunRCP90" phase="3"/>
+		</requirement>
+		
+		
+		<reward type="SkillPoints" value="1" chainreward="true" />
+		<reward type="Exp" value="1000" />
+		<reward type="Item" id="casinoCoin" value="200-500" />
+	</quest>
+	
+<quest id="mayicchallenge_shotgunkill">
+		<property name="name_key" value="mayicchallenge_shotgunkill" />
+		<property name="subtitle_key" value="mayicchallenge_shotgunkill_subtitle" />
+		<property name="description_key" value="mayicchallenge_shotgunkill_offer" />
+		<property name="icon" value="ui_game_symbol_zombie" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="offer_key" value="mayicchallenge_shotgunkill_offer" />
+		<property name="difficulty" value="hard" />
+
+		<objective type="RandomGoto" value="50-100" phase="1">
+			<property name="completion_distance" value="50" />
+		</objective>
+
+		<objective type="RallyPoint">
+			<property name="start_mode" value="Create" />
+			<property name="phase" value="2" />
+		</objective>
+
+		<action type="SpawnEnemy" id="zombieScreamer" value="5" phase="3" />
+		<action type="SpawnEnemy" id="zombieBoe" value="2" phase="3" />
+		<action type="SpawnEnemy" id="zombieJoe" value="2" phase="3" />
+		<action type="SpawnEnemy" id="zombieMoe" value="2" phase="3" />
+		<action type="SpawnEnemy" id="zombieYo" value="2" phase="3" />
+		<action type="SpawnEnemy" id="zombieSteve" value="2" phase="3" />
+
+		<objective type="ZombieKill" id="zombieBoe" value="1" phase="3" />
+		<objective type="ZombieKill" id="zombieJoe" value="1" phase="3" />
+		<objective type="ZombieKill" id="zombieMoe" value="1" phase="3" />
+		<objective type="ZombieKill" id="zombieYo" value="1" phase="3" />
+		<objective type="ZombieKill" id="zombieSteve" value="1" phase="3" />
+		<objective type="ZombieKill" id="zombieScreamer" value="2" phase="3" />
+	<requirement type="Group" id="mayicrequirementGroupShotgun" value="OR" phase="3">
+			<requirement type="Holding" id="mayicgunDoubleBarrelShotgun" phase="3" />
+			<requirement type="Holding" id="mayicgunSawedOff" phase="3"/>
+			<requirement type="Holding" id="mayicgunFalloutShotgun" phase="3"/>
+			<requirement type="Holding" id="mayicgunHuntingShotgun" phase="3"/>
+			<requirement type="Holding" id="mayicgunMossberg590A1" phase="3"/>
+			<requirement type="Holding" id="mayicgunSpaz12" phase="3"/>
+		</requirement>
+		
+		
+		<reward type="SkillPoints" value="1" chainreward="true" />
+		<reward type="Exp" value="1000" />
+		<reward type="Item" id="casinoCoin" value="200-500" />
+	</quest>
+	
+<quest id="mayicchallenge_riflekill">
+		<property name="name_key" value="mayicchallenge_riflekill" />
+		<property name="subtitle_key" value="mayicchallenge_riflekill_subtitle" />
+		<property name="description_key" value="mayicchallenge_riflekill_offer" />
+		<property name="icon" value="ui_game_symbol_zombie" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="offer_key" value="mayicchallenge_riflekill_offer" />
+		<property name="difficulty" value="hard" />
+
+		<objective type="RandomGoto" value="50-100" phase="1">
+			<property name="completion_distance" value="50" />
+		</objective>
+
+		<objective type="RallyPoint">
+			<property name="start_mode" value="Create" />
+			<property name="phase" value="2" />
+		</objective>
+
+		<action type="SpawnEnemy" id="zombieArlene" value="8" phase="3" />
+		<action type="SpawnEnemy" id="zombieDarlene" value="8" phase="3" />
+		<action type="SpawnEnemy" id="zombieMarlene" value="8" phase="3" />
+		<action type="SpawnEnemy" id="zombieNurse" value="8" phase="3" />
+			
+		<objective type="ZombieKill" id="zombieArlene" value="5" phase="3" />
+		<objective type="ZombieKill" id="zombieDarlene" value="5" phase="3" />
+		<objective type="ZombieKill" id="zombieMarlene" value="5" phase="3" />
+		<objective type="ZombieKill" id="zombieNurse" value="5" phase="3" />
+		
+	<requirement type="Group" id="mayicrequirementGroupRifle" value="OR" phase="3">
+			<requirement type="Holding" id="mayicgunFNFAL" phase="3" />
+			<requirement type="Holding" id="mayicgunRustAK" phase="3"/>
+			<requirement type="Holding" id="mayicgunACW" phase="3"/>
+			<requirement type="Holding" id="mayicgunBullpup" phase="3"/>
+			<requirement type="Holding" id="mayicgunAR15" phase="3"/>
+			<requirement type="Holding" id="mayicgunAK47" phase="3"/>
+			<requirement type="Holding" id="mayicgunM16" phase="3"/>
+			<requirement type="Holding" id="mayicgunARX160" phase="3"/>
+			<requirement type="Holding" id="mayicgunM4A1" phase="3"/>
+			<requirement type="Holding" id="mayicgunSCAR" phase="3"/>
+			<requirement type="Holding" id="mayicgunM1" phase="3"/>
+			<requirement type="Holding" id="mayicgunMosinNagant" phase="3"/>
+		</requirement>
+		
+		
+		<reward type="SkillPoints" value="1" chainreward="true" />
+		<reward type="Exp" value="2500" />
+		<reward type="Item" id="casinoCoin" value="500-800" />
+	</quest>
+	
+<quest id="mayicchallenge_sniperkill">
+		<property name="name_key" value="mayicchallenge_sniperkill" />
+		<property name="subtitle_key" value="mayicchallenge_sniperkill_subtitle" />
+		<property name="description_key" value="mayicchallenge_sniperkill_offer" />
+		<property name="icon" value="ui_game_symbol_zombie" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="offer_key" value="mayicchallenge_sniperkill_offer" />
+		<property name="difficulty" value="hard" />
+
+		<objective type="RandomGoto" value="50-100" phase="1">
+			<property name="completion_distance" value="50" />
+		</objective>
+
+		<objective type="RallyPoint">
+			<property name="start_mode" value="Create" />
+			<property name="phase" value="2" />
+		</objective>
+
+		<action type="SpawnEnemy" id="zombieSoldier" value="10" phase="3" />
+
+		<objective type="ZombieKill" id="zombieSoldier" value="8" phase="3" />
+	<requirement type="Group" id="mayicrequirementGroupSniper" value="OR" phase="3">
+			<requirement type="Holding" id="mayicgunSR25" phase="3" />
+			<requirement type="Holding" id="mayicgunMrad" phase="3"/>
+			<requirement type="Holding" id="mayicgunM82" phase="3"/>
+			<requirement type="Holding" id="mayicgunM98" phase="3"/>
+			<requirement type="Holding" id="mayicgunJNG90" phase="3"/>
+			<requirement type="Holding" id="mayicgunM1" phase="3"/>
+			<requirement type="Holding" id="mayicgunMosinNagant" phase="3"/>
+		</requirement>
+		
+		
+		<reward type="SkillPoints" value="4" chainreward="true" />
+		<reward type="Exp" value="5000" />
+		<reward type="Item" id="casinoCoin" value="200-500" />
+	</quest>
+	
+<quest id="mayicchallenge_chaingunkill">
+		<property name="name_key" value="mayicchallenge_chaingunkill" />
+		<property name="subtitle_key" value="mayicchallenge_chaingunkill_subtitle" />
+		<property name="description_key" value="mayicchallenge_chaingunkill_offer" />
+		<property name="icon" value="ui_game_symbol_zombie" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="offer_key" value="mayicchallenge_chaingunkill_offer" />
+		<property name="difficulty" value="hard" />
+
+		<objective type="RandomGoto" value="50-100" phase="1">
+			<property name="completion_distance" value="50" />
+		</objective>
+
+		<objective type="RallyPoint">
+			<property name="start_mode" value="Create" />
+			<property name="phase" value="2" />
+		</objective>
+
+		<action type="SpawnEnemy" id="zombieBurnt" value="10" phase="3" />
+		<action type="SpawnEnemy" id="zombieSoldier" value="10" phase="3" />
+		<action type="SpawnEnemy" id="zombieCheerleader" value="10" phase="3" />
+		<action type="SpawnEnemy" id="zombieFootballPlayer" value="10" phase="3" />
+		<action type="SpawnEnemy" id="zombieSnow" value="10" phase="3" />
+		<action type="SpawnEnemy" id="zombieWightFeral" value="3" phase="3" />
+	
+		<objective type="ZombieKill" id="zombieWightFeral" value="1" phase="3" />
+		<objective type="ZombieKill" id="zombieSnow" value="5" phase="3" />
+		<objective type="ZombieKill" id="zombieFootballPlayer" value="5" phase="3" />
+		<objective type="ZombieKill" id="zombieCheerleader" value="5" phase="3" />
+		<objective type="ZombieKill" id="zombieSoldier" value="5" phase="3" />
+		<objective type="ZombieKill" id="zombieBurnt" value="5" phase="3" />
+	<requirement type="Group" id="mayicrequirementGroupChaingun" value="OR" phase="3">
+			<requirement type="Holding" id="mayicgunChaingun" phase="3" />
+		</requirement>
+		
+		
+		<reward type="SkillPoints" value="4" chainreward="true" />
+		<reward type="Exp" value="10000" />
+		<reward type="Item" id="casinoCoin" value="2000-5000" />
+	</quest>
+	
+</append>
+</configs>

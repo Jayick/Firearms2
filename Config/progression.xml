@@ -1,0 +1,63 @@
+<configs>
+<append xpath="progression/attributes">
+<attribute name="AdvancedFirearms" name_key="mayicattAdvancedFirearmsName" desc_key="mayicattAdvancedFirearmsDesc" icon="ui_game_symbol_gunslinger" base_skill_point_cost="1" cost_multiplier_per_level="1">
+		<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="5" desc_key="Level 5"/></level_requirements>
+		<level_requirements level="2"><requirement name="PlayerLevel" target="self" operation="GTE" value="10" desc_key="Level 10"/></level_requirements>
+		<level_requirements level="3"><requirement name="PlayerLevel" target="self" operation="GTE" value="15" desc_key="Level 15"/></level_requirements>
+		<level_requirements level="4"><requirement name="PlayerLevel" target="self" operation="GTE" value="20" desc_key="Level 20"/></level_requirements>
+		<level_requirements level="5"><requirement name="PlayerLevel" target="self" operation="GTE" value="40" desc_key="Level 40"/></level_requirements>
+		<level_requirements level="6"><requirement name="PlayerLevel" target="self" operation="GTE" value="70" desc_key="Level 70"/></level_requirements>
+		<level_requirements level="7"><requirement name="PlayerLevel" target="self" operation="GTE" value="80" desc_key="Level 80"/></level_requirements>
+		<level_requirements level="8"><requirement name="PlayerLevel" target="self" operation="GTE" value="100" desc_key="Level 100"/></level_requirements>
+		<level_requirements level="9"><requirement name="PlayerLevel" target="self" operation="GTE" value="120" desc_key="Level 120"/></level_requirements>
+		<level_requirements level="10"><requirement name="PlayerLevel" target="self" operation="GTE" value="150" desc_key="Level 150"/></level_requirements>
+		
+		
+		<effect_group>
+		
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,10" tags="mayicgunLuger,mayicgun38Snubnose,mayicgunArgh"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,10" tags="mayicammo9x19mm,mayicammo38cal,mayicammo9x19mmSteel,mayicammo38calSteel,mayicblockGunWorkbench"/>
+					
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="2,10" tags="mayicgunKlob,mayicgunBerettaNano,mayicgunMakarov"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="2,10" tags="mayicammo10mm,mayicammo10mmSteel,mayicammo9mm,mayicammo9mmSteel,mayicblockAmmoWorkbench"/>
+					
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,10" tags="mayicgunDoubleBarrelShotgun,mayicgunGlock40,mayicgunP226,mayicgunM9,mayicgunBeretta92,mayicgunUSP,mayicgunMK1,mayicgunSawedOff"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,10" tags="mayicammo40cal,mayicammo40calSteel"/>
+					
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="4,10" tags="mayicgunMac10,mayicgunFNFAL,mayicgun1911,mayicgunMP5,mayicgunRCP90,mayicgunVector,mayicgunHuntingShotgun"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="4,10" tags="mayicmodHoloSightRed,mayicmodHoloSightBlue,mayicmodHoloSightGreen,mayicammo45acp,mayicammo22lr,mayicammo223calSteel,mayicammo45acpSteel,mayicammo22lrSteel,mayicammo5.7x28mm,mayicammo5.7x28mmSteel"/>
+					
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5,10" tags="mayicgunAR15,mayicgunHandCannon,mayicgunMossberg590A1,mayicgunBullpup,mayicmodRedDotSight,mayicmodBlueDotSight,mayicmodGreenDotSight"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5,10" tags="mayicammo223cal,mayicammoExplosiveround,mayicammo223calSteel"/>
+					
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="6,10" tags="mayicgunMP40,mayicgunM1A1Thompson,mayicgunM16,mayicgunSR25,mayicgunRustAK,mayicgunARX160,mayicgunFalloutShotgun,mayicgunACW"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="6,10" tags="mayicammo5.56x45mm,mayicammo20gauge,mayicammo7.62x51mm,mayicammo7.62x39mm,mayicammo5.56x45mmSteel,mayicammo7.62x51mmSteel,mayicammo7.62x39mmSteel"/>
+					
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="7,10" tags="mayicgunM4A1,mayicgunSCAR,mayicgunSpaz12,mayicgunSR25,mayicgunAK47,mayicgunARX160,mayicgunMrad"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="7,10" tags="mayicammo5.56x45mm,mayicammo20gauge,mayicammo7.62x51mm,mayicammo7.62x39mm,mayicammo5.56x45mmSteel,mayicammo7.62x51mmSteel,mayicammo7.62x39mmSteel"/>
+					
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="8,10" tags="mayicgunMosinNagant,mayicgunM1,mayicgunM98,mayicgunJNG90"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="8,10" tags="mayicmodACOGGreen,mayicmodACOGBlue,mayicmodACOGRed,mayicammo338cal,mayicammo338calSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
+					
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="9,10" tags="mayicgunM249Saw,mayicgunM82,mayicgunDesertEagle,mayicgunColtPython,mayicgunM79GL40,mayicgunM240"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="9,10" tags="mayicammo50cal,mayicammo30-06,mayicammo357magnum,mayicammo50ae,mayicammo40mmExplosive,mayicammo50calSteel,mayicammo30-06Steel,mayicammo357magnumSteel,mayicammo50aeSteel"/>
+					
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="5" level="10" tags="mayicgunGoldenGun,mayicgunChaingun"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="5" level="10" tags="mayicammoGoldenbullet,mayicammo5mm,mayicammo5mmSteel"/>
+					</effect_group>
+				
+	<effect_group>
+					<effect_description level="1" desc_key="AdvancedF1" desc_base="Unlocks: Luger, 38Snubnose, Argh! and The Gun Workbench"/>
+					<effect_description level="2" desc_key="AdvancedF2" desc_base="Unlocks: Klob, Beretta Nano, Makarov and The Ammo Workbench"/>
+					<effect_description level="3" desc_key="AdvancedF3" desc_base="Unlocks: Glock40, P226, M9, Beretta92, USP, Mk1, Double Barrel Shotgun,Sawed Off Shotgun"/>
+					<effect_description level="4" desc_key="AdvancedF4" desc_base="Unlocks: Mac10, FNFAL, MP5, RCP90, Vector, Hunting Shotgun, and Holo Sights"/>
+					<effect_description level="5" desc_key="AdvancedF5" desc_base="Unlocks: AR15, HandCannon, Mossberg590A1, Bullpup, Dot Sights"/>
+					<effect_description level="6" desc_key="AdvancedF6" desc_base="Unlocks: MP40, M1A1Thompson, M16, ACW, RustAK, ARX160, Fallout Shotgun"/>
+					<effect_description level="7" desc_key="AdvancedF7" desc_base="Unlocks: M4A1, SCAR, Spaz12, SR25, Beretta MRAD, Ak47"/>
+					<effect_description level="8" desc_key="AdvancedF8" desc_base="Unlocks: Mosin Nagant, M1, JNG90, M98 Sniper Rifles, ACOG Scopes, Elemental Ammo"/>
+					<effect_description level="9" desc_key="AdvancedF9" desc_base="Unlocks: M249Saw, M240, M82 Sniper, DesertEagle, Colt Python, M79GL40"/>
+					<effect_description level="10" desc_key="AdvancedF10" desc_base="Unlocks: Golden Gun and Chaingun"/>
+		</effect_group>
+		</attribute>
+</append>
+</configs>

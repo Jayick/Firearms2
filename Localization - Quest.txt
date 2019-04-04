@@ -1,0 +1,32 @@
+mayicchallenge_handgunkill,,Challenge Info,KgNone,2nd Amendment,,,,,
+mayicchallenge_handgunkill_subtitle,,Challenge Info,KgNone,Kill some zombies with a Handgun,,,,,
+mayicchallenge_handgunkill_offer,,Challenge Info,KgNone,Thank god that held up to the end. Now take your looted gun and go shoot some zombies. Make sure you grab a handgun,,,,,
+mayicrequirementGroupHandgun,,Requirement Group,KgNone,Holding Handgun,,,,,
+
+mayicchallenge_smgkill,,Challenge Info,KgNone,Drive By Style,,,,,
+mayicchallenge_smgkill_subtitle,,Challenge Info,KgNone,Kill some zombies with a SMG,,,,,
+mayicchallenge_smgkill_offer,,Challenge Info,KgNone,Chiraq style but shockingly less of a body count. Bring a SMG and get ready for some fun,,,,,
+mayicrequirementGroupSMG,,Requirement Group,KgNone,Holding SMG,,,,,
+
+mayicchallenge_shotgunkill,,Challenge Info,KgNone,GET OFF MY LAWN!,,,,,
+mayicchallenge_shotgunkill_subtitle,,Challenge Info,KgNone,Kill some zombies with a Shotgun,,,,,
+mayicchallenge_shotgunkill_offer,,Challenge Info,KgNone,Damned kids on my lawn! Get off! Defend your property with a trusty shotgun,,,,,
+mayicrequirementGroupShotgun,,Requirement Group,KgNone,Holding Shotgun,,,,,
+
+mayicchallenge_riflekill,,Challenge Info,KgNone,Get some,,,,,
+mayicchallenge_riflekill_subtitle,,Challenge Info,KgNone,Kill some zombies with a Rifle,,,,,
+mayicchallenge_riflekill_offer,,Challenge Info,KgNone,GET SOME! Drop your cocks and grab your socks it's killin time. Bring your rifle,,,,,
+mayicrequirementGroupRifle,,Requirement Group,KgNone,Holding Rifle,,,,,
+
+mayicchallenge_sniperkill,,Challenge Info,KgNone,Snipers Dream,,,,,
+mayicchallenge_sniperkill_subtitle,,Challenge Info,KgNone,Kill some zombies with a Large Rifle,,,,,
+mayicchallenge_sniperkill_offer,,Challenge Info,KgNone,Be not that far from me for trouble is near haste Thee to help me. Blessed be the Lord my strength which teacheth my hands to war and my fingers to fight. My goodness and my fortress my high tower and my deliverer my shield and he in whom I trust who subdueth my people under me. O my God I trust in thee: let me not be ashamed let not mine enemies triumph over me. .,,,,,
+mayicrequirementGroupSniper,,Requirement Group,KgNone,Holding Large Rifle,,,,,
+
+mayicchallenge_chaingunkill,,Challenge Info,KgNone,Chaingun Rampage!,,,,,
+mayicchallenge_chaingunkill_subtitle,,Challenge Info,KgNone,Kill some zombies with a Chaingun,,,,,
+mayicchallenge_chaingunkill_offer,,Challenge Info,KgNone,Take a Chaingun to a horde of zombies! Make sure you are ready before you start. You will be in for quite a fight,,,,,
+mayicrequirementGroupChaingun,,Requirement Group,KgNone,Holding Chaingun,,,,,
+
+
+
