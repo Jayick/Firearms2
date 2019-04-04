@@ -4001,11 +4001,16 @@
 			<property name="CustomIcon" value="7holosch"/>
 			<property name="EconomicValue" value="500"/>
 		</item>
+				<!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+									Quests and Challenges
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
 		<item name="mayicchallengehandgun">
 			<property name="Extends" value="questMaster"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="DescriptionKey" value="mayicchallengeDesc"/>
-			<property name="CustomIcon" value="challengeQuestMaster"/>
+			<property name="CustomIcon" value="7challengebook"/>
 			<property name="EconomicValue" value="400"/>
 			<property class="Action0">
 				<property name="QuestGiven" value="mayicchallenge_handgunkill"/></property>
@@ -4014,7 +4019,7 @@
 			<property name="Extends" value="questMaster"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="DescriptionKey" value="mayicchallengeDesc"/>
-			<property name="CustomIcon" value="challengeQuestMaster"/>
+			<property name="CustomIcon" value="7challengebook"/>
 			<property name="EconomicValue" value="400"/>
 			<property class="Action0">
 				<property name="QuestGiven" value="mayicchallenge_smgkill"/></property>
@@ -4023,7 +4028,7 @@
 			<property name="Extends" value="questMaster"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="DescriptionKey" value="mayicchallengeDesc"/>
-			<property name="CustomIcon" value="challengeQuestMaster"/>
+			<property name="CustomIcon" value="7challengebook"/>
 			<property name="EconomicValue" value="400"/>
 			<property class="Action0">
 				<property name="QuestGiven" value="mayicchallenge_shotgunkill"/></property>
@@ -4032,7 +4037,7 @@
 			<property name="Extends" value="questMaster"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="DescriptionKey" value="mayicchallengeDesc"/>
-			<property name="CustomIcon" value="challengeQuestMaster"/>
+			<property name="CustomIcon" value="7challengebook"/>
 			<property name="EconomicValue" value="400"/>
 			<property class="Action0">
 				<property name="QuestGiven" value="mayicchallenge_riflekill"/></property>
@@ -4041,7 +4046,7 @@
 			<property name="Extends" value="questMaster"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="DescriptionKey" value="mayicchallengeDesc"/>
-			<property name="CustomIcon" value="challengeQuestMaster"/>
+			<property name="CustomIcon" value="7challengebook"/>
 			<property name="EconomicValue" value="400"/>
 			<property class="Action0">
 				<property name="QuestGiven" value="mayicchallenge_sniperkill"/></property>
@@ -4050,7 +4055,7 @@
 			<property name="Extends" value="questMaster"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="DescriptionKey" value="mayicchallengeDesc"/>
-			<property name="CustomIcon" value="challengeQuestMaster"/>
+			<property name="CustomIcon" value="7challengebook"/>
 			<property name="EconomicValue" value="400"/>
 			<property class="Action0">
 				<property name="QuestGiven" value="mayicchallenge_chaingunkill"/></property>
