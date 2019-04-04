@@ -31,6 +31,7 @@ Fixed:
 - Adjusted audio volumes. DE, 1911 now louder, others softer. Adjustments will be made in the future to more.
 - Fixed Explosive Rounds. Still no effect. Now does higher AOE damage. Careful, this will hurt you as well. Not suggest for point blank fire.
 - Blueprint Icons for scopes (thanks Drconfused)
+- Fixed weapons "starter" ammo types. Firearms will now start off with correct ammo caliber type
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 ## About:
