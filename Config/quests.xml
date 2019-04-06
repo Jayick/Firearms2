@@ -224,7 +224,7 @@
 		</requirement>
 		
 		
-		<reward type="SkillPoints" value="4" chainreward="true" />
+		<reward type="SkillPoints" value="2" chainreward="true" />
 		<reward type="Exp" value="5000" />
 		<reward type="Item" id="casinoCoin" value="200-500" />
 	</quest>
@@ -266,7 +266,7 @@
 		</requirement>
 		
 		
-		<reward type="SkillPoints" value="4" chainreward="true" />
+		<reward type="SkillPoints" value="3" chainreward="true" />
 		<reward type="Exp" value="10000" />
 		<reward type="Item" id="casinoCoin" value="2000-5000" />
 	</quest>

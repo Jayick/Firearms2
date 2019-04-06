@@ -218,6 +218,14 @@
 		<item name="mayicmodDotSchematic"/>
 		<item name="mayicmodHoloSchematic"/>
 	</append>
+	<append xpath="lootcontainers/lootgroup[@name='questChallenge']">
+		<item name="mayicchallengehandgun"/>
+		<item name="mayicchallengesmg"/>
+		<item name="mayicchallengeshotgun"/>
+		<item name="mayicchallengerifle"/>
+		<item name="mayicchallengesniper"/>
+		<item name="mayicchallengechaingun"/>
+	</append>
 	<!-- Nightstand/Dresser -->
 	<append xpath="/lootcontainers/lootcontainer[@id='6']">
 		<item group="luger" count="1" prob="0.6"/>

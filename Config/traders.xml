@@ -21,6 +21,14 @@
 
 </append>
 
+<append xpath="/traders/trader_item[@group='questChallenge']">
+		<item name="mayicchallengehandgun" count="1"/>
+		<item name="mayicchallengesmg" count="1"/>
+		<item name="mayicchallengeshotgun" count="1"/>
+		<item name="mayicchallengerifle" count="1"/>
+		<item name="mayicchallengesniper" count="1"/>
+		<item name="mayicchallengechaingun" count="1"/>
+</append>
 <append xpath="/traders/trader_item_groups/trader_item_group[@name='weaponsGunsCommon']">
 	<!-- Pistol -->	
 	<item name="mayicgunLuger" prob="0.8"/>
