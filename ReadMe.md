@@ -15,6 +15,7 @@ Suggested for minigun that you have decent framerates. Pixle textures on fire ma
 Some guns will skip your game upon loading in the hotbar. Their file size is quite large. Fix coming soon hopefully.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
+
 ## Update 1.03 4/4/19:
 Added:
 - Added RGB Holo variance
