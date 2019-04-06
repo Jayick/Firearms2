@@ -15,25 +15,6 @@ Suggested for minigun that you have decent framerates. Pixle textures on fire ma
 Some guns will skip your game upon loading in the hotbar. Their file size is quite large. Fix coming soon hopefully.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-## Update 1.02 4/4/19:
-Added:
-- Added RGB Holo variance
-- Added Quest Challenges! Now complete various kill tasks to receive more skill points. They require the correct class of weapon (Handguns, SMG, Shotguns, Rifles, Snipers, and Chainguns)
-- Added original ammo and weapon types to Ammo/Firearms scrapping
-
-Changed:
-- Changed various audios, most notibly RCP90
-- Adjusted Progression. Holos now unlocked at level 4. All skills now only cost 1 point, still gated by levels (sorry, no chainguns for level 10's)
-- Incendiary Rounds now ignite other enemies close by on impact
-- Incendiary Rounds now do more damage over time on burns
-
-Fixed:
-- Adjusted audio volumes. DE, 1911 now louder, others softer. Adjustments will be made in the future to more.
-- Fixed Explosive Rounds. Still no effect. Now does higher AOE damage. Careful, this will hurt you as well. Not suggest for point blank fire.
-- Blueprint Icons for scopes (thanks Drconfused)
-- Fixed weapons "starter" ammo types. Firearms will now start off with correct ammo caliber type
-
-----------------------------------------------------------------------------------------------------------------------------------------
 ## About:
 
 Welcome to the new and VASTLY improved Firearms! 

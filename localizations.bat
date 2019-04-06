@@ -63,13 +63,16 @@ echo Also make sure you haven't renamed them either.
 echo.
 goto end
 :confirmed
-color 0C                                                                                                         
+color 0C 
+echo Firearms 2 Modlet
+echo Please ensure this file runs correctly before closing. It is very important to run. Otherwise
+echo All Firearms assets will be named mayicgun/mayicammo/mayicblock.
 echo.  
 pause
 echo.                                                                       
 echo.
 for %%I in (.) do set CurrDirName=%%~nxI
-echo This will load up the localization data for the mod "PUT MOD NAME HERE!".
+echo This will load up the localization data for the mod "Firearms".
 echo.
 echo Excellent, I see the localization files to append and I also see we are in the correct location.
 echo.
@@ -101,6 +104,7 @@ del "..\..\data\config\Localization.txt"
 del "..\..\data\config\Localization - Quest.txt"
 ::PUT the common name of all your keys in "". For example, "rdm". Space is the delimiter.
 FINDSTR /v "mayic" LocalizationTEMP.txt > "../../data/config/Localization.txt"
+FINDSTR /v "mayic" LocalizationQuestTEMP.txt > "../../data/config/Localization - Quest.txt"
 type localization.txt >> "../../data/config/Localization.txt"
 type "localization - Quest.txt" >> "../../data/config/Localization - Quest.txt"
 del "LocalizationTEMP.txt"
