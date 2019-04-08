@@ -1242,7 +1242,7 @@
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
 				<property name="Delay" value="0.428"/>
-				<property name="Magazine_items" value="ammoShotgunShell,ammoShotgunSlug,mayicammo20gauge,mayicammoDragonsbreath,mayicammoElectricshell"/>
+				<property name="Magazine_items" value="ammoShotgunShell,mayicammoBirdShot,ammoShotgunSlug,mayicammo20gauge,mayicammoDragonsbreath,mayicammoElectricshell"/>
 				<property name="Reload_time" value="2.6"/>
 				<property name="Sound_start" value="dbfire"/>
 				<property name="Sound_repeat" value=""/>
@@ -1309,7 +1309,7 @@
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
 				<property name="Delay" value="0.428"/>
-				<property name="Magazine_items" value="ammoShotgunShell,ammoShotgunSlug,mayicammo20gauge,mayicammoDragonsbreath,mayicammoElectricshell"/>
+				<property name="Magazine_items" value="ammoShotgunShell,mayicammoBirdShot,ammoShotgunSlug,mayicammo20gauge,mayicammoDragonsbreath,mayicammoElectricshell"/>
 				<property name="Reload_time" value="2.6"/>
 				<property name="Sound_start" value="sawedshotfire"/>
 				<property name="Sound_repeat" value=""/>
@@ -1325,10 +1325,10 @@
 				<property name="ScopeCameraOffset" value="0.0001,0.031,0.24"/></property>
 			<effect_group name="Base Effects">
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
-				<passive_effect name="RoundsPerMinute" operation="base_set" value="30"/>
+				<passive_effect name="RoundsPerMinute" operation="base_set" value="60"/>
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="6"/>
-				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".6"/>
+				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".8"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
 				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
@@ -1374,7 +1374,7 @@
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
 				<property name="Delay" value="0.428"/>
-				<property name="Magazine_items" value="ammoShotgunShell,ammoShotgunSlug,mayicammo20gauge,mayicammoDragonsbreath,mayicammoElectricshell"/>
+				<property name="Magazine_items" value="ammoShotgunShell,mayicammoBirdShot,ammoShotgunSlug,mayicammo20gauge,mayicammoDragonsbreath,mayicammoElectricshell"/>
 				<property name="Reload_time" value="2.6"/>
 				<property name="Sound_start" value="spazfire"/>
 				<property name="Sound_repeat" value=""/>
@@ -1390,17 +1390,17 @@
 				<property name="ScopeCameraOffset" value="0.0001,0.029,0.24"/></property>
 			<effect_group name="Base Effects">
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
-				<passive_effect name="RoundsPerMinute" operation="base_set" value="120"/>
+				<passive_effect name="RoundsPerMinute" operation="base_set" value="95"/>
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="16"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".6"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
 				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
-				<passive_effect name="KickDegreesVertical" operation="base_set" value="2.1"/>
-				<passive_effect name="KickDegreesHorizontal" operation="base_set" value="-1.75,1.25"/>
+				<passive_effect name="KickDegreesVertical" operation="base_set" value="3.1"/>
+				<passive_effect name="KickDegreesHorizontal" operation="base_set" value="-1.25,1.25"/>
 				<display_value name="dRecoil" value="42" />
-				<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2"/>
+				<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="3"/>
 				<passive_effect name="WeaponHandling" operation="base_set" value="1.7"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="700,1400" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
@@ -1439,7 +1439,7 @@
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
 				<property name="Delay" value="0.428"/>
-				<property name="Magazine_items" value="mayicammo20gauge,ammoShotgunShell,ammoShotgunSlug,mayicammoDragonsbreath,mayicammoElectricshell"/>
+				<property name="Magazine_items" value="mayicammo20gauge,mayicammoBirdShot,ammoShotgunShell,ammoShotgunSlug,mayicammoDragonsbreath,mayicammoElectricshell"/>
 				<property name="Reload_time" value="2.6"/>
 				<property name="Sound_start" value="huntingfire"/>
 				<property name="Sound_repeat" value=""/>
@@ -1504,7 +1504,7 @@
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
 				<property name="Delay" value="0.428"/>
-				<property name="Magazine_items" value="mayicammo20gauge,ammoShotgunShell,ammoShotgunSlug,mayicammoDragonsbreath,mayicammoElectricshell"/>
+				<property name="Magazine_items" value="mayicammo20gauge,mayicammoBirdShot,ammoShotgunShell,ammoShotgunSlug,mayicammoDragonsbreath,mayicammoElectricshell"/>
 				<property name="Reload_time" value="2.6"/>
 				<property name="Sound_start" value="mossfire"/>
 				<property name="Sound_repeat" value=""/>
@@ -1571,7 +1571,7 @@
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
 				<property name="Delay" value="0.428"/>
-				<property name="Magazine_items" value="mayicammo20gauge,ammoShotgunShell,ammoShotgunSlug,mayicammoDragonsbreath,mayicammoElectricshell"/>
+				<property name="Magazine_items" value="mayicammo20gauge,mayicammoBirdShot,ammoShotgunShell,ammoShotgunSlug,mayicammoDragonsbreath,mayicammoElectricshell"/>
 				<property name="Reload_time" value="2.6"/>
 				<property name="Sound_start" value="spazfire"/>
 				<property name="Sound_repeat" value=""/>
@@ -1597,7 +1597,7 @@
 				<passive_effect name="KickDegreesVertical" operation="base_set" value="2.1"/>
 				<passive_effect name="KickDegreesHorizontal" operation="base_set" value="-1.75,1.25"/>
 				<display_value name="dRecoil" value="42" />
-				<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2"/>
+				<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2.5"/>
 				<passive_effect name="WeaponHandling" operation="base_set" value="1.7"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="700,1400" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
@@ -3103,7 +3103,7 @@
 				<passive_effect name="EntityDamage" operation="base_set" value="15"/>
 				<passive_effect name="BlockDamage" operation="base_set" value="5"/>
 				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".3" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="wood"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
@@ -3141,7 +3141,7 @@
 				<passive_effect name="EntityDamage" operation="base_set" value="17"/>
 				<passive_effect name="BlockDamage" operation="base_set" value="7"/>
 				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".3" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
@@ -3177,7 +3177,7 @@
 				<passive_effect name="EntityDamage" operation="base_set" value="17"/>
 				<passive_effect name="BlockDamage" operation="base_set" value="7"/>
 				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".3" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
@@ -3214,7 +3214,7 @@
 				<passive_effect name="EntityDamage" operation="base_set" value="25"/>
 				<passive_effect name="BlockDamage" operation="base_set" value="7"/>
 				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".3" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
@@ -3251,7 +3251,7 @@
 				<passive_effect name="EntityDamage" operation="base_set" value="28"/>
 				<passive_effect name="BlockDamage" operation="base_set" value="7"/>
 				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".3" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
@@ -3287,7 +3287,7 @@
 				<passive_effect name="EntityDamage" operation="base_set" value="35"/>
 				<passive_effect name="BlockDamage" operation="base_set" value="7"/>
 				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".3" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
@@ -3324,7 +3324,7 @@
 				<passive_effect name="EntityDamage" operation="base_set" value="42"/>
 				<passive_effect name="BlockDamage" operation="base_set" value="7"/>
 				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".3" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
@@ -3341,12 +3341,12 @@
 			<property name="Group" value="Ammo/Weapons,allRounds,highRounds"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="82"/>
-				<passive_effect name="BlockDamage" operation="base_set" value="45"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="25"/>
 				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="5" tags="wood"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".5" tags="metal"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".5" tags="stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
 			</effect_group>
 		</item>
 		<item name="mayicammo50aeSteel">
@@ -3359,13 +3359,13 @@
 			<property name="Group" value="Ammo/Weapons,allRounds,highRounds"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="82"/>
-				<passive_effect name="BlockDamage" operation="base_set" value="45"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="25"/>
 				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".3" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="5" tags="wood"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".5" tags="metal"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".5" tags="stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
 			</effect_group>
 		</item>
 		<item name="mayicammo357magnum">
@@ -3377,12 +3377,12 @@
 			<property name="Group" value="Ammo/Weapons,allRounds,highRounds"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="76"/>
-				<passive_effect name="BlockDamage" operation="base_set" value="45"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="20"/>
 				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="5" tags="wood"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".5" tags="metal"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".5" tags="stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="stone"/>
 			</effect_group>
 		</item>
 		<item name="mayicammo357magnumSteel">
@@ -3395,13 +3395,13 @@
 			<property name="Group" value="Ammo/Weapons,allRounds,highRounds"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="76"/>
-				<passive_effect name="BlockDamage" operation="base_set" value="45"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="20"/>
 				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".3" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="5" tags="wood"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".5" tags="metal"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".5" tags="stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="stone"/>
 			</effect_group>
 		</item>
 		<!--                          Shotguns                        -->
@@ -3429,6 +3429,35 @@
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="3.52"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="3.52"/>
 				<passive_effect name="DismemberChance" operation="perc_add" value="0.25" tags="head"/>
+				<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.17"/>
+				<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.12"/>
+				<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value=".3"/>
+				<passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".4"/>
+			</effect_group>
+		</item>
+		<item name="mayicammoBirdShot">
+			<property name="Tags" value="shotgun"/>
+			<property name="DisplayType" value="mayicammoShotgun"/>
+			<property name="DescriptionKey" value="mayicammo20gaugeDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="CustomIcon" value="7birdshot"/>
+			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="Mlead"/>
+			<property name="Stacknumber" value="5000"/>
+			<!-- STK mayicammo -->
+			<property name="EconomicValue" value="11"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="CraftingSkillGroup" value="craftSkillGuns"/>
+			<property name="Group" value="Ammo/Weapons,allRounds,medRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="3"/>
+				<passive_effect name="BlockDamage" operation="base_set" value=".1"/>
+				<passive_effect name="RoundRayCount" operation="base_set" value="100"/>
+				<passive_effect name="MaxRange" operation="base_set" value="90"/>
+				<passive_effect name="DamageFalloffRange" operation="base_set" value="5"/>
+				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="15"/>
+				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="15"/>
 				<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.17"/>
 				<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.12"/>
 				<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value=".3"/>
@@ -3509,9 +3538,9 @@
 				<passive_effect name="BlockDamage" operation="base_set" value="15"/>
 				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="10" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="stone"/>
 			</effect_group>
 		</item>
 		<item name="mayicammo7.62x39mmSteel">
@@ -3526,11 +3555,11 @@
 				<passive_effect name="EntityDamage" operation="base_set" value="31"/>
 				<passive_effect name="BlockDamage" operation="base_set" value="15"/>
 				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".3" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="10" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="stone"/>
 			</effect_group>
 		</item>
 		<!-- mayicgunAR15(sub) -->
@@ -3546,7 +3575,7 @@
 				<passive_effect name="BlockDamage" operation="base_set" value="4"/>
 				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
 			</effect_group>
@@ -3563,9 +3592,9 @@
 				<passive_effect name="EntityDamage" operation="base_set" value="28"/>
 				<passive_effect name="BlockDamage" operation="base_set" value="4"/>
 				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".3" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
 			</effect_group>
@@ -3583,7 +3612,7 @@
 				<passive_effect name="BlockDamage" operation="base_set" value="12"/>
 				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
 			</effect_group>
@@ -3600,9 +3629,9 @@
 				<passive_effect name="EntityDamage" operation="base_set" value="34"/>
 				<passive_effect name="BlockDamage" operation="base_set" value="12"/>
 				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".3" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
 			</effect_group>
@@ -3620,7 +3649,7 @@
 				<passive_effect name="BlockDamage" operation="base_set" value="17"/>
 				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
 			</effect_group>
@@ -3637,9 +3666,9 @@
 				<passive_effect name="EntityDamage" operation="base_set" value="42"/>
 				<passive_effect name="BlockDamage" operation="base_set" value="17"/>
 				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".3" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
 			</effect_group>
@@ -3654,10 +3683,10 @@
 			<property name="Group" value="Ammo/Weapons,allRounds,highRounds"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="61"/>
-				<passive_effect name="BlockDamage" operation="base_set" value="45"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="20"/>
 				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".9" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
 			</effect_group>
@@ -3672,11 +3701,11 @@
 			<property name="Group" value="Ammo/Weapons,allRounds,highRounds"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="61"/>
-				<passive_effect name="BlockDamage" operation="base_set" value="45"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="20"/>
 				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".3" tags="head"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".9" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
 			</effect_group>
@@ -3695,9 +3724,9 @@
 				<passive_effect name="BlockDamage" operation="base_set" value="15"/>
 				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="10" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="stone"/>
 			</effect_group>
 		</item>
 		<item name="mayicammo7.62x51mmSteel">
@@ -3712,11 +3741,11 @@
 				<passive_effect name="EntityDamage" operation="base_set" value="53"/>
 				<passive_effect name="BlockDamage" operation="base_set" value="15"/>
 				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".3" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="10" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="stone"/>
 			</effect_group>
 		</item>
 		<item name="mayicammo338cal">
@@ -3731,9 +3760,9 @@
 				<passive_effect name="BlockDamage" operation="base_set" value="8"/>
 				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="10" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="stone"/>
 			</effect_group>
 		</item>
 		<item name="mayicammo338calSteel">
@@ -3748,11 +3777,11 @@
 				<passive_effect name="EntityDamage" operation="base_set" value="62"/>
 				<passive_effect name="BlockDamage" operation="base_set" value="8"/>
 				<passive_effect name="DismemberChance" operation="perc_add" value=".05" tags="head"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".3" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="10" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="stone"/>
 			</effect_group>
 		</item>
 		<!-- mayicgunM82 -->
@@ -3768,9 +3797,9 @@
 				<passive_effect name="BlockDamage" operation="base_set" value="55"/>
 				<passive_effect name="DismemberChance" operation="perc_add" value=".2" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="10" tags="wood"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="stone"/>
 			</effect_group>
 		</item>
 		<item name="mayicammo50calSteel">
@@ -3785,11 +3814,11 @@
 				<passive_effect name="EntityDamage" operation="base_set" value="85"/>
 				<passive_effect name="BlockDamage" operation="base_set" value="55"/>
 				<passive_effect name="DismemberChance" operation="perc_add" value=".4" tags="head"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value=".3" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".05" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="10" tags="wood"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="metal"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="stone"/>
 			</effect_group>
 		</item>
 		<!-- mayicgunChaingun -->
@@ -3844,7 +3873,7 @@
 				<passive_effect name="BlockDamage" operation="base_set" value="5"/>
 				<passive_effect name="DismemberChance" operation="base_set" value="1" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
 			</effect_group>
@@ -4060,6 +4089,1018 @@
 			<property class="Action0">
 				<property name="QuestGiven" value="mayicchallenge_chaingunkill"/></property>
 		</item>
+		
+		
+		
+		
+		
+		
+	<!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+									FIREARMS SCHEMATICS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->	
+		
+<!-- Pistol -->			
+<item name="mayicgunLugerSchematic">
+	<property name="DescriptionKey" value="mayicschematicMasterDesc"/>
+	<property name="CreativeMode" value="Player"/><property name="HoldType" value="21"/>
+	<property name="Meshfile" value="Items/Misc/bookPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property name="Material" value="Mpaper"/>
+	<property name="CustomIcon" value="7lugers"/>
+	<property name="Weight" value="5"/>
+	<property name="FuelValue" value="5"/>
+	<property name="Stacknumber" value="1"/> <!-- STK book -->
+	<property name="EconomicValue" value="200"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Consume" value="true"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="ActionExpBonusMultiplier" value="0"/> <!-- When first learned the multiplier is applied. After that only the action exp is applied but it's applied for EACH item in the book. -->
+		<property name="Sound_start" value="recipe_unlocked"/>
+		<requirement name="CVarCompare" cvar="mayicgunLuger" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunLuger" operation="set" value="1"/>
+	</effect_group>
+</item>			
+<item name="mayicgun38SnubnoseSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="738sc"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgun38Snubnose" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgun38Snubnose" operation="set" value="1"/>
+	</effect_group>
+</item>			
+<item name="mayicgunBerettaNanoSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7nanos"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunBerettaNano" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunBerettaNano" operation="set" value="1"/>
+	</effect_group>
+</item>			
+<item name="mayicgunMakarovSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7makarovs"/>
+	<property name="Group" value="customRAll,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunMakarov" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunMakarov" operation="set" value="1"/>
+	</effect_group>
+</item>			
+<item name="mayicgunM9Schematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7m9s"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunM9" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunM9" operation="set" value="1"/>
+	</effect_group>
+</item>			
+<item name="mayicgunBeretta92Schematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7b92s"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunBeretta92" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunBeretta92" operation="set" value="1"/>
+	</effect_group>
+</item>			
+<item name="mayicgunP226Schematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7p226s"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunP226" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunP226" operation="set" value="1"/>
+	</effect_group>
+</item>			
+<item name="mayicgunGlock40Schematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7glocks"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunGlock40" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunGlock40" operation="set" value="1"/>
+	</effect_group>
+</item>			
+<item name="mayicgunUSPSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7usps"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunUSP" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunUSP" operation="set" value="1"/>
+	</effect_group>
+</item>		
+<item name="mayicgun1911Schematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="71911s"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgun1911" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgun1911" operation="set" value="1"/>
+	</effect_group>
+</item>		
+<item name="mayicgunDesertEagleSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7des"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunDesertEagle" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunDesertEagle" operation="set" value="1"/>
+	</effect_group>
+</item>		
+<item name="mayicgunColtPythonSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7pythons"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunColtPython" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunColtPython" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+<!-- SMG -->
+<item name="mayicgunKlobSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7klobs"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunKlob" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunKlob" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunMac10Schematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7mac10s"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunMac10" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunMac10" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunMK1Schematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7mk1s"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunMK1" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunMK1" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunMP40Schematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7mp40s"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunMP40" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunMP40" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunVectorSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7vectors"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunVector" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunVector" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunMP5Schematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7mp5s"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunMP5" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunMP5" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunM1A1ThompsonSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7m1a1s"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunM1A1Thompson" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunM1A1Thompson" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunRCP90Schematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7rcps"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunRCP90" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunRCP90" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+
+<!-- Shotguns -->
+<item name="mayicgunDoubleBarrelShotgunSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7dbss"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunDoubleBarrelShotgun" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunDoubleBarrelShotgun" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunSawedOffSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7sawedoffs"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunSawedOff" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunSawedOff" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunFalloutShotgunSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7fallouts"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunFalloutShotgun" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunFalloutShotgun" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunHuntingShotgunSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7huntingshots"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunHuntingShotgun" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunHuntingShotgun" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunMossberg590A1Schematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7mosss"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunMossberg590A1" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunMossberg590A1" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunSpaz12Schematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7spazs"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunSpaz12" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunSpaz12" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+<!-- Rifle -->
+<item name="mayicgunFNFALSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7fnfals"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunFNFAL" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunFNFAL" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunRustAKSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7rustaks"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunRustAK" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunRustAK" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunACWSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7acws"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunACW" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunACW" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunBullpupSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7bulls"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunBullpup" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunBullpup" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunAR15Schematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7ar15s"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunAR15" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunAR15" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunAK47Schematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7ak47s"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunAK47" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunAK47" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunM16Schematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7m16s"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunM16" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunM16" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunARX160Schematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7arxs"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunARX160" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunARX160" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunM4A1Schematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7m4a1s"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunM4A1" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunM4A1" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunSCARSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7scars"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunSCAR" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunSCAR" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunM1Schematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7m1s"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunM1" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunM1" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+
+<!-- Large -->
+<item name="mayicgunM249SawSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7m249s"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunM249Saw" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunM249Saw" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunM240Schematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7m240s"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunM240" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunM240" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunMosinNagantSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7mosins"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunMosinNagant" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunMosinNagant" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunSR25Schematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7sr25s"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunSR25" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunSR25" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunMradSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7mrads"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunMrad" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunMrad" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunJNG90Schematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7jngs"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunJNG90" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunJNG90" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunM98Schematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7m98s"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunM98" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunM98" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunM82Schematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7m82s"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunM82" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunM82" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+<!-- Special -->
+<item name="mayicgunGoldenGunSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7goldens"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunGoldenGun" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunGoldenGun" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunChaingunSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7chainguns"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunChaingun" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunChaingun" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunArghSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7arghs"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunArgh" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunArgh" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunM79GL40Schematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7m79s"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunM79GL40" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunM79GL40" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicgunHandCannonSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="7handcannons"/>
+	<property name="Group" value="customResearch,customRGun,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicgunHandCannon" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicgunHandCannon" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+
+
+
+	<!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+									FIREARMS SCHEMATICS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->	
+
+
+
+<item name="mayicammo10mmSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CustomIcon" value="7ammoschsmall"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="customResearch,customRAmmo,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicammo10mm,mayicammo10mmSteel" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicammo10mm,mayicammo10mmSteel" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+<item name="mayicammo9x19mmSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CustomIcon" value="7ammoschsmall"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="customResearch,customRAmmo,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicammo9x19mm,mayicammo9x19mmSteel" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicammo9x19mm,mayicammo9x19mmSteel" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+<item name="mayicammo9mmSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CustomIcon" value="7ammoschsmall"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="customResearch,customRAmmo,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicammo9mm,mayicammo9mmSteel" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicammo9mm,mayicammo9mmSteel" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+<item name="mayicammo5.7x28mmSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CustomIcon" value="7ammoschsmall"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="customResearch,customRAmmo,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicammo5.7x28mm,mayicammo5.7x28mmSteel" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicammo5.7x28mm,mayicammo5.7x28mmSteel" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+<item name="mayicammo38calSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CustomIcon" value="7ammoschsmall"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="customResearch,customRAmmo,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicammo38cal,mayicammo38calSteel" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicammo38cal,mayicammo38calSteel" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+<item name="mayicammo40calSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CustomIcon" value="7ammoschsmall"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="customResearch,customRAmmo,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicammo40cal,mayicammo40calSteel" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicammo40cal,mayicammo40calSteel" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+<item name="mayicammo45acpSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CustomIcon" value="7ammoschsmall"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="customResearch,customRAmmo,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicammo45acp,mayicammo45acpSteel" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicammo45acp,mayicammo45acpSteel" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+<item name="mayicammo50aeSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CustomIcon" value="7ammoschsmall"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="customResearch,customRAmmo,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicammo50ae,mayicammo50aeSteel" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicammo50ae,mayicammo50aeSteel" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+<item name="mayicammo357magnumSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CustomIcon" value="7ammoschsmall"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="customResearch,customRAmmo,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicammo357magnum,mayicammo357magnumSteel" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicammo357magnum,mayicammo357magnumSteel" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+<!-- Shotguns -->
+<item name="mayicammo20gaugeSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CustomIcon" value="7ammosch20"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="customResearch,customRAmmo,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicammo20gauge" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicammo20gauge" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+<item name="mayicammoBirdShotSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CustomIcon" value="7ammoschbird"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="customResearch,customRAmmo,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicammoBirdShot" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicammoBirdShot" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicammoDragonsbreathSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CustomIcon" value="7ammoschdragon"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="customResearch,customRAmmo,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicammoDragonsbreath" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicammoDragonsbreath" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicammoElectricshellSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CustomIcon" value="7ammoschele"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="customResearch,customRAmmo,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicammoElectricshell" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicammoElectricshell" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+<!-- Rifles -->
+<item name="mayicammo7.62x39mmSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CustomIcon" value="7ammoschlarge"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="customResearch,customRAmmo,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicammo7.62x39mm,mayicammo7.62x39mmSteel" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicammo7.62x39mm,mayicammo7.62x39mmSteel" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+<item name="mayicammo223calSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CustomIcon" value="7ammoschlarge"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="customResearch,customRAmmo,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicammo223cal,mayicammo223calSteel" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicammo223cal,mayicammo223calSteel" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+<item name="mayicammo22lrSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CustomIcon" value="7ammoschlarge"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="customResearch,customRAmmo,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicammo22lr,mayicammo22lrSteel" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicammo22lr,mayicammo22lrSteel" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+<item name="mayicammo5.56x45mmSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CustomIcon" value="7ammoschlarge"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="customResearch,customRAmmo,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicammo5.56x45mm,mayicammo5.56x45mmSteel" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicammo5.56x45mm,mayicammo5.56x45mmSteel" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+<item name="mayicammo30-06Schematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CustomIcon" value="7ammoschlarge"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="customResearch,customRAmmo,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicammo30-06,mayicammo30-06Steel" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicammo30-06,mayicammo30-06Steel" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+<item name="mayicammo7.62x51mmSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CustomIcon" value="7ammoschlarge"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="customResearch,customRAmmo,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicammo7.62x51mm,mayicammo7.62x51mmSteel" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicammo7.62x51mm,mayicammo7.62x51mmSteel" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+<item name="mayicammo338calSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CustomIcon" value="7ammoschlarge"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="customResearch,customRAmmo,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicammo338cal,mayicammo338calSteel" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicammo338cal,mayicammo338calSteel" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+<item name="mayicammo50calSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CustomIcon" value="7ammoschlarge"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="customResearch,customRAmmo,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicammo50cal,mayicammo50calSteel" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicammo50cal,mayicammo50calSteel" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+<item name="mayicammo5mmSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CustomIcon" value="7ammoschsmall"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="customResearch,customRAmmo,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicammo5mm,mayicammo5mmSteel" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicammo5mm,mayicammo5mmSteel" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+<item name="mayicammoGoldenbulletSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CustomIcon" value="7ammoschgolden"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="customResearch,customRAmmo,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicammoGoldenbullet" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicammoGoldenbullet" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+<item name="mayicammoExplosiveroundSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CustomIcon" value="7ammosch40"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="customResearch,customRAmmo,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicammoExplosiveround" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicammoExplosiveround" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+<item name="mayicammo40mmExplosiveSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CustomIcon" value="7ammosch40"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="customResearch,customRAmmo,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicammo40mmExplosive" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicammo40mmExplosive" operation="set" value="1"/>
+	</effect_group>
+</item>
+
+<item name="mayicammoCorrosiveSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CustomIcon" value="7ammoschexplosive"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="customResearch,customRAmmo,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicammoCorrosive" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicammoCorrosive" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicammoExplosiveSchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CustomIcon" value="7ammoschexplosive"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="customResearch,customRAmmo,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicammoExplosive" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicammoExplosive" operation="set" value="1"/>
+	</effect_group>
+</item>
+<item name="mayicammoIncendiarySchematic">
+	<property name="Extends" value="mayicgunLugerSchematic"/>
+	<property name="CustomIcon" value="7ammoschincen"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Group" value="customResearch,customRAmmo,Books"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="mayicammoIncendiary" operation="Equals" value="0"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mayicammoIncendiary" operation="set" value="1"/>
+	</effect_group>
+</item>
+
 	</append>
 	<set xpath="/items/item[@name='resourceGunPowder']/property[@name='Group' and @value='Resources,Ammo/Weapons,Tools/Traps']/@value">Resources,Ammo/Weapons,Tools/Traps,scapAmmo</set>
 	<set xpath="/items/item[@name='resourceBuckshot']/property[@name='Group' and @value='Resources,Ammo/Weapons']/@value">Resources,Ammo/Weapons,scapAmmo</set>

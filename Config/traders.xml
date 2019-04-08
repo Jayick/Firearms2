@@ -20,8 +20,83 @@
 	<item name="mayicmodACOGRed"/>
 
 </append>
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='commonBooks']">
+		<item name="mayicgunFNFALSchematic"/>
+		<item name="mayicgunRustAKSchematic"/>
+		<item name="mayicgunACWSchematic"/>
+		<item name="mayicgunBullpupSchematic"/>
+		<item name="mayicgunAR15Schematic"/>
+		<item name="mayicgunAK47Schematic"/>
+		<item name="mayicgunM16Schematic"/>
+		<item name="mayicgunDoubleBarrelShotgunSchematic"/>
+		<item name="mayicgunSawedOffSchematic"/>
+		<item name="mayicgunKlobSchematic"/>
+		<item name="mayicgunMac10Schematic"/>
+		<item name="mayicgunMK1Schematic"/>
+		<item name="mayicgunMP40Schematic"/>
+		<item name="mayicgunLugerSchematic"/>
+		<item name="mayicgun38SnubnoseSchematic"/>
+		<item name="mayicgunBerettaNanoSchematic"/>
+		<item name="mayicgunMakarovSchematic"/>
+		<item name="mayicgunM9Schematic"/>
+		<item name="mayicgunBeretta92Schematic"/>
+		<item name="mayicgunP226Schematic"/>
+		<item name="mayicammo10mmSchematic"/>
+		<item name="mayicammo9x19mmSchematic"/>
+		<item name="mayicammo9mmSchematic"/>
+		<item name="mayicammo5.7x28mmSchematic"/>
+		<item name="mayicammo38calSchematic"/>
+		<item name="mayicammo40calSchematic"/>
+		<item name="mayicammo223calSchematic"/>
+		<item name="mayicammo22lrSchematic"/>
+		<item name="mayicammo5.56x45mmSchematic"/>
+		<item name="mayicammo20gaugeSchematic"/>
+		<item name="mayicammoBirdShotSchematic"/>
+</append>
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='rareBooks']">
+		<item name="mayicgunARX160Schematic"/>
+		<item name="mayicgunM4A1Schematic"/>
+		<item name="mayicgunSCARSchematic"/>
+		<item name="mayicgunM1Schematic"/>
+		<item name="mayicgunM249SawSchematic"/>
+		<item name="mayicgunM240Schematic"/>
+		<item name="mayicgunMosinNagantSchematic"/>
+		<item name="mayicgunSR25Schematic"/>
+		<item name="mayicgunMradSchematic"/>
+		<item name="mayicgunJNG90Schematic"/>
+		<item name="mayicgunM98Schematic"/>
+		<item name="mayicgunM82Schematic"/>
+		<item name="mayicgunFalloutShotgunSchematic"/>
+		<item name="mayicgunHuntingShotgunSchematic"/>
+		<item name="mayicgunMossberg590A1Schematic"/>
+		<item name="mayicgunSpaz12Schematic"/>
+		<item name="mayicgunVectorSchematic"/>
+		<item name="mayicgunMP5Schematic"/>
+		<item name="mayicgunM1A1ThompsonSchematic"/>
+		<item name="mayicgunRCP90Schematic"/>
+		<item name="mayicgunGlock40Schematic"/>
+		<item name="mayicgunUSPSchematic"/>
+		<item name="mayicgun1911Schematic"/>
+		<item name="mayicgunDesertEagleSchematic"/>
+		<item name="mayicgunColtPythonSchematic"/>
+		<item name="mayicammo45acpSchematic"/>
+		<item name="mayicammo50aeSchematic"/>
+		<item name="mayicammo357magnumSchematic"/>
+		<item name="mayicammo7.62x39mmSchematic"/>
+		<item name="mayicammo30-06Schematic"/>
+		<item name="mayicammo7.62x51mmSchematic"/>
+		<item name="mayicammo338calSchematic"/>
+		<item name="mayicammo50calSchematic"/>
+		<item name="mayicammo5mmSchematic"/>
+		<item name="mayicammoGoldenbulletSchematic"/>
+		<item name="mayicammoExplosiveroundSchematic"/>
+		<item name="mayicammo40mmExplosiveSchematic"/>
+		<item name="mayicammoIncendiarySchematic"/>
+		<item name="mayicammoExplosiveSchematic"/>
+		<item name="mayicammoCorrosiveSchematic"/>
+</append>
 
-<append xpath="/traders/trader_item[@group='questChallenge']">
+<append xpath="/traders/trader_item_group[@name='questChallenge']">
 		<item name="mayicchallengehandgun" count="1"/>
 		<item name="mayicchallengesmg" count="1"/>
 		<item name="mayicchallengeshotgun" count="1"/>

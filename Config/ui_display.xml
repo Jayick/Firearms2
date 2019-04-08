@@ -23,6 +23,12 @@
 			<crafting_category name="scapAmmo" icon="ui_game_symbol_scrap" display_name="Scrapping Ammo"/>
 			<crafting_category name="scrapFirearm" icon="ui_game_symbol_scrap" display_name="Scrapping Guns"/>
 		</crafting_category_list>
+		
+		<crafting_category_list display_type="mayicblockResearchTable">
+			<crafting_category name="customRAll" icon="ui_game_symbol_book" display_name="All"/>
+			<crafting_category name="customRGun" icon="ui_game_symbol_rifle" display_name="Research Guns"/>
+			<crafting_category name="customRAmmo" icon="ui_game_symbol_gunsmithing" display_name="Research Ammo"/>
+		</crafting_category_list>
 	</append>
 	
 </configs>

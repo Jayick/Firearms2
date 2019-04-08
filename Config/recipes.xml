@@ -25,7 +25,6 @@
 	<ingredient name="resourceMechanicalParts" count="20"/>
 	<ingredient name="resourceRepairKit" count="10"/>
 	<ingredient name="resourceMilitaryFiber" count="5"/>
-	<ingredient name="toolAndDieSet" count="1"/>
 </recipe>
 
 <recipe name="mayicblockAmmoWorkbench" count="1" tags="learnable">
@@ -33,7 +32,12 @@
 	<ingredient name="resourceBulletCasing" count="10"/>
 	<ingredient name="resourceGunPowder" count="100"/>
 	<ingredient name="resourceBulletTip" count="10"/>
-	<ingredient name="toolAndDieSet" count="1"/>
+</recipe>
+
+<recipe name="mayicblockResearchTable" count="1" tags="learnable">
+	<ingredient name="resourceForgedIron" count="25"/>
+	<ingredient name="mayicammoScrapGun" count="25"/>
+	<ingredient name="resourcePaper" count="100"/>
 </recipe>
 <!--
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -563,21 +567,27 @@
 
 <!-- Shotguns  -->
 <recipe name="mayicammo20gauge" count="1"  craft_area="customAmmo"   tags="learnable">
-	<ingredient name="resourceBulletTip" count="1"/>
-	<ingredient name="resourceGunPowder" count="3"/>
+	<ingredient name="resourceBuckshot" count="1"/>
+	<ingredient name="resourceGunPowder" count="5"/>
+	<ingredient name="resourceBulletCasing" count="1"/>
+</recipe>
+
+<recipe name="mayicammoBirdShot" count="1"  craft_area="customAmmo"   tags="learnable">
+	<ingredient name="resourceBuckshot" count="3"/>
+	<ingredient name="resourceGunPowder" count="2"/>
 	<ingredient name="resourceBulletCasing" count="1"/>
 </recipe>
 
 <recipe name="mayicammoElectricshell" count="1"  craft_area="customAmmo"   tags="learnable">
-	<ingredient name="resourceBulletTip" count="1"/>
+	<ingredient name="resourceBuckshot" count="1"/>
 	<ingredient name="resourceElectricParts" count="2"/>
-	<ingredient name="resourceGunPowder" count="3"/>
+	<ingredient name="resourceGunPowder" count="5"/>
 	<ingredient name="resourceBulletCasing" count="1"/>
 </recipe>
 
 <recipe name="mayicammoDragonsbreath" count="1" craft_area="customAmmo"   tags="learnable">
-	<ingredient name="resourceBulletTip" count="1"/>
-	<ingredient name="resourceGunPowder" count="3"/>
+	<ingredient name="resourceBuckshot" count="1"/>
+	<ingredient name="resourceGunPowder" count="5"/>
 	<ingredient name="resourceBulletCasing" count="1"/>
 	<ingredient name="resourceAnimalFat" count="10"/>
 </recipe>
@@ -585,12 +595,12 @@
 <!-- Rifles  -->
 <recipe name="mayicammo22lr" count="1" craft_area="customAmmo"   tags="learnable">
 	<ingredient name="resourceBulletTip" count="1"/>
-	<ingredient name="resourceGunPowder" count="3"/>
+	<ingredient name="resourceGunPowder" count="2"/>
 	<ingredient name="resourceBulletCasing" count="1"/>
 </recipe>
 <recipe name="mayicammo22lrSteel" count="1" craft_area="customAmmo"   tags="learnable">
 	<ingredient name="resourceBulletTip" count="1"/>
-	<ingredient name="resourceGunPowder" count="3"/>
+	<ingredient name="resourceGunPowder" count="2"/>
 	<ingredient name="resourceBulletCasingSteel" count="1"/>
 </recipe>
 
@@ -837,7 +847,10 @@
 
 <!-- Shotguns  -->
 <recipe name="mayicammoScrapAmmo" count="1"  craft_time="1">
-	<ingredient name="mayicammo20gauge" count="2"/>
+	<ingredient name="mayicammo20gauge" count="1"/>
+</recipe>
+<recipe name="mayicammoScrapAmmo" count="1"  craft_time="1">
+	<ingredient name="mayicammoBirdShot" count="1"/>
 </recipe>
 <recipe name="mayicammoScrapAmmo" count="1"  craft_time="1">
 	<ingredient name="mayicammoDragonsbreath" count="1"/>
@@ -1006,7 +1019,10 @@
 
 <!-- Shotguns  -->
 <recipe name="mayicammoScrapAmmo" count="1" craft_area="customAmmo" craft_time="1">
-	<ingredient name="mayicammo20gauge" count="2"/>
+	<ingredient name="mayicammo20gauge" count="1"/>
+</recipe>
+<recipe name="mayicammoScrapAmmo" count="1" craft_area="customAmmo" craft_time="1">
+	<ingredient name="mayicammoBirdShot" count="1"/>
 </recipe>
 <recipe name="mayicammoScrapAmmo" count="1" craft_area="customAmmo" craft_time="1">
 	<ingredient name="mayicammoDragonsbreath" count="1"/>
@@ -1584,6 +1600,391 @@
 <recipe name="mayicammoScrapGun" count="6" craft_area="customAmmo" craft_time="1">
 	<ingredient name="gunRocketLauncher" count="1"/>
 </recipe>
+
+
+<!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+									FIREARMS SCHEMATICS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
+<!-- Pistol -->
+<recipe name="mayicgunLugerSchematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunLuger" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="10"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgun38SnubnoseSchematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgun38Snubnose" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="10"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunBerettaNanoSchematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunBerettaNano" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="10"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunMakarovSchematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunMakarov" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="10"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunM9Schematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunM9" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="25"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunBeretta92Schematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunBeretta92" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="25"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunP226Schematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunP226" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="25"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunGlock40Schematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunGlock40" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="25"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunUSPSchematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunUSP" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="25"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgun1911Schematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgun1911" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="45"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunDesertEagleSchematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunDesertEagle" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="80"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunColtPythonSchematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunColtPython" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="80"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<!-- SMG -->
+<recipe name="mayicgunKlobSchematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunKlob" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="20"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunMac10Schematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunMac10" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="35"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunMK1Schematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunMK1" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="35"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunMP40Schematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunMP40" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="40"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunVectorSchematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunVector" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="40"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunMP5Schematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunMP5" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="40"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunM1A1ThompsonSchematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunM1A1Thompson" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="50"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunRCP90Schematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunRCP90" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="50"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<!-- Shotgun -->
+<recipe name="mayicgunDoubleBarrelShotgunSchematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunDoubleBarrelShotgun" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="10"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunSawedOffSchematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunSawedOff" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="20"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunFalloutShotgunSchematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunFalloutShotgun" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="50"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunHuntingShotgunSchematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunHuntingShotgun" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="50"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunMossberg590A1Schematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunMossberg590A1" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="65"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunSpaz12Schematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunSpaz12" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="75"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<!-- Rifle -->
+<recipe name="mayicgunFNFALSchematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunFNFAL" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="35"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunRustAKSchematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunRustAK" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="35"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunACWSchematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunACW" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="40"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunBullpupSchematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunBullpup" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="40"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunAR15Schematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunAR15" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="40"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunAK47Schematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunAK47" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="50"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunM16Schematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunM16" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="40"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunARX160Schematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunARX160" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="50"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunM4A1Schematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunM4A1" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="55"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunSCARSchematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunSCAR" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="55"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunM1Schematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunM1" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="55"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<!-- Large -->
+<recipe name="mayicgunM249SawSchematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunM249Saw" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="100"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunM240Schematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunM240" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="100"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunMosinNagantSchematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunMosinNagant" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="55"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunSR25Schematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunSR25" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="65"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunMradSchematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunMrad" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="65"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunJNG90Schematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunJNG90" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="75"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunM98Schematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunM98" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="75"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunM82Schematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunM82" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="100"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<!-- Special -->
+<recipe name="mayicgunGoldenGunSchematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunGoldenGun" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="200"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunChaingunSchematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunChaingun" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="200"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunArghSchematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunArgh" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="5"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunM79GL40Schematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunM79GL40" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="50"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+<recipe name="mayicgunHandCannonSchematic" count="1" craft_area="customResearch" craft_time="1">
+	<ingredient name="mayicgunHandCannon" count="1"/>
+	<ingredient name="mayicammoScrapGun" count="10"/>
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+
+	<!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+									AMMO SCHEMATICS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->	
+
+		<recipe name="mayicammo10mmSchematic" count="1" craft_area="customResearch" craft_time="1">	
+			<ingredient name="mayicammo10mm" count="1"/>
+			<ingredient name="mayicammoScrapAmmo" count="40"/>
+			<ingredient name="resourcePaper" count="10"/>
+		</recipe>
+		<recipe name="mayicammo9x19mmSchematic" count="1" craft_area="customResearch" craft_time="1">
+		<ingredient name="mayicammo9x19mm" count="1"/>
+			<ingredient name="mayicammoScrapAmmo" count="25"/>
+			<ingredient name="resourcePaper" count="10"/>
+		</recipe>
+		<recipe name="mayicammo9mmSchematic" count="1" craft_area="customResearch" craft_time="1">	
+		<ingredient name="mayicammo9mm" count="1"/>
+			<ingredient name="mayicammoScrapAmmo" count="35"/>
+			<ingredient name="resourcePaper" count="10"/>
+		</recipe>
+		<recipe name="mayicammo5.7x28mmSchematic" count="1" craft_area="customResearch" craft_time="1">	
+		<ingredient name="mayicammo5.7x28mm" count="1"/> 
+			<ingredient name="mayicammoScrapAmmo" count="25"/>
+			<ingredient name="resourcePaper" count="10"/>
+		</recipe>
+		<recipe name="mayicammo38calSchematic" count="1" craft_area="customResearch" craft_time="1">	
+		<ingredient name="mayicammo38cal" count="1"/>
+			<ingredient name="mayicammoScrapAmmo" count="10"/>
+			<ingredient name="resourcePaper" count="10"/>
+		</recipe>
+		<recipe name="mayicammo40calSchematic" count="1" craft_area="customResearch" craft_time="1">	
+		<ingredient name="mayicammo40cal" count="1"/> 
+			<ingredient name="mayicammoScrapAmmo" count="35"/>
+			<ingredient name="resourcePaper" count="10"/>
+		</recipe>
+		<recipe name="mayicammo223calSchematic" count="1" craft_area="customResearch" craft_time="1">	
+		<ingredient name="mayicammo223cal" count="1"/> 
+			<ingredient name="mayicammoScrapAmmo" count="40"/>
+			<ingredient name="resourcePaper" count="10"/>
+		</recipe>
+		<recipe name="mayicammo22lrSchematic" count="1" craft_area="customResearch" craft_time="1">	
+		<ingredient name="mayicammo22lr" count="1"/>
+			<ingredient name="mayicammoScrapAmmo" count="40"/>
+			<ingredient name="resourcePaper" count="10"/>
+		</recipe>
+		<recipe name="mayicammo5.56x45mmSchematic" count="1" craft_area="customResearch" craft_time="1">
+		<ingredient name="mayicammo5.56x45mm" count="1"/> 
+			<ingredient name="mayicammoScrapAmmo" count="50"/>
+			<ingredient name="resourcePaper" count="10"/>
+		</recipe>
+		<recipe name="mayicammo20gaugeSchematic" count="1" craft_area="customResearch" craft_time="1">	
+		<ingredient name="mayicammo20gauge" count="1"/>
+			<ingredient name="mayicammoScrapAmmo" count="50"/>
+			<ingredient name="resourcePaper" count="10"/>
+		</recipe>
+		<recipe name="mayicammoBirdShotSchematic" count="1" craft_area="customResearch" craft_time="1">	
+		<ingredient name="mayicammoBirdShot" count="1"/>
+			<ingredient name="mayicammoScrapAmmo" count="35"/>
+			<ingredient name="resourcePaper" count="10"/>
+		</recipe>
+		<recipe name="mayicammo45acpSchematic" count="1" craft_area="customResearch" craft_time="1">
+		<ingredient name="mayicammo45acp" count="1"/> 
+			<ingredient name="mayicammoScrapAmmo" count="40"/>
+			<ingredient name="resourcePaper" count="10"/>
+		</recipe>
+		<recipe name="mayicammo50aeSchematic" count="1" craft_area="customResearch" craft_time="1">	
+		<ingredient name="mayicammo50ae" count="1"/> 
+			<ingredient name="mayicammoScrapAmmo" count="80"/>
+			<ingredient name="resourcePaper" count="10"/>
+		</recipe>
+		<recipe name="mayicammo357magnumSchematic" count="1" craft_area="customResearch" craft_time="1">	
+		<ingredient name="mayicammo357magnum" count="1"/>
+			<ingredient name="mayicammoScrapAmmo" count="80"/>
+			<ingredient name="resourcePaper" count="10"/>
+		</recipe>
+		<recipe name="mayicammo7.62x39mmSchematic" count="1" craft_area="customResearch" craft_time="1">	
+		<ingredient name="mayicgunHandCannon" count="1"/> 
+			<ingredient name="mayicammoScrapAmmo" count="40"/>
+			<ingredient name="resourcePaper" count="10"/>
+		</recipe>
+		<recipe name="mayicammo30-06Schematic" count="1" craft_area="customResearch" craft_time="1">
+		<ingredient name="mayicammo30-06" count="1"/> 
+			<ingredient name="mayicammoScrapAmmo" count="80"/>
+			<ingredient name="resourcePaper" count="10"/>
+		</recipe>
+		<recipe name="mayicammo7.62x51mmSchematic" count="1" craft_area="customResearch" craft_time="1">
+		<ingredient name="mayicammo7.62x51mm" count="1"/>
+			<ingredient name="mayicammoScrapAmmo" count="75"/>
+			<ingredient name="resourcePaper" count="10"/>
+		</recipe>
+		<recipe name="mayicammo338calSchematic" count="1" craft_area="customResearch" craft_time="1">	
+		<ingredient name="mayicammo338cal" count="1"/> 
+			<ingredient name="mayicammoScrapAmmo" count="100"/>
+			<ingredient name="resourcePaper" count="10"/>
+		</recipe>
+		<recipe name="mayicammo50calSchematic" count="1" craft_area="customResearch" craft_time="1">	
+		<ingredient name="mayicammo50cal" count="1"/> 
+			<ingredient name="mayicammoScrapAmmo" count="100"/>
+			<ingredient name="resourcePaper" count="10"/>
+		</recipe>
+		<recipe name="mayicammo5mmSchematic" count="1" craft_area="customResearch" craft_time="1">
+		<ingredient name="mayicammo5mm" count="1"/>
+			<ingredient name="mayicammoScrapAmmo" count="25"/>
+			<ingredient name="resourcePaper" count="10"/>
+		</recipe>
+		<recipe name="mayicammoGoldenbulletSchematic" count="1" craft_area="customResearch" craft_time="1">
+		<ingredient name="mayicammoGoldenbullet" count="1"/>
+			<ingredient name="mayicammoScrapAmmo" count="200"/>
+			<ingredient name="resourcePaper" count="10"/>
+		</recipe>
+		<recipe name="mayicammoExplosiveroundSchematic" count="1" craft_area="customResearch" craft_time="1">	
+		<ingredient name="mayicammoExplosiveround" count="1"/> 
+			<ingredient name="mayicammoScrapAmmo" count="250"/>
+			<ingredient name="resourcePaper" count="10"/>
+		</recipe>
+		<recipe name="mayicammo40mmExplosiveSchematic" count="1" craft_area="customResearch" craft_time="1">	
+		<ingredient name="mayicammo40mmExplosive" count="1"/> 
+			<ingredient name="mayicammoScrapAmmo" count="250"/>
+			<ingredient name="resourcePaper" count="10"/>
+		</recipe>
 </append>
 
 </configs>

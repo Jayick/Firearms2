@@ -1,5 +1,10 @@
 <configs>
-	<append xpath="/blocks">
+	<append xpath="/blocks">	
+	<!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+									Shootable Targets
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->	
 		<block name="mayicblockTarget">
 			<property name="Group" value="allBlocks"/>
 			<property name="CustomIcon" value="7target"/>
@@ -42,73 +47,11 @@
 			<drop event="Destroy" name="resourceWood" count="1,2"/>
 			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="1" stick_chance="1"/>
 		</block>
-		<block name="mayicblockGunWorkbench">
-			<property name="Extends" value="cntBirdnest"/>
-			<property name="CustomIcon" value="7gunwork"/>
-			<property name="CreativeMode" value="Player"/>
-			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Blocks.unity3d?WeaponBenchPrefab" param1="main_mesh"/>
-			<property name="Path" value="solid"/>
-			<property name="DisplayType" value="blockMulti"/>
-			<property name="MultiBlockDim" value="1,2,2"/>
-			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-			<property name="Class" value="Workstation"/>
-			<property name="Material" value="Mmetal"/>
-			<property name="MaxDamage" value="6000"/>
-			<property name="StabilitySupport" value="false"/>
-			<property name="HeatMapStrength" value="15"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>
-			<property name="Stacknumber" value="1"/>
-			<property class="Workstation">
-				<property name="Modules" value="output"/>
-				<property name="CraftingAreaRecipes" value="customGun"/></property>
-			<property name="WorkstationIcon" value="ui_game_symbol_gunslinger" />
-			<property name="OpenSound" value="" />
-			<property name="CloseSound" value="" />
-			<property name="CraftSound" value="" />
-			<property name="CraftCompleteSound" value="" />
-			<property name="WorkstationJournalTip" value="workbenchTip" />
-			<property class="RepairItems">
-				<property name="resourceForgedIron" value="5"/></property>
-			<property name="TakeDelay" value="15"/>
-			<property name="DescriptionKey" value="mayicblockGunWOrkbenchDesc"/>
-			<property name="EconomicValue" value="776"/>
-			<property name="Group" value="Building,Science"/>
-			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
-		</block>
-		<block name="mayicblockAmmoWorkbench">
-			<property name="Extends" value="cntBirdnest"/>
-			<property name="CustomIcon" value="7bulletpress"/>
-			<property name="CreativeMode" value="Player"/>
-			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/Blocks.unity3d?BulletPressPrefab" param1="main_mesh"/>
-			<property name="Path" value="solid"/>
-			<property name="DisplayType" value="blockMulti"/>
-			<property name="MultiBlockDim" value="1,2,1"/>
-			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-			<property name="Class" value="Workstation"/>
-			<property name="Material" value="Mmetal"/>
-			<property name="MaxDamage" value="6000"/>
-			<property name="StabilitySupport" value="false"/>
-			<property name="Stacknumber" value="1"/>
-			<property class="Workstation">
-				<property name="Modules" value="output"/>
-				<property name="CraftingAreaRecipes" value="customAmmo"/></property>
-			<property name="WorkstationIcon" value="ui_game_symbol_star" />
-			<property name="OpenSound" value="" />
-			<property name="CloseSound" value="" />
-			<property name="CraftSound" value="" />
-			<property name="CraftCompleteSound" value="" />
-			<property name="WorkstationJournalTip" value="workbenchTip" />
-			<property class="RepairItems">
-				<property name="resourceForgedIron" value="5"/></property>
-			<property name="TakeDelay" value="15"/>
-			<property name="DescriptionKey" value="mayicblockAmmoWorkbenchDesc"/>
-			<property name="EconomicValue" value="776"/>
-			<property name="Group" value="Building,Science"/>
-			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
-		</block>
+		<!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+									Loot Containers/Storage
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->		
 		<block name="mayicblockAmmoCase">
 			<property name="CreativeMode" value="Player"/>
 			<property name="Class" value="Loot"/>
@@ -186,6 +129,114 @@
 			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
 			<property name="FilterTags" value="floot"/>
 			<property name="Group" value="allBlocks"/>
+		</block>
+		<!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+									Workbenches
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->		
+		
+		<block name="mayicblockGunWorkbench">
+			<property name="Extends" value="cntBirdnest"/>
+			<property name="CustomIcon" value="7gunwork"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/Blocks.unity3d?WeaponBenchPrefab" param1="main_mesh"/>
+			<property name="Path" value="solid"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,2,2"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Class" value="Workstation"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="MaxDamage" value="6000"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="HeatMapStrength" value="15"/>
+			<property name="HeatMapTime" value="1200"/>
+			<property name="HeatMapFrequency" value="25"/>
+			<property name="Stacknumber" value="1"/>
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="customGun"/></property>
+			<property name="WorkstationIcon" value="ui_game_symbol_gunslinger" />
+			<property name="OpenSound" value="" />
+			<property name="CloseSound" value="" />
+			<property name="CraftSound" value="" />
+			<property name="CraftCompleteSound" value="" />
+			<property name="WorkstationJournalTip" value="workbenchTip" />
+			<property class="RepairItems">
+				<property name="resourceForgedIron" value="5"/></property>
+			<property name="TakeDelay" value="15"/>
+			<property name="DescriptionKey" value="mayicblockGunWOrkbenchDesc"/>
+			<property name="EconomicValue" value="776"/>
+			<property name="Group" value="Building,Science"/>
+			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+		</block>
+		<block name="mayicblockResearchTable">
+			<property name="Extends" value="cntBirdnest"/>
+			<property name="CustomIcon" value="7researchtable"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/ResearchTable.unity3d?ResearchTablePrefab" param1="main_mesh"/>
+			<property name="Path" value="solid"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,2,2"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Class" value="Workstation"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="MaxDamage" value="6000"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="HeatMapStrength" value="15"/>
+			<property name="HeatMapTime" value="1200"/>
+			<property name="HeatMapFrequency" value="25"/>
+			<property name="Stacknumber" value="1"/>
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="customResearch"/></property>
+			<property name="WorkstationIcon" value="ui_game_symbol_book" />
+			<property name="OpenSound" value="" />
+			<property name="CloseSound" value="" />
+			<property name="CraftSound" value="" />
+			<property name="CraftCompleteSound" value="" />
+			<property name="WorkstationJournalTip" value="workbenchTip" />
+			<property class="RepairItems">
+				<property name="resourceForgedIron" value="5"/></property>
+			<property name="TakeDelay" value="15"/>
+			<property name="DescriptionKey" value="mayicblockResearchTableDesc"/>
+			<property name="EconomicValue" value="776"/>
+			<property name="Group" value="Building,Science"/>
+			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+		</block>
+		<block name="mayicblockAmmoWorkbench">
+			<property name="Extends" value="cntBirdnest"/>
+			<property name="CustomIcon" value="7bulletpress"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/Blocks.unity3d?BulletPressPrefab" param1="main_mesh"/>
+			<property name="Path" value="solid"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,2,1"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Class" value="Workstation"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="MaxDamage" value="6000"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="Stacknumber" value="1"/>
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="customAmmo"/></property>
+			<property name="WorkstationIcon" value="ui_game_symbol_star" />
+			<property name="OpenSound" value="" />
+			<property name="CloseSound" value="" />
+			<property name="CraftSound" value="" />
+			<property name="CraftCompleteSound" value="" />
+			<property name="WorkstationJournalTip" value="workbenchTip" />
+			<property class="RepairItems">
+				<property name="resourceForgedIron" value="5"/></property>
+			<property name="TakeDelay" value="15"/>
+			<property name="DescriptionKey" value="mayicblockAmmoWorkbenchDesc"/>
+			<property name="EconomicValue" value="776"/>
+			<property name="Group" value="Building,Science"/>
+			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
 		</block>
 	</append>
 </configs>

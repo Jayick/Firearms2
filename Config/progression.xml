@@ -22,10 +22,10 @@
 					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="2,10" tags="mayicammo10mm,mayicammo10mmSteel,mayicammo9mm,mayicammo9mmSteel,mayicblockAmmoWorkbench"/>
 					
 					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,10" tags="mayicgunDoubleBarrelShotgun,mayicgunGlock40,mayicgunP226,mayicgunM9,mayicgunBeretta92,mayicgunUSP,mayicgunMK1,mayicgunSawedOff"/>
-					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,10" tags="mayicammo40cal,mayicammo40calSteel"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,10" tags="mayicammo40cal,mayicammo40calSteel,mayicblockResearchTable"/>
 					
 					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="4,10" tags="mayicgunMac10,mayicgunFNFAL,mayicgun1911,mayicgunMP5,mayicgunRCP90,mayicgunVector,mayicgunHuntingShotgun"/>
-					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="4,10" tags="mayicmodHoloSightRed,mayicmodHoloSightBlue,mayicmodHoloSightGreen,mayicammo45acp,mayicammo22lr,mayicammo223calSteel,mayicammo45acpSteel,mayicammo22lrSteel,mayicammo5.7x28mm,mayicammo5.7x28mmSteel"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="4,10" tags="mayicmodHoloSightRed,mayicmodHoloSightBlue,mayicmodHoloSightGreen,mayicammoBirdShot,mayicammo45acp,mayicammo22lr,mayicammo223calSteel,mayicammo45acpSteel,mayicammo22lrSteel,mayicammo5.7x28mm,mayicammo5.7x28mmSteel"/>
 					
 					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5,10" tags="mayicgunAR15,mayicgunHandCannon,mayicgunMossberg590A1,mayicgunBullpup,mayicmodRedDotSight,mayicmodBlueDotSight,mayicmodGreenDotSight"/>
 					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5,10" tags="mayicammo223cal,mayicammoExplosiveround,mayicammo223calSteel"/>
@@ -49,7 +49,7 @@
 	<effect_group>
 					<effect_description level="1" desc_key="AdvancedF1" desc_base="Unlocks: Luger, 38Snubnose, Argh! and The Gun Workbench"/>
 					<effect_description level="2" desc_key="AdvancedF2" desc_base="Unlocks: Klob, Beretta Nano, Makarov and The Ammo Workbench"/>
-					<effect_description level="3" desc_key="AdvancedF3" desc_base="Unlocks: Glock40, P226, M9, Beretta92, USP, Mk1, Double Barrel Shotgun,Sawed Off Shotgun"/>
+					<effect_description level="3" desc_key="AdvancedF3" desc_base="Unlocks: Glock40, P226, M9, Beretta92, USP, Mk1, Double Barrel Shotgun,Sawed Off Shotgun, Research Table"/>
 					<effect_description level="4" desc_key="AdvancedF4" desc_base="Unlocks: Mac10, FNFAL, MP5, RCP90, Vector, Hunting Shotgun, and Holo Sights"/>
 					<effect_description level="5" desc_key="AdvancedF5" desc_base="Unlocks: AR15, HandCannon, Mossberg590A1, Bullpup, Dot Sights"/>
 					<effect_description level="6" desc_key="AdvancedF6" desc_base="Unlocks: MP40, M1A1Thompson, M16, ACW, RustAK, ARX160, Fallout Shotgun"/>

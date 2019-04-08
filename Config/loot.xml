@@ -209,14 +209,82 @@
 		</lootgroup>
 	</insertBefore>
 	<append xpath="lootcontainers/lootgroup[@name='commonBooks']">
-		<item name="mayicmodACOGSchematic"/>
-		<item name="mayicmodDotSchematic"/>
-		<item name="mayicmodHoloSchematic"/>
+		<item name="mayicmodACOGSchematic" prob="0.1"/>
+		<item name="mayicmodDotSchematic" prob="0.1"/>
+		<item name="mayicmodHoloSchematic" prob="0.1"/>
+		<item name="mayicgunFNFALSchematic" prob="0.08"/>
+		<item name="mayicgunRustAKSchematic" prob="0.08"/>
+		<item name="mayicgunACWSchematic" prob="0.08"/>
+		<item name="mayicgunBullpupSchematic" prob="0.08"/>
+		<item name="mayicgunAR15Schematic" prob="0.08"/>
+		<item name="mayicgunAK47Schematic" prob="0.04"/>
+		<item name="mayicgunM16Schematic" prob="0.04"/>
+		<item name="mayicgunDoubleBarrelShotgunSchematic" prob="0.1"/>
+		<item name="mayicgunSawedOffSchematic" prob="0.1"/>
+		<item name="mayicgunKlobSchematic" prob="0.1"/>
+		<item name="mayicgunMac10Schematic" prob="0.1"/>
+		<item name="mayicgunMK1Schematic" prob="0.1"/>
+		<item name="mayicgunMP40Schematic" prob="0.08"/>
+		<item name="mayicgunLugerSchematic" prob="0.12"/>
+		<item name="mayicgun38SnubnoseSchematic" prob="0.12"/>
+		<item name="mayicgunBerettaNanoSchematic" prob="0.12"/>
+		<item name="mayicgunMakarovSchematic" prob="0.12"/>
+		<item name="mayicgunM9Schematic" prob="0.08"/>
+		<item name="mayicgunBeretta92Schematic" prob="0.08"/>
+		<item name="mayicgunP226Schematic" prob="0.08"/>
+		<item name="mayicammo10mmSchematic" prob="0.08"/>
+		<item name="mayicammo9x19mmSchematic" prob="0.08"/>
+		<item name="mayicammo9mmSchematic" prob="0.08"/>
+		<item name="mayicammo5.7x28mmSchematic" prob="0.08"/>
+		<item name="mayicammo38calSchematic" prob="0.08"/>
+		<item name="mayicammo40calSchematic" prob="0.04"/>
+		<item name="mayicammo223calSchematic" prob="0.04"/>
+		<item name="mayicammo22lrSchematic" prob="0.04"/>
+		<item name="mayicammo5.56x45mmSchematic" prob="0.04"/>
+		<item name="mayicammo20gaugeSchematic" prob="0.04"/>
+		<item name="mayicammoBirdShotSchematic" prob="0.06"/>
 	</append>
 	<append xpath="lootcontainers/lootgroup[@name='rareBooks']">
-		<item name="mayicmodACOGSchematic"/>
-		<item name="mayicmodDotSchematic"/>
-		<item name="mayicmodHoloSchematic"/>
+		<item name="mayicmodACOGSchematic" prob="0.1"/>
+		<item name="mayicmodDotSchematic" prob="0.1"/>
+		<item name="mayicmodHoloSchematic" prob="0.1"/>
+		<item name="mayicgunARX160Schematic" prob="0.08"/>
+		<item name="mayicgunM4A1Schematic" prob="0.06"/>
+		<item name="mayicgunSCARSchematic" prob="0.06"/>
+		<item name="mayicgunM1Schematic" prob="0.04"/>
+		<item name="mayicgunM249SawSchematic" prob="0.005"/>
+		<item name="mayicgunM240Schematic" prob="0.005"/>
+		<item name="mayicgunMosinNagantSchematic" prob="0.04"/>
+		<item name="mayicgunSR25Schematic" prob="0.02"/>
+		<item name="mayicgunMradSchematic" prob="0.02"/>
+		<item name="mayicgunJNG90Schematic" prob="0.01"/>
+		<item name="mayicgunM98Schematic" prob="0.01"/>
+		<item name="mayicgunM82Schematic" prob="0.005"/>
+		<item name="mayicgunFalloutShotgunSchematic" prob="0.08"/>
+		<item name="mayicgunHuntingShotgunSchematic" prob="0.12"/>
+		<item name="mayicgunMossberg590A1Schematic" prob="0.06"/>
+		<item name="mayicgunSpaz12Schematic" prob="0.005"/>
+		<item name="mayicgunVectorSchematic" prob="0.05"/>
+		<item name="mayicgunMP5Schematic" prob="0.08"/>
+		<item name="mayicgunM1A1ThompsonSchematic" prob="0.08"/>
+		<item name="mayicgunRCP90Schematic" prob="0.02"/>
+		<item name="mayicgunGlock40Schematic" prob="0.12"/>
+		<item name="mayicgunUSPSchematic" prob="0.12"/>
+		<item name="mayicgun1911Schematic" prob="0.1"/>
+		<item name="mayicgunDesertEagleSchematic" prob="0.005"/>
+		<item name="mayicgunColtPythonSchematic" prob="0.02"/>
+		<item name="mayicammo45acpSchematic" prob="0.04"/>
+		<item name="mayicammo50aeSchematic" prob="0.005"/>
+		<item name="mayicammo357magnumSchematic" prob="0.02"/>
+		<item name="mayicammo7.62x39mmSchematic" prob="0.03"/>
+		<item name="mayicammo30-06Schematic" prob="0.008"/>
+		<item name="mayicammo7.62x51mmSchematic" prob="0.05"/>
+		<item name="mayicammo338calSchematic" prob="0.01"/>
+		<item name="mayicammo50calSchematic" prob="0.005"/>
+		<item name="mayicammo5mmSchematic" prob="0.02"/>
+		<item name="mayicammoGoldenbulletSchematic" prob="0.005"/>
+		<item name="mayicammoExplosiveroundSchematic" prob="0.01"/>
+		<item name="mayicammo40mmExplosiveSchematic" prob="0.005"/>
 	</append>
 	<append xpath="lootcontainers/lootgroup[@name='questChallenge']">
 		<item name="mayicchallengehandgun"/>
