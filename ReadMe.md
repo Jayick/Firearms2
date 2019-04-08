@@ -15,6 +15,21 @@ Suggested for minigun that you have decent framerates. Pixle textures on fire ma
 Some guns will skip your game upon loading in the hotbar. Their file size is quite large. Fix coming soon hopefully.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
+
+## Update: 4/7/19 
+1.05
+Updates:
+- Big change to how guns are learned for further crafting
+- Firearms can now be found in Schematic Books, which can be used to learn how to craft each individual weapon. This bypasses Progression Level requirements for individual weapons.
+- Ammo can now be found in Schematic Books as well. Ammo and Firearms are NOT unlocked together, like they are in progression.
+- Progression is still existing. This method is used to unlock full groups of weapons, and their respective ammo type.
+- Schematics can also be crafted at the new Research Table ![Image](https://i.imgur.com/dkL8tOR.png)
+- Guns will require: One Firearm, 10-200 Scrap Firearms, and 10 Paper.
+- Ammo will require: One Round of specific ammo, 10-200 Scrap Ammo, 10 Paper.
+- After learning the blueprint, you may craft the item at the correct Workbench. Workbenches still require point investment to unlock. New Research table is level 3. Scope Mods still require investment.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
 ## About:
 
 Welcome to the new and VASTLY improved Firearms! 
