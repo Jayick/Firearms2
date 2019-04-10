@@ -16,17 +16,19 @@ Some guns will skip your game upon loading in the hotbar. Their file size is qui
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-## Update: 4/7/19 
-1.05
-Updates:
-- Big change to how guns are learned for further crafting
-- Firearms can now be found in Schematic Books, which can be used to learn how to craft each individual weapon. This bypasses Progression Level requirements for individual weapons.
-- Ammo can now be found in Schematic Books as well. Ammo and Firearms are NOT unlocked together, like they are in progression.
-- Progression is still existing. This method is used to unlock full groups of weapons, and their respective ammo type.
-- Schematics can also be crafted at the new Research Table ![Image](https://i.imgur.com/dkL8tOR.png)
-- Guns will require: One Firearm, 10-200 Scrap Firearms, and 10 Paper.
-- Ammo will require: One Round of specific ammo, 10-200 Scrap Ammo, 10 Paper.
-- After learning the blueprint, you may craft the item at the correct Workbench. Workbenches still require point investment to unlock. New Research table is level 3. Scope Mods still require investment.
+## Update: 
+Update: 1.06 4/9/19
+
+Updates: 
+- Added Scrap Schematics. Break down unused/unwanted Schematics into Scrap Schematics for independent Crafting Research (Guns will now cost Scrap Schematics to research them for further crafting)
+
+Changed: 
+- Removed Schematics from being SELLABLE to traders. You can still buy them, but price is now increased to appropriate costs.
+
+Fixed:
+- Balanced a few guns. AR15 is now single shot fire by default (full auto with mod)
+- Balanced shotgun ammo recipe costs. Now take Buckshot instead of bullet tips.
+
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
@@ -48,6 +50,8 @@ Inside, you will find the first category containing ALL the ammo and guns. Then 
 ![Image](https://i.imgur.com/WwTHrHE.png) The Ammo Bench , is very special. The last 2 categories contain Ammo, and Firearms Recycling. 
 Here, you can turn all your unwanted guns and ammo, back into highly valued parts to craft the items of your choosing. You may also CRAFT (not scrap) these while on-the-go, to help with inventory control, but the value is much greater at a Workbench.
 
+![Image](https://i.imgur.com/rQUGhST.png) The Research Table is very important to Firearms Crafting. This will control where you can create individual Schematics that you may learn to unlock that specific Firearms crafting. Progression unlocks total tiers of weapons, but this way, you can choose not to invest your points, and research the guns one by one using resources! 
+
 ## Items you may receive from Scrap Ammo: ![Image](https://i.imgur.com/Z29PR5d.png)
 - 1 Bullet Tip
 - 1 Brass Casing
@@ -65,7 +69,10 @@ Here, you can turn all your unwanted guns and ammo, back into highly valued part
 - 5 Scrap Polymers
 - 1 Military Fiber
 - 2 Duct Tape 
-- 1 Spring
+- 1 SpringThe Ammo Bench , is very special. The last 2 categories contain Ammo, and Firearms Recycling. 
+
+Schematic Scrapping: [!Image](https://i.imgur.com/pQYdr8A.png)
+Scrap Schematics are very important for learning new Firearms to craft. You can find Schematics out in the world, but often, they are lower grade weapons. Take unused Schematics, and break them down to learn new Blueprints! Every Schematic recipe will require Scrap Schematics to craft. Both ammo and weapons
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
