@@ -4018,6 +4018,7 @@
 		
 	<item_modifier name="mayicmodBlockBuster" installable_tags="firingMode" modifier_tags="trigger" type="attachment">
 		<property name="CustomIcon" value="7blockbuster"/>
+			<property name="DescriptionKey" value="mayicmodBlockBusterDesc"/>
 		<property name="Stacknumber" value="1"/>
 
 			<effect_group tiered="false">

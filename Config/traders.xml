@@ -96,7 +96,7 @@
 		<item name="mayicammoCorrosiveSchematic"/>
 </append>
 
-<append xpath="/traders/trader_item_group[@name='questChallenge']">
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='questChallenge']">
 		<item name="mayicchallengehandgun" count="1"/>
 		<item name="mayicchallengesmg" count="1"/>
 		<item name="mayicchallengeshotgun" count="1"/>
