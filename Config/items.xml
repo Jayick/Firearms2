@@ -886,7 +886,7 @@
 				<property name="Class" value="Zoom"/>
 				<property name="Zoom_max_out" value="55"/>
 				<property name="Zoom_max_in" value="55"/>
-				<property name="ScopeCameraOffset" value="0.00268,0.018,0.25"/></property>
+				<property name="ScopeCameraOffset" value="0.00268,0.018,0.14"/></property>
 			<effect_group name="Base Effects">
 				<passive_effect name="MaxRange" operation="base_set" value="180"/>
 				<passive_effect name="DamageFalloffRange" operation="base_set" value="65"/>
@@ -1762,8 +1762,8 @@
 			<effect_group name="Base Effects">
 				<passive_effect name="MaxRange" operation="base_set" value="180"/>
 				<passive_effect name="DamageFalloffRange" operation="base_set" value="90"/>
-				<passive_effect name="RoundsPerMinute" operation="base_set" value="1"/>
-				<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
+				<passive_effect name="RoundsPerMinute" operation="base_set" value="650"/>
+				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="30"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
 				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
