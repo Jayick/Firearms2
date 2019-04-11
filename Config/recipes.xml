@@ -21,23 +21,23 @@
 </recipe>
 
 <recipe name="mayicblockGunWorkbench" count="1" tags="learnable">
-	<ingredient name="resourceForgedIron" count="25"/>
+	<ingredient name="resourceForgedIron" count="50"/>
 	<ingredient name="resourceMechanicalParts" count="20"/>
-	<ingredient name="resourceRepairKit" count="10"/>
-	<ingredient name="resourceMilitaryFiber" count="5"/>
+	<ingredient name="resourceRepairKit" count="5"/>
+	<ingredient name="mayicammoScrapGun" count="5"/>
 </recipe>
 
 <recipe name="mayicblockAmmoWorkbench" count="1" tags="learnable">
-	<ingredient name="resourceForgedIron" count="25"/>
-	<ingredient name="resourceBulletCasing" count="10"/>
-	<ingredient name="resourceGunPowder" count="100"/>
-	<ingredient name="resourceBulletTip" count="10"/>
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="resourceGunPowder" count="50"/>
+	<ingredient name="mayicammoScrapAmmo" count="10"/>
 </recipe>
 
 <recipe name="mayicblockResearchTable" count="1" tags="learnable">
 	<ingredient name="resourceForgedIron" count="25"/>
 	<ingredient name="mayicammoScrapGun" count="25"/>
-	<ingredient name="resourcePaper" count="100"/>
+	<ingredient name="resourcePaper" count="50"/>
 	<ingredient name="mayicammoScrapBlueprint" count="5"/>
 </recipe>
 <!--

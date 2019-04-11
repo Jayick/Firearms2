@@ -1732,7 +1732,7 @@
 		</item>
 		<item name="mayicgunAR15">
 			<property name="Extends" value="mayicgunFNFAL"/>
-			<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,stock,magazine,firingMode,selfLoading,bottomAttachments,perkDeadEye"/>
+			<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,customTopAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,barrelAttachments,sideAttachments,stock,magazine,firingMode,selfLoading,bottomAttachments,perkDeadEye"/>
 			<property name="HoldType" value="48"/>
 			<property name="DescriptionKey" value="mayicgunAR15Desc"/>
 			<property name="Meshfile" value="#@modfolder:Resources/Firearms4.unity3d?AR15Prefab"/>
@@ -1762,7 +1762,7 @@
 			<effect_group name="Base Effects">
 				<passive_effect name="MaxRange" operation="base_set" value="180"/>
 				<passive_effect name="DamageFalloffRange" operation="base_set" value="90"/>
-				<passive_effect name="RoundsPerMinute" operation="base_set" value="650"/>
+				<passive_effect name="RoundsPerMinute" operation="base_set" value="450"/>
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="30"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>

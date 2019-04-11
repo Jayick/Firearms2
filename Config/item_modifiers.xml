@@ -834,6 +834,7 @@
 		</item_property_overrides>
 		<item_property_overrides name="mayicgunAR15">
 			<property name="CrosshairOnAim" value="false"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Mods.unity3d?AR15PrefabSight"/>
 			<property name="ScopeCameraOffset" value="0,-0.0045,0.32"/>
 			<property name="ScopeOffset" value="0,1.25,0.27"/>
 			<property name="ScopeScale" value="1,1,1"/>
@@ -1092,8 +1093,9 @@
 		</item_property_overrides>
 		<item_property_overrides name="mayicgunAR15">
 			<property name="CrosshairOnAim" value="false"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Mods.unity3d?AR15PrefabSight"/>
 			<property name="ScopeCameraOffset" value="0.0005,0.0062,0.32"/>
-			<property name="ScopeOffset" value="0,1.22,0.6"/>
+			<property name="ScopeOffset" value="0,1.15,0.3"/>
 			<property name="ScopeScale" value="1,1,1"/>
 			<property name="ScopeRotation" value="0,180,0"/>
 		</item_property_overrides>
@@ -1351,8 +1353,9 @@
 		</item_property_overrides>
 		<item_property_overrides name="mayicgunAR15">
 			<property name="CrosshairOnAim" value="false"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Mods.unity3d?AR15PrefabSight"/>
 			<property name="ScopeCameraOffset" value="0,-0.0045,0.32"/>
-			<property name="ScopeOffset" value="0,1.25,0.27"/>
+			<property name="ScopeOffset" value="0,1.15,0.14"/>
 			<property name="ScopeScale" value="1,1,1"/>
 			<property name="ScopeRotation" value="0,180,0"/>
 		</item_property_overrides>
@@ -1502,13 +1505,14 @@
 			<property name="ScopeOffset" value="0,0,-0.16"/>
 			<property name="ScopeScale" value=".8,.8,1"/>
 		</item_property_overrides>
-		<item_property_overrides name="mayicgunAR15">
+			<item_property_overrides name="mayicgunAR15">
 			<property name="CrosshairOnAim" value="false"/>
-			<property name="ScopeCameraOffset" value="0,-0.0045,0.32"/>
-			<property name="ScopeOffset" value="0,0.15,-.24"/>
-			<property name="ScopeScale" value="1,1,1"/>
-			<property name="ScopeRotation" value="0,180,0"/>
-		</item_property_overrides>
+			<property name="Meshfile" value="#@modfolder:Resources/Mods.unity3d?AR15PrefabSight"/>
+				<property name="ScopeCameraOffset" value="0.0005,-0.5,-1"/>
+				<property name="ScopeOffset" value="0,0.2,0"/>
+				<property name="ScopeScale" value="1,1,1"/>
+				<property name="ScopeRotation" value="0,180,0"/>
+			</item_property_overrides>
 		<item_property_overrides name="mayicgunARX160">
 			<property name="Meshfile" value="#@modfolder:Resources/Mods.unity3d?ARX160PrefabSight"/>
 			<property name="CrosshairOnAim" value="false"/>
@@ -1771,9 +1775,10 @@
 				<property name="ScopeScale" value=".8,.8,1"/>
 			</item_property_overrides>
 			<item_property_overrides name="mayicgunAR15">
-				<property name="CrosshairOnAim" value="false"/>
-				<property name="ScopeCameraOffset" value="0.0005,0.0045,0.32"/>
-				<property name="ScopeOffset" value="0,1.22,0.6"/>
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Mods.unity3d?AR15PrefabSight"/>
+				<property name="ScopeCameraOffset" value="0.0005,0.0167,0.44"/>
+				<property name="ScopeOffset" value="0,1.22,1.9"/>
 				<property name="ScopeScale" value="1,1,1"/>
 				<property name="ScopeRotation" value="0,180,0"/>
 			</item_property_overrides>
@@ -2038,9 +2043,10 @@
 				<property name="ScopeScale" value=".8,.8,1"/>
 			</item_property_overrides>
 			<item_property_overrides name="mayicgunAR15">
-				<property name="CrosshairOnAim" value="false"/>
-				<property name="ScopeCameraOffset" value="0.0005,0.0045,0.32"/>
-				<property name="ScopeOffset" value="0,1.22,0.6"/>
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Mods.unity3d?AR15PrefabSight"/>
+				<property name="ScopeCameraOffset" value="0.0005,0.0167,0.44"/>
+				<property name="ScopeOffset" value="0,1.22,1.9"/>
 				<property name="ScopeScale" value="1,1,1"/>
 				<property name="ScopeRotation" value="0,180,0"/>
 			</item_property_overrides>
@@ -2312,9 +2318,10 @@
 				<property name="ScopeScale" value=".8,.8,1"/>
 			</item_property_overrides>
 			<item_property_overrides name="mayicgunAR15">
-				<property name="CrosshairOnAim" value="false"/>
-				<property name="ScopeCameraOffset" value="0.0005,0.0045,0.32"/>
-				<property name="ScopeOffset" value="0,1.22,0.6"/>
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Mods.unity3d?AR15PrefabSight"/>
+				<property name="ScopeCameraOffset" value="0.0005,0.0167,0.44"/>
+				<property name="ScopeOffset" value="0,1.22,1.9"/>
 				<property name="ScopeScale" value="1,1,1"/>
 				<property name="ScopeRotation" value="0,180,0"/>
 			</item_property_overrides>
@@ -2584,7 +2591,8 @@
 				<property name="ScopeScale" value=".8,.8,1"/>
 			</item_property_overrides>
 			<item_property_overrides name="mayicgunAR15">
-				<property name="CrosshairOnAim" value="false"/>
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Mods.unity3d?AR15PrefabSight"/>
 				<property name="ScopeCameraOffset" value="0.0005,0.0062,0.32"/>
 				<property name="ScopeOffset" value="0,1.22,0.6"/>
 				<property name="ScopeScale" value="1,1,1"/>
@@ -2850,7 +2858,8 @@
 				<property name="ScopeScale" value=".8,.8,1"/>
 			</item_property_overrides>
 			<item_property_overrides name="mayicgunAR15">
-				<property name="CrosshairOnAim" value="false"/>
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Mods.unity3d?AR15PrefabSight"/>
 				<property name="ScopeCameraOffset" value="0.0005,0.0062,0.32"/>
 				<property name="ScopeOffset" value="0,1.22,0.6"/>
 				<property name="ScopeScale" value="1,1,1"/>
@@ -3116,7 +3125,8 @@
 				<property name="ScopeScale" value=".8,.8,1"/>
 			</item_property_overrides>
 			<item_property_overrides name="mayicgunAR15">
-				<property name="CrosshairOnAim" value="false"/>
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Mods.unity3d?AR15PrefabSight"/>
 				<property name="ScopeCameraOffset" value="0.0005,0.0062,0.32"/>
 				<property name="ScopeOffset" value="0,1.22,0.6"/>
 				<property name="ScopeScale" value="1,1,1"/>
@@ -3388,9 +3398,10 @@
 				<property name="ScopeScale" value=".8,.8,1"/>
 			</item_property_overrides>
 			<item_property_overrides name="mayicgunAR15">
-				<property name="CrosshairOnAim" value="false"/>
-				<property name="ScopeCameraOffset" value="0.0005,0.0045,0.32"/>
-				<property name="ScopeOffset" value="0,1.22,0.6"/>
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Mods.unity3d?AR15PrefabSight"/>
+				<property name="ScopeCameraOffset" value="0.0005,0.0167,0.32"/>
+				<property name="ScopeOffset" value="0,1.22,1.5"/>
 				<property name="ScopeScale" value="1,1,1"/>
 				<property name="ScopeRotation" value="0,180,0"/>
 			</item_property_overrides>
@@ -3657,9 +3668,10 @@
 				<property name="ScopeScale" value=".8,.8,1"/>
 			</item_property_overrides>
 			<item_property_overrides name="mayicgunAR15">
-				<property name="CrosshairOnAim" value="false"/>
-				<property name="ScopeCameraOffset" value="0.0005,0.0045,0.32"/>
-				<property name="ScopeOffset" value="0,1.22,0.6"/>
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Mods.unity3d?AR15PrefabSight"/>
+				<property name="ScopeCameraOffset" value="0.0005,0.0167,0.32"/>
+				<property name="ScopeOffset" value="0,1.22,1.5"/>
 				<property name="ScopeScale" value="1,1,1"/>
 				<property name="ScopeRotation" value="0,180,0"/>
 			</item_property_overrides>
@@ -3925,9 +3937,10 @@
 				<property name="ScopeScale" value=".8,.8,1"/>
 			</item_property_overrides>
 			<item_property_overrides name="mayicgunAR15">
-				<property name="CrosshairOnAim" value="false"/>
-				<property name="ScopeCameraOffset" value="0.0005,0.0045,0.32"/>
-				<property name="ScopeOffset" value="0,1.22,0.6"/>
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Mods.unity3d?AR15PrefabSight"/>
+				<property name="ScopeCameraOffset" value="0.0005,0.0167,0.32"/>
+				<property name="ScopeOffset" value="0,1.22,1.5"/>
 				<property name="ScopeScale" value="1,1,1"/>
 				<property name="ScopeRotation" value="0,180,0"/>
 			</item_property_overrides>
