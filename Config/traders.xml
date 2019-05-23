@@ -1,9 +1,11 @@
-<configs>
-
+<potato>
 <append xpath="/traders/trader_item_groups/trader_item_group[@name='modGunT1']">
 	<item name="mayicmodHoloSightRed"/>
 	<item name="mayicmodHoloSightBlue"/>
 	<item name="mayicmodHoloSightGreen"/>
+	<item name="mayicmodHairSight"/>
+	<item name="mayicmodHandGrip"/>
+	<item name="mayicmodBayonet"/>
 
 </append>
 
@@ -11,16 +13,34 @@
 	<item name="mayicmodBlueDotSight"/>
 	<item name="mayicmodGreenDotSight"/>
 	<item name="mayicmodRedDotSight"/>
+	<item name="mayicmodACOGBlue"/>
+	<item name="mayicmodACOGGreen"/>
+	<item name="mayicmodACOGRed"/>
+	<item name="mayicmodExtendedSilencer"/>
 
 </append>
 
 <append xpath="/traders/trader_item_groups/trader_item_group[@name='modGunT3']">
-	<item name="mayicmodACOGBlue"/>
-	<item name="mayicmodACOGGreen"/>
-	<item name="mayicmodACOGRed"/>
+	<item name="mayicmodACOGx2Green"/>
+	<item name="mayicmodACOGx2Blue"/>
+	<item name="mayicmodACOGx2Red"/>
+	<item name="mayicmodHairSightx2"/>
+	<item name="mayicmodHairSightx4"/>
+	<item name="mayicmodLaserSide"/>
+	<item name="mayicmodBlockBuster"/>
+	
+	<item name="mayicmodAlienScope"/>
 
 </append>
 <append xpath="/traders/trader_item_groups/trader_item_group[@name='commonBooks']">
+		<item name="mayicgunBerettaNanoSchematic"/>
+		<item name="mayicgunM9Schematic"/>
+		<item name="mayicgunBeretta92Schematic"/>
+		<item name="mayicgunP226Schematic"/>
+		<item name="mayicgunSawedOffSchematic"/>
+		<item name="mayicgunMac10Schematic"/>
+		<item name="mayicgunMK1Schematic"/>
+		<item name="mayicgunMP40Schematic"/>
 		<item name="mayicgunFNFALSchematic"/>
 		<item name="mayicgunRustAKSchematic"/>
 		<item name="mayicgunACWSchematic"/>
@@ -28,32 +48,43 @@
 		<item name="mayicgunAR15Schematic"/>
 		<item name="mayicgunAK47Schematic"/>
 		<item name="mayicgunM16Schematic"/>
-		<item name="mayicgunDoubleBarrelShotgunSchematic"/>
-		<item name="mayicgunSawedOffSchematic"/>
-		<item name="mayicgunKlobSchematic"/>
-		<item name="mayicgunMac10Schematic"/>
-		<item name="mayicgunMK1Schematic"/>
-		<item name="mayicgunMP40Schematic"/>
-		<item name="mayicgunLugerSchematic"/>
-		<item name="mayicgun38SnubnoseSchematic"/>
-		<item name="mayicgunBerettaNanoSchematic"/>
-		<item name="mayicgunMakarovSchematic"/>
-		<item name="mayicgunM9Schematic"/>
-		<item name="mayicgunBeretta92Schematic"/>
-		<item name="mayicgunP226Schematic"/>
 		<item name="mayicammo10mmSchematic"/>
-		<item name="mayicammo9x19mmSchematic"/>
 		<item name="mayicammo9mmSchematic"/>
 		<item name="mayicammo5.7x28mmSchematic"/>
-		<item name="mayicammo38calSchematic"/>
 		<item name="mayicammo40calSchematic"/>
 		<item name="mayicammo223calSchematic"/>
 		<item name="mayicammo22lrSchematic"/>
 		<item name="mayicammo5.56x45mmSchematic"/>
+		<item name="mayicammo10mmSteelSchematic"/>
+		<item name="mayicammo9mmSteelSchematic"/>
+		<item name="mayicammo5.7x28mmSteelSchematic"/>
+		<item name="mayicammo40calSteelSchematic"/>
+		<item name="mayicammo223calSteelSchematic"/>
+		<item name="mayicammo22lrSteelSchematic"/>
+		<item name="mayicammo5.56x45mmSteelSchematic"/>
 		<item name="mayicammo20gaugeSchematic"/>
 		<item name="mayicammoBirdShotSchematic"/>
+		<item name="mayicmodHoloSchematic"/>
+		<item name="mayicmodDotSchematic"/>
+		<item name="mayicmodHairSightSchematic"/>
+		<item name="mayicmodHandGripSchematic"/>
+		<item name="mayicmodBayonetSchematic"/>
 </append>
 <append xpath="/traders/trader_item_groups/trader_item_group[@name='rareBooks']">
+		<item name="mayicgunGlock40Schematic"/>
+		<item name="mayicgunUSPSchematic"/>
+		<item name="mayicgun1911Schematic"/>
+		<item name="mayicgunDesertEagleSchematic"/>
+		<item name="mayicgunColtPythonSchematic"/>
+		<item name="mayicgunFalloutShotgunSchematic"/>
+		<item name="mayicgunHuntingShotgunSchematic"/>
+		<item name="mayicgunMossberg590A1Schematic"/>
+		<item name="mayicgunSpaz12Schematic"/>
+		<item name="mayicgunAA12Schematic"/>
+		<item name="mayicgunVectorSchematic"/>
+		<item name="mayicgunMP5Schematic"/>
+		<item name="mayicgunM1A1ThompsonSchematic"/>
+		<item name="mayicgunRCP90Schematic"/>
 		<item name="mayicgunARX160Schematic"/>
 		<item name="mayicgunM4A1Schematic"/>
 		<item name="mayicgunSCARSchematic"/>
@@ -66,19 +97,6 @@
 		<item name="mayicgunJNG90Schematic"/>
 		<item name="mayicgunM98Schematic"/>
 		<item name="mayicgunM82Schematic"/>
-		<item name="mayicgunFalloutShotgunSchematic"/>
-		<item name="mayicgunHuntingShotgunSchematic"/>
-		<item name="mayicgunMossberg590A1Schematic"/>
-		<item name="mayicgunSpaz12Schematic"/>
-		<item name="mayicgunVectorSchematic"/>
-		<item name="mayicgunMP5Schematic"/>
-		<item name="mayicgunM1A1ThompsonSchematic"/>
-		<item name="mayicgunRCP90Schematic"/>
-		<item name="mayicgunGlock40Schematic"/>
-		<item name="mayicgunUSPSchematic"/>
-		<item name="mayicgun1911Schematic"/>
-		<item name="mayicgunDesertEagleSchematic"/>
-		<item name="mayicgunColtPythonSchematic"/>
 		<item name="mayicammo45acpSchematic"/>
 		<item name="mayicammo50aeSchematic"/>
 		<item name="mayicammo357magnumSchematic"/>
@@ -88,12 +106,30 @@
 		<item name="mayicammo338calSchematic"/>
 		<item name="mayicammo50calSchematic"/>
 		<item name="mayicammo5mmSchematic"/>
+		<item name="mayicammo45acpSteelSchematic"/>
+		<item name="mayicammo50aeSteelSchematic"/>
+		<item name="mayicammo357magnumSteelSchematic"/>
+		<item name="mayicammo7.62x39mmSteelSchematic"/>
+		<item name="mayicammo30-06SteelSchematic"/>
+		<item name="mayicammo7.62x51mmSteelSchematic"/>
+		<item name="mayicammo338calSteelSchematic"/>
+		<item name="mayicammo50calSteelSchematic"/>
+		<item name="mayicammo5mmSteelSchematic"/>
 		<item name="mayicammoGoldenbulletSchematic"/>
-		<item name="mayicammoExplosiveroundSchematic"/>
+		<item name="mayicammo40mmMiniSchematic"/>
 		<item name="mayicammo40mmExplosiveSchematic"/>
 		<item name="mayicammoIncendiarySchematic"/>
 		<item name="mayicammoExplosiveSchematic"/>
 		<item name="mayicammoCorrosiveSchematic"/>
+		<item name="mayicammoLaserRoundSchematic"/>
+		<item name="mayicmodAlienScopeSchematic"/>
+		<item name="mayicmodACOGSchematic"/>
+		<item name="mayicmodACOGx2Schematic"/>
+		<item name="mayicmodHairSightx2Schematic"/>
+		<item name="mayicmodHairSightx4Schematic"/>
+		<item name="mayicmodLaserSideSchematic"/>
+		<item name="mayicmodExtendedSilencerSchematic"/>
+		<item name="mayicmodBlockBusterSchematic"/>
 </append>
 
 <append xpath="/traders/trader_item_groups/trader_item_group[@name='questChallenge']">
@@ -104,65 +140,73 @@
 		<item name="mayicchallengesniper" count="1"/>
 		<item name="mayicchallengechaingun" count="1"/>
 </append>
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='traderAlways']">
+			<item name="mayicresourceScrapAmmo" count="1,50"/> 
+			<item name="mayicresourceScrapGun" count="1,15"/>
+</append>
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='traderGeneral']">
+			<item name="mayicresourceScrapSchematic" count="1,3"/>
+</append>
 <append xpath="/traders/trader_item_groups/trader_item_group[@name='weaponsGunsCommon']">
-	<!-- Pistol -->	
-	<item name="mayicgunLuger" prob="0.8"/>
-	<item name="mayicgun38Snubnose" prob="0.8"/>
-	<item name="mayicgunMakarov" prob="0.7"/>
-	<item name="mayicgunBerettaNano" prob="0.7"/>
-	<item name="mayicgunM9" prob="0.5"/>
-	<item name="mayicgunBeretta92" prob="0.5"/>
-	<item name="mayicgunP226" prob="0.5"/>
-	<item name="mayicgunColtPython"/>
-	<!-- SMG -->
+	
+	<item name="mayicgunLuger" prob="0.95"/>
+	<item name="mayicgun38Snubnose" prob="0.95"/>
+	<item name="mayicgunMakarov" prob="0.9"/>
+	<item name="mayicgunBerettaNano" prob="0.9"/>
+	<item name="mayicgunM9" prob="0.7"/>
+	<item name="mayicgunBeretta92" prob="0.7"/>
+	<item name="mayicgunP226" prob="0.7"/>
+	<item name="mayicgunColtPython" prob="0.5"/>
+
 	<item name="mayicgunKlob" prob="0.7"/>
 	<item name="mayicgunMac10" prob="0.7"/>
-	<item name="mayicgunMK1" prob="0.5"/>
-	<item name="mayicgunMP40" prob="0.3"/>
-	<!-- Shotgun -->
-	<item name="mayicgunDoubleBarrelShotgun" prob="0.8"/>
+	<item name="mayicgunMK1" prob="0.7"/>
+	<item name="mayicgunMP40" prob="0.6"/>
+
+	<item name="mayicgunDoubleBarrelShotgun" prob="0.95"/>
 	<item name="mayicgunSawedOff" prob="0.8"/>
-	<item name="mayicgunHuntingShotgun" prob="0.3"/>
-	<!-- Rifle -->	
-	<item name="mayicgunFNFAL" prob="0.05"/>
-	<item name="mayicgunRustAK" prob="0.3"/>
-	<item name="mayicgunACW" prob="0.05"/>
-	<item name="mayicgunARX160" prob="0.05"/>
-	<item name="mayicgunBullpup" prob="0.3"/>
-	<item name="mayicgunAK47" prob="0.05"/>
+	<item name="mayicgunHuntingShotgun" prob="0.75"/>
+
+	<item name="mayicgunFNFAL" prob="0.6"/>
+	<item name="mayicgunRustAK" prob="0.6"/>
+	<item name="mayicgunACW" prob="0.5"/>
+	<item name="mayicgunARX160" prob="0.5"/>
+	<item name="mayicgunBullpup" prob="0.65"/>
+	<item name="mayicgunAK47" prob="0.45"/>
 
 </append>
 
 <append xpath="/traders/trader_item_groups/trader_item_group[@name='weaponsGunsMilitary']">
-	<!-- Pistol -->	
-	<item name="mayicgunGlock40" prob="0.5"/>
-	<item name="mayicgunUSP" prob="0.5"/>
-	<item name="mayicgun1911" prob="0.5"/>
+	
+	<item name="mayicgunGlock40" prob="0.9"/>
+	<item name="mayicgunUSP" prob="0.9"/>
+	<item name="mayicgun1911" prob="0.9"/>
 	<item name="mayicgunDesertEagle" prob="0.3"/>
-	<!-- SMG -->	
-	<item name="mayicgunVector" prob="0.7"/>
-	<item name="mayicgunMP5" prob="0.5"/>
-	<item name="mayicgunM1A1Thompson" prob="0.3"/>
-	<item name="mayicgunRCP90" prob="0.3"/>
-	<!-- Shotgun -->	
+	
+	<item name="mayicgunVector" prob="0.5"/>
+	<item name="mayicgunMP5" prob="0.7"/>
+	<item name="mayicgunM1A1Thompson" prob="0.5"/>
+	<item name="mayicgunRCP90" prob="0.2"/>
+	
 	<item name="mayicgunFalloutShotgun" prob="0.5"/>
-	<item name="mayicgunMossberg590A1" prob="0.3"/>
-	<item name="mayicgunSpaz12" prob="0.3"/>
-	<!-- Rifle -->	
-	<item name="mayicgunAR15" prob="0.5"/>
-	<item name="mayicgunM16" prob="0.5"/>
-	<item name="mayicgunM4A1" prob="0.3"/>
-	<item name="mayicgunSCAR" prob="0.3"/>
-	<item name="mayicgunM1" prob="0.2"/>
-	<!-- Large -->	
-	<item name="mayicgunM249Saw" prob="0.05"/>
-	<item name="mayicgunM240" prob="0.05"/>
-	<item name="mayicgunMosinNagant" prob="0.2"/>
-	<item name="mayicgunSR25" prob="0.1"/>
-	<item name="mayicgunMrad" prob="0.1"/>
-	<item name="mayicgunJNG90" prob="0.05"/>
-	<item name="mayicgunM98" prob="0.05"/>
-	<item name="mayicgunM82" prob="0.05"/>
+	<item name="mayicgunMossberg590A1" prob="0.5"/>
+	<item name="mayicgunSpaz12" prob="0.1"/>
+	<item name="mayicgunAA12" prob="0.1"/>
+
+	<item name="mayicgunAR15" prob="0.7"/>
+	<item name="mayicgunM16" prob="0.7"/>
+	<item name="mayicgunM4A1" prob="0.65"/>
+	<item name="mayicgunSCAR" prob="0.65"/>
+	<item name="mayicgunM1" prob="0.75"/>
+
+	<item name="mayicgunM249Saw" prob="0.1"/>
+	<item name="mayicgunM240" prob="0.1"/>
+	<item name="mayicgunMosinNagant" prob="0.75"/>
+	<item name="mayicgunSR25" prob="0.32"/>
+	<item name="mayicgunMrad" prob="0.32"/>
+	<item name="mayicgunJNG90" prob="0.3"/>
+	<item name="mayicgunM98" prob="0.3"/>
+	<item name="mayicgunM82" prob="0.2"/>
 
 </append>
 
@@ -206,7 +250,7 @@
 <item name="mayicammo5mmSteel" count="250,1000" prob="0.3"/>
 
 <item name="mayicammoGoldenbullet" count="5,8" prob="0.003"/>
-<item name="mayicammoExplosiveround" count="5,25" prob="0.003"/>
+<item name="mayicammo40mmMini" count="5,25" prob="0.003"/>
 <item name="mayicammo40mmExplosive" count="5,25" prob="0.003"/>
 
 <item name="mayicammoCorrosive" count="15,60" prob="0.01"/>
@@ -214,7 +258,7 @@
 <item name="mayicammoIncendiary" count="15,60" prob="0.01"/>
 <item name="mayicammoDragonsbreath" count="5,30" prob="0.01"/>
 <item name="mayicammoElectricshell" count="5,30" prob="0.01"/>
-
+<item name="mayicammoLaserRound" count="5,30" prob="0.01"/>
 </append>
 <set xpath="/traders/trader_info[@id='1' and @max_inventory='80']/@max_inventory">120</set>
-</configs>
+</potato>

@@ -1,4 +1,4 @@
-<configs>
+<potato>
 	<append xpath="/blocks">	
 	<!--
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -6,7 +6,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -->	
 		<block name="mayicblockTarget">
-			<property name="Group" value="allBlocks"/>
+			<property name="Group" value="Basics,AllBlocks"/>
 			<property name="CustomIcon" value="7target"/>
 			<property name="Material" value="Miron"/>
 			<property name="CreativeMode" value="Player"/>
@@ -28,7 +28,7 @@
 			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="1" stick_chance="1"/>
 		</block>
 		<block name="mayicblockSmallTarget">
-			<property name="Group" value="allBlocks"/>
+			<property name="Group" value="Basics,AllBlocks"/>
 			<property name="CustomIcon" value="7targetsmall"/>
 			<property name="Material" value="Miron"/>
 			<property name="CreativeMode" value="Player"/>
@@ -69,7 +69,7 @@
 			<drop event="Destroy" name="resourceScrapIron" count="1,3"/>
 			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
 			<property name="FilterTags" value="floot"/>
-			<property name="Group" value="allBlocks"/>
+			<property name="Group" value="Building,AllBlocks"/>
 		</block>
 		<block name="mayicblockOldBox">
 			<property name="CreativeMode" value="Player"/>
@@ -82,13 +82,13 @@
 			<property name="Mesh" value="models"/>
 			<property name="Model" value="#@modfolder:Resources/Blocks.unity3d?OldBox1"/>
 			<property name="IsTerrainDecoration" value="true"/>
-			<property name="LootList" value="15"/>
+			<property name="LootList" value="148"/>
 			<property class="RepairItems">
 				<property name="resourceWood" value="10"/></property>
 			<drop event="Destroy" name="resourceWood" count="1,3"/>
 			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
 			<property name="FilterTags" value="floot"/>
-			<property name="Group" value="allBlocks"/>
+			<property name="Group" value="Building,AllBlocks"/>
 		</block>
 		<block name="mayicblockGunCrate">
 			<property name="CreativeMode" value="Player"/>
@@ -107,7 +107,7 @@
 			<drop event="Destroy" name="resourceScrapIron" count="10,30"/>
 			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
 			<property name="FilterTags" value="floot"/>
-			<property name="Group" value="allBlocks"/>
+			<property name="Group" value="Building,AllBlocks"/>
 		</block>
 		<block name="mayicblockSciFiBox">
 			<property name="CreativeMode" value="Player"/>
@@ -128,7 +128,7 @@
 			<drop event="Destroy" name="resourceForgedSteel" count="10,30"/>
 			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
 			<property name="FilterTags" value="floot"/>
-			<property name="Group" value="allBlocks"/>
+			<property name="Group" value="Building,AllBlocks"/>
 		</block>
 		<!--
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -155,8 +155,8 @@
 			<property name="HeatMapFrequency" value="25"/>
 			<property name="Stacknumber" value="1"/>
 			<property class="Workstation">
-				<property name="Modules" value="output"/>
-				<property name="CraftingAreaRecipes" value="customGun"/></property>
+				<property name="Modules" value="tools,output"/>
+				<property name="CraftingAreaRecipes" value="CustomGun"/></property>
 			<property name="WorkstationIcon" value="ui_game_symbol_gunslinger" />
 			<property name="OpenSound" value="" />
 			<property name="CloseSound" value="" />
@@ -171,12 +171,12 @@
 			<property name="Group" value="Building,Science"/>
 			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
 		</block>
-		<block name="mayicblockResearchTable">
+		<block name="mayicblockModWorkbench">
 			<property name="Extends" value="cntBirdnest"/>
-			<property name="CustomIcon" value="7researchtable"/>
+			<property name="CustomIcon" value="7modwork"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/ResearchTable.unity3d?ResearchTablePrefab" param1="main_mesh"/>
+			<property name="Model" value="#@modfolder:Resources/Blocks.unity3d?ModWorkbenchPrefab" param1="main_mesh"/>
 			<property name="Path" value="solid"/>
 			<property name="DisplayType" value="blockMulti"/>
 			<property name="MultiBlockDim" value="1,2,2"/>
@@ -190,8 +190,43 @@
 			<property name="HeatMapFrequency" value="25"/>
 			<property name="Stacknumber" value="1"/>
 			<property class="Workstation">
-				<property name="Modules" value="output"/>
-				<property name="CraftingAreaRecipes" value="customResearch"/></property>
+				<property name="Modules" value="tools,output"/>
+				<property name="CraftingAreaRecipes" value="CustomMod"/></property>
+			<property name="WorkstationIcon" value="ui_game_symbol_gunslinger" />
+			<property name="OpenSound" value="" />
+			<property name="CloseSound" value="" />
+			<property name="CraftSound" value="" />
+			<property name="CraftCompleteSound" value="" />
+			<property name="WorkstationJournalTip" value="workbenchTip" />
+			<property class="RepairItems">
+				<property name="resourceForgedIron" value="5"/></property>
+			<property name="TakeDelay" value="15"/>
+			<property name="DescriptionKey" value="mayicblockModWorkbenchDesc"/>
+			<property name="EconomicValue" value="776"/>
+			<property name="Group" value="Building,Science"/>
+			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+		</block>
+		<block name="mayicblockResearchTable">
+			<property name="Extends" value="cntBirdnest"/>
+			<property name="CustomIcon" value="7researchtable"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/Blocks.unity3d?ResearchTablePrefab" param1="main_mesh"/>
+			<property name="Path" value="solid"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,2,2"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Class" value="Workstation"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="MaxDamage" value="6000"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="HeatMapStrength" value="15"/>
+			<property name="HeatMapTime" value="1200"/>
+			<property name="HeatMapFrequency" value="25"/>
+			<property name="Stacknumber" value="1"/>
+			<property class="Workstation">
+				<property name="Modules" value="tools,output"/>
+				<property name="CraftingAreaRecipes" value="CustomResearch"/></property>
 			<property name="WorkstationIcon" value="ui_game_symbol_book" />
 			<property name="OpenSound" value="" />
 			<property name="CloseSound" value="" />
@@ -222,8 +257,8 @@
 			<property name="StabilitySupport" value="false"/>
 			<property name="Stacknumber" value="1"/>
 			<property class="Workstation">
-				<property name="Modules" value="output"/>
-				<property name="CraftingAreaRecipes" value="customAmmo"/></property>
+				<property name="Modules" value="tools,output"/>
+				<property name="CraftingAreaRecipes" value="CustomAmmo"/></property>
 			<property name="WorkstationIcon" value="ui_game_symbol_star" />
 			<property name="OpenSound" value="" />
 			<property name="CloseSound" value="" />
@@ -239,4 +274,4 @@
 			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
 		</block>
 	</append>
-</configs>
+</potato>

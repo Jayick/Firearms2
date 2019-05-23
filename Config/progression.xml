@@ -1,6 +1,6 @@
-<configs>
+<potato>
 <append xpath="progression/attributes">
-<attribute name="AdvancedFirearms" name_key="mayicattAdvancedFirearmsName" desc_key="mayicattAdvancedFirearmsDesc" icon="ui_game_symbol_gunslinger" base_skill_point_cost="1" cost_multiplier_per_level="1">
+<attribute name="mayicattAdvancedFirearms" name_key="mayicattAdvancedFirearmsName" desc_key="mayicattAdvancedFirearmsDesc" icon="ui_game_symbol_gunslinger" min_level="1" max_level="10" base_skill_point_cost="1" cost_multiplier_per_level="1">
 		<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="5" desc_key="Level 5"/></level_requirements>
 		<level_requirements level="2"><requirement name="PlayerLevel" target="self" operation="GTE" value="10" desc_key="Level 10"/></level_requirements>
 		<level_requirements level="3"><requirement name="PlayerLevel" target="self" operation="GTE" value="15" desc_key="Level 15"/></level_requirements>
@@ -16,19 +16,19 @@
 		<effect_group>
 		
 					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,10" tags="mayicgunLuger,mayicgun38Snubnose,mayicgunArgh"/>
-					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,10" tags="mayicammo9x19mm,mayicammo38cal,mayicammo9x19mmSteel,mayicammo38calSteel,mayicblockGunWorkbench"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,10" tags="mayicammo9x19mm,mayicammo38cal,mayicammo9x19mmSteel,mayicammo38calSteel"/>
 					
 					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="2,10" tags="mayicgunKlob,mayicgunBerettaNano,mayicgunMakarov"/>
-					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="2,10" tags="mayicammo10mm,mayicammo10mmSteel,mayicammo9mm,mayicammo9mmSteel,mayicblockAmmoWorkbench"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="2,10" tags="mayicammo10mm,mayicammo10mmSteel,mayicammo9mm,mayicammo9mmSteel"/>
 					
 					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,10" tags="mayicgunDoubleBarrelShotgun,mayicgunGlock40,mayicgunP226,mayicgunM9,mayicgunBeretta92,mayicgunUSP,mayicgunMK1,mayicgunSawedOff"/>
-					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,10" tags="mayicammo40cal,mayicammo40calSteel,mayicblockResearchTable"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,10" tags="mayicammo40cal,mayicammo40calSteel"/>
 					
 					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="4,10" tags="mayicgunMac10,mayicgunFNFAL,mayicgun1911,mayicgunMP5,mayicgunRCP90,mayicgunVector,mayicgunHuntingShotgun"/>
-					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="4,10" tags="mayicmodHoloSightRed,mayicmodHoloSightBlue,mayicmodHoloSightGreen,mayicammoBirdShot,mayicammo45acp,mayicammo22lr,mayicammo223calSteel,mayicammo45acpSteel,mayicammo22lrSteel,mayicammo5.7x28mm,mayicammo5.7x28mmSteel"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="4,10" tags="mayicammoBirdShot,mayicammo45acp,mayicammo22lr,mayicammo223calSteel,mayicammo45acpSteel,mayicammo22lrSteel,mayicammo5.7x28mm,mayicammo5.7x28mmSteel"/>
 					
-					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5,10" tags="mayicgunAR15,mayicgunHandCannon,mayicgunMossberg590A1,mayicgunBullpup,mayicmodRedDotSight,mayicmodBlueDotSight,mayicmodGreenDotSight"/>
-					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5,10" tags="mayicammo223cal,mayicammoExplosiveround,mayicammo223calSteel"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5,10" tags="mayicgunAR15,mayicgunHandCannon,mayicgunMossberg590A1,mayicgunBullpup"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5,10" tags="mayicammo223cal,mayicammo40mmMini,mayicammo223calSteel"/>
 					
 					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="6,10" tags="mayicgunMP40,mayicgunM1A1Thompson,mayicgunM16,mayicgunSR25,mayicgunRustAK,mayicgunARX160,mayicgunFalloutShotgun,mayicgunACW"/>
 					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="6,10" tags="mayicammo5.56x45mm,mayicammo20gauge,mayicammo7.62x51mm,mayicammo7.62x39mm,mayicammo5.56x45mmSteel,mayicammo7.62x51mmSteel,mayicammo7.62x39mmSteel"/>
@@ -37,27 +37,107 @@
 					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="7,10" tags="mayicammo5.56x45mm,mayicammo20gauge,mayicammo7.62x51mm,mayicammo7.62x39mm,mayicammo5.56x45mmSteel,mayicammo7.62x51mmSteel,mayicammo7.62x39mmSteel"/>
 					
 					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="8,10" tags="mayicgunMosinNagant,mayicgunM1,mayicgunM98,mayicgunJNG90"/>
-					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="8,10" tags="mayicmodACOGGreen,mayicmodACOGBlue,mayicmodACOGRed,mayicammo338cal,mayicammo338calSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="8,10" tags="mayicammo338cal,mayicammo338calSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
 					
-					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="9,10" tags="mayicgunM249Saw,mayicgunM82,mayicgunDesertEagle,mayicgunColtPython,mayicgunM79GL40,mayicgunM240"/>
-					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="9,10" tags="mayicammo50cal,mayicammo30-06,mayicammo357magnum,mayicammo50ae,mayicammo40mmExplosive,mayicammo50calSteel,mayicammo30-06Steel,mayicammo357magnumSteel,mayicammo50aeSteel"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="9,10" tags="mayicgunM249Saw,mayicgunM82,mayicgunDesertEagle,mayicgunColtPython,mayicgunM79GL40,mayicgunM240,mayicgunFlameThrower"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="9,10" tags="mayicammo50cal,mayicammoFlameFuel,mayicmodAlienScope,mayicammo30-06,mayicammo357magnum,mayicammo50ae,mayicammo40mmExplosive,mayicammo50calSteel,mayicammo30-06Steel,mayicammo357magnumSteel,mayicammo50aeSteel"/>
 					
-					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="5" level="10" tags="mayicgunGoldenGun,mayicgunChaingun"/>
-					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="5" level="10" tags="mayicammoGoldenbullet,mayicammo5mm,mayicammo5mmSteel"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="5" level="10" tags="mayicgunGoldenGun,mayicgunChaingun,mayicgunLaserRifle"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="5" level="10" tags="mayicammoGoldenbullet,mayicammoLaserRound,mayicammo5mm,mayicammo5mmSteel"/>
 					</effect_group>
 				
 	<effect_group>
-					<effect_description level="1" desc_key="AdvancedF1" desc_base="Unlocks: Luger, 38Snubnose, Argh! and The Gun Workbench"/>
-					<effect_description level="2" desc_key="AdvancedF2" desc_base="Unlocks: Klob, Beretta Nano, Makarov and The Ammo Workbench"/>
-					<effect_description level="3" desc_key="AdvancedF3" desc_base="Unlocks: Glock40, P226, M9, Beretta92, USP, Mk1, Double Barrel Shotgun,Sawed Off Shotgun, Research Table"/>
-					<effect_description level="4" desc_key="AdvancedF4" desc_base="Unlocks: Mac10, FNFAL, MP5, RCP90, Vector, Hunting Shotgun, and Holo Sights"/>
-					<effect_description level="5" desc_key="AdvancedF5" desc_base="Unlocks: AR15, HandCannon, Mossberg590A1, Bullpup, Dot Sights"/>
+					<effect_description level="1" desc_key="AdvancedF1" desc_base="Unlocks: Luger, 38Snubnose, Argh!"/>
+					<effect_description level="2" desc_key="AdvancedF2" desc_base="Unlocks: Klob, Beretta Nano, Makarov"/>
+					<effect_description level="3" desc_key="AdvancedF3" desc_base="Unlocks: Glock40, P226, M9, Beretta92, USP, Mk1, Double Barrel Shotgun,Sawed Off Shotgun"/>
+					<effect_description level="4" desc_key="AdvancedF4" desc_base="Unlocks: Mac10, FNFAL, MP5, RCP90, Vector, Hunting Shotgun"/>
+					<effect_description level="5" desc_key="AdvancedF5" desc_base="Unlocks: AR15, HandCannon, Mossberg590A1, Bullpup"/>
 					<effect_description level="6" desc_key="AdvancedF6" desc_base="Unlocks: MP40, M1A1Thompson, M16, ACW, RustAK, ARX160, Fallout Shotgun"/>
 					<effect_description level="7" desc_key="AdvancedF7" desc_base="Unlocks: M4A1, SCAR, Spaz12, SR25, Beretta MRAD, Ak47"/>
-					<effect_description level="8" desc_key="AdvancedF8" desc_base="Unlocks: Mosin Nagant, M1, JNG90, M98 Sniper Rifles, ACOG Scopes, Elemental Ammo"/>
-					<effect_description level="9" desc_key="AdvancedF9" desc_base="Unlocks: M249Saw, M240, M82 Sniper, DesertEagle, Colt Python, M79GL40"/>
+					<effect_description level="8" desc_key="AdvancedF8" desc_base="Unlocks: Mosin Nagant, M1, JNG90, M98 Sniper Rifles, Elemental Ammo"/>
+					<effect_description level="9" desc_key="AdvancedF9" desc_base="Unlocks: M249Saw, M240, M82 Sniper, Flame Thrower, DesertEagle, Colt Python, M79GL40"/>
 					<effect_description level="10" desc_key="AdvancedF10" desc_base="Unlocks: Golden Gun and Chaingun"/>
 		</effect_group>
 		</attribute>
 </append>
-</configs>
+<append xpath="progression/perks">
+
+	<perk name="mayicperkCrafting" parent="mayicattAdvancedFirearms" name_key="mayicperkCraftingName" desc_key="mayicperkCraftingDesc" icon="ui_game_symbol_assemble">
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="mayicattAdvancedFirearms" operation="GTE" value="1" desc_key="mayicperkCraftingRank1E"/></level_requirements>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="mayicattAdvancedFirearms" operation="GTE" value="2" desc_key="mayicperkCraftingRank2E"/></level_requirements>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="mayicattAdvancedFirearms" operation="GTE" value="3" desc_key="mayicperkCraftingRank3E"/></level_requirements>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="mayicattAdvancedFirearms" operation="GTE" value="4" desc_key="mayicperkCraftingRank4E"/></level_requirements>
+		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="mayicattAdvancedFirearms" operation="GTE" value="10" desc_key="mayicperkCraftingRank5E"/></level_requirements>
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5" tags="mayicblockGunWorkbench"/>		
+			
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="2,5" tags="mayicblockAmmoWorkbench"/>		
+			
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,5" tags="mayicblockModWorkbench"/>		
+			
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="4,5" tags="mayicblockResearchTable"/>		
+			
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5" tags=""/>		
+		</effect_group>
+		<effect_group>
+			<effect_description level="1" desc_key="AdvancedF11" desc_base="Unlocks: Firearms Workbench"/>
+			<effect_description level="2" desc_key="AdvancedF12" desc_base="Unlocks: Ammunition Workbench"/>
+			<effect_description level="3" desc_key="AdvancedF13" desc_base="Unlocks: Modification and Parts Workbench"/>
+			<effect_description level="4" desc_key="AdvancedF14" desc_base="Unlocks: Research Table"/>
+			<effect_description level="5" desc_key="AdvancedF15" desc_base="Unlocks: Nothing yet. Dont invest"/>
+		</effect_group>
+	</perk>
+	<perk name="mayicperkMods" parent="mayicattAdvancedFirearms" name_key="mayicperkModsName" desc_key="mayicperkModsDesc" icon="ui_game_symbol_gunsmithing">
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="mayicattAdvancedFirearms" operation="GTE" value="2" desc_key="mayicperkModsRank1E"/></level_requirements>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="mayicattAdvancedFirearms" operation="GTE" value="4" desc_key="mayicperkModsRank2E"/></level_requirements>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="mayicattAdvancedFirearms" operation="GTE" value="5" desc_key="mayicperkModsRank3E"/></level_requirements>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="mayicattAdvancedFirearms" operation="GTE" value="7" desc_key="mayicperkModsRank4E"/></level_requirements>
+		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="mayicattAdvancedFirearms" operation="GTE" value="8" desc_key="mayicperkModsRank5E"/></level_requirements>
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5" tags="mayicmodHairSight,mayicmodBlueDotSight,mayicmodRedDotSight,mayicmodGreenDotSight"/>		
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5" tags="mayicmodBayonet,"/>	
+			
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="2,5" tags="mayicmodHoloSightGreen,mayicmodHoloSightBlue,mayicmodHoloSightRed"/>		
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="2,5" tags="mayicmodBananaClip"/>		
+			
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,5" tags="mayicmodHairSightx2,mayicmodACOGBlue,mayicmodACOGRed,mayicmodACOGGreen"/>		
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,5" tags="mayicmodQuickMag,mayicmodExtendedSilencer,mayicmodLaserSide"/>		
+			
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="4,5" tags="mayicmodHairSightx4,mayicmodACOGx2Blue,mayicmodACOGx2Red,mayicmodACOGx2Green"/>		
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="4,5" tags="mayicmodDrumMag,mayicmodHandGrip,mayicmodAlienScope"/>		
+			
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5" tags="mayicmodBlockBuster"/>		
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5" tags="mayicmodBlockBuster"/>		
+		</effect_group>
+		<effect_group>
+			<effect_description level="1" desc_key="AdvancedF11" desc_base="Unlocks: Hair Sight, Dot Sights, and Bayonet."/>
+			<effect_description level="2" desc_key="AdvancedF12" desc_base="Unlocks: Holo Sights and Banana Clip"/>
+			<effect_description level="3" desc_key="AdvancedF13" desc_base="Unlocks: x2 Hair Sight, ACOG Scopes, Quick Magazine, Extended Silencer, Laser Side"/>
+			<effect_description level="4" desc_key="AdvancedF14" desc_base="Unlocks: Drum Magazine, Hand Grip, Alien Scope"/>
+			<effect_description level="5" desc_key="AdvancedF15" desc_base="Unlocks: Block Buster"/>
+		</effect_group>
+	</perk>
+	<perk name="mayicperkParts" parent="mayicattAdvancedFirearms" name_key="mayicperkPartsName" desc_key="mayicperkPartsDesc" icon="ui_game_symbol_misc_crafting">
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="mayicattAdvancedFirearms" operation="GTE" value="1" desc_key="mayicperkPartsRank1E"/></level_requirements>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="mayicattAdvancedFirearms" operation="GTE" value="3" desc_key="mayicperkPartsRank3E"/></level_requirements>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="mayicattAdvancedFirearms" operation="GTE" value="5" desc_key="mayicperkPartsRank5E"/></level_requirements>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="mayicattAdvancedFirearms" operation="GTE" value="8" desc_key="mayicperkPartsRank7E"/></level_requirements>
+		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="mayicattAdvancedFirearms" operation="GTE" value="10" desc_key="mayicperkPartsRank10E"/></level_requirements>
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5" tags="mayicpartSmReceiver,mayicpartSmBarrel,mayicpartSmStock,mayicpartSmGrip,mayicpartShortBarrel,mayicpartForwardAssist,mayicpartHammer"/>			
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="2,5" tags="mayicpartMedReceiver,mayicpartMedBarrel,mayicpartMedStock,mayicpartMedGrip,mayicpartMountRails,mayicpartSlideBar,mayicpartTrigger,mayicpartCompressor"/>			
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,5" tags="mayicpartLrgReceiver,mayicpartLrgBarrel,mayicpartLrgStock,mayicpartLrgGrip,mayicpartLongBarrel,mayicpartBreechBolt,mayicpartHandguard,"/>			
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="4,5" tags="mayicpartFlamethrowerTank"/>			
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5" tags="mayicpartAlienFrame,mayicpartChaingunGear"/>			
+		</effect_group>
+		<effect_group>
+			<effect_description level="1" desc_key="AdvancedF111" desc_base="Unlocks: Small Tier Parts"/>
+			<effect_description level="2" desc_key="AdvancedF112" desc_base="Unlocks: Medium Tier Parts"/>
+			<effect_description level="3" desc_key="AdvancedF113" desc_base="Unlocks: High Tier Parts"/>
+			<effect_description level="4" desc_key="AdvancedF114" desc_base="Unlocks: Flamethrower Frame"/>
+			<effect_description level="5" desc_key="AdvancedF115" desc_base="Unlocks: High Tech Frame, Chaingun Gears"/>
+		</effect_group>
+	</perk>
+</append>
+
+</potato>

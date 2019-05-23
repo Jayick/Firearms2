@@ -1,0 +1,57 @@
+<potato>
+<append xpath="/materials">
+
+<material id="MayicScrapGun">
+	<property name="damage_category" value="metal"/>
+	<property name="surface_category" value="metal"/>
+	<property name="forge_category" value="mayicresourceScrapGun"/>
+	<property name="Hardness" type="float" value="1"/>
+	<property name="stepsound" value="metal"/>
+	<property name="lightopacity" value="4"/>
+	<property name="stability_glue" value="20"/>
+	<property name="Mass" type="int" value="5"/>
+	<property name="MaxDamage" value="100"/>
+	<property name="Experience" value="6"/>
+</material>
+
+<material id="MayicScrapAmmo">
+	<property name="damage_category" value="metal"/>
+	<property name="surface_category" value="metal"/>
+	<property name="forge_category" value="mayicresourceScrapAmmo"/>
+	<property name="Hardness" type="float" value="1"/>
+	<property name="stepsound" value="metal"/>
+	<property name="lightopacity" value="4"/>
+	<property name="stability_glue" value="20"/>
+	<property name="Mass" type="int" value="5"/>
+	<property name="MaxDamage" value="100"/>
+	<property name="Experience" value="6"/>
+</material>
+
+<material id="MayicScrapSchematic">
+	<property name="damage_category" value="metal"/>
+	<property name="surface_category" value="metal"/>
+	<property name="forge_category" value="mayicresourceScrapSchematic"/>
+	<property name="Hardness" type="float" value="1"/>
+	<property name="stepsound" value="metal"/>
+	<property name="lightopacity" value="4"/>
+	<property name="stability_glue" value="20"/>
+	<property name="Mass" type="int" value="5"/>
+	<property name="MaxDamage" value="100"/>
+	<property name="Experience" value="20"/>
+</material>
+
+<material id="MayicScrapMod">
+	<property name="damage_category" value="metal"/>
+	<property name="surface_category" value="metal"/>
+	<property name="forge_category" value="mayicresourceScrapMod"/>
+	<property name="Hardness" type="float" value="1"/>
+	<property name="stepsound" value="metal"/>
+	<property name="lightopacity" value="4"/>
+	<property name="stability_glue" value="20"/>
+	<property name="Mass" type="int" value="5"/>
+	<property name="MaxDamage" value="100"/>
+	<property name="Experience" value="20"/>
+</material>
+
+</append>
+</potato>

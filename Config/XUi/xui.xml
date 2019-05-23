@@ -1,28 +1,46 @@
-<configs>
+<potato>
 	<append xpath="/xui/ruleset" >
 
 		<window_group name="workstation_mayicblockGunWorkbench" controller="XUiC_WorkstationWindowGroup">
-			<window name="windowCraftingList"/>
-			<window name="craftingInfoPanel"/>
-			<window name="windowCraftingQueue"/>
-			<window name="windowOutput" />
-			<window name="windowNonPagingHeader" />
+			<window name="windowCustomCraftingList"/>
+			<window name="craftingCustomInfoPanel"/>
+			<window name="windowGunTool"/>
+			<window name="windowCustomQueue"/>
+			<window name="windowCustomOutput" />
+			<window name="windowCustomNonPagingHeader" />
 		</window_group>
 		
 		<window_group name="workstation_mayicblockAmmoWorkbench" controller="XUiC_WorkstationWindowGroup">
-			<window name="windowCraftingList"/>
-			<window name="craftingInfoPanel"/>
-			<window name="windowCraftingQueue"/>
-			<window name="windowOutput" />
-			<window name="windowNonPagingHeader" />
+			<window name="windowCustomCraftingList"/>
+			<window name="craftingCustomInfoPanel"/>
+			<window name="windowAmmoTool" />
+			<window name="windowCustomQueue"/>
+			<window name="windowCustomOutput" />
+			<window name="windowCustomNonPagingHeader" />
 		</window_group>
 		
 		<window_group name="workstation_mayicblockResearchTable" controller="XUiC_WorkstationWindowGroup">
-			<window name="windowCraftingList"/>
-			<window name="craftingInfoPanel"/>
-			<window name="windowCraftingQueue"/>
-			<window name="windowOutput" />
+			<window name="windowCustomCraftingList"/>
+			<window name="craftingCustomInfoPanel"/>
+			<window name="windowResearchTool"/>
+			<window name="windowCustomQueue"/>
+			<window name="windowCustomOutput" />
+			<window name="windowCustomNonPagingHeader" />
+		</window_group>
+	
+		<window_group name="workstation_mayicblockModWorkbench" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCustomCraftingList"/>
+			<window name="craftingCustomInfoPanel"/>
+			<window name="windowResearchTool"/>
+			<window name="windowCustomQueue"/>
+			<window name="windowCustomOutput" />
+			<window name="windowCustomNonPagingHeader" />
+		</window_group>
+
+		<window_group name="assemble" controller="XUiC_AssembleWindowGroup">
+			<window name="windowCustomAssemble" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
 		</append>
-		</configs>
+<set xpath="/xui/ruleset/window_group[@name='assemble']/window[@name='windowAssemble']/@name">windowCustomAssemble</set>
+	</potato>	

@@ -1,4 +1,4 @@
-<configs>
+<potato>
 	<!--
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 									Weapon Lootgroups with Ammo
@@ -10,6 +10,10 @@
 			<item name="mayicgunLuger" count="1"/>
 			<item name="mayicammo9x19mm" count="8,24"/>
 		</lootgroup>
+		<lootgroup name="r338sn" count="all">
+			<item name="mayicgun38Snubnose" count="1"/>
+			<item name="mayicammo38cal" count="8,24"/>
+		</lootgroup>
 		<lootgroup name="nano" count="all">
 			<item name="mayicgunBerettaNano" count="1"/>
 			<item name="mayicammo9x19mm" count="8,24"/>
@@ -18,33 +22,29 @@
 			<item name="mayicgunMakarov" count="1"/>
 			<item name="mayicammo9x19mm" count="8,24"/>
 		</lootgroup>
-		<lootgroup name="r338sn" count="all">
-			<item name="mayicgun38Snubnose" count="1"/>
-			<item name="mayicammo38cal" count="8,24"/>
-		</lootgroup>
-		<lootgroup name="a1911" count="all">
-			<item name="mayicgun1911" count="1"/>
-			<item name="mayicammo45acp" count="4,16"/>
-		</lootgroup>
 		<lootgroup name="P226" count="all">
 			<item name="mayicgunP226" count="1"/>
-			<item name="mayicammo40cal" count="4,16"/>
+			<item name="mayicammo9mm" count="4,16"/>
 		</lootgroup>
 		<lootgroup name="M9" count="all">
 			<item name="mayicgunM9" count="1"/>
-			<item name="mayicammo9x19mm" count="4,16"/>
-		</lootgroup>
-		<lootgroup name="USP" count="all">
-			<item name="mayicgunUSP" count="1"/>
-			<item name="mayicammo9x19mm" count="4,16"/>
+			<item name="mayicammo9mm" count="4,16"/>
 		</lootgroup>
 		<lootgroup name="B92" count="all">
 			<item name="mayicgunBeretta92" count="1"/>
-			<item name="mayicammo9x19mm" count="4,16"/>
+			<item name="mayicammo9mm" count="4,16"/>
+		</lootgroup>
+		<lootgroup name="USP" count="all">
+			<item name="mayicgunUSP" count="1"/>
+			<item name="mayicammo40cal" count="4,16"/>
 		</lootgroup>
 		<lootgroup name="Glock40" count="all">
 			<item name="mayicgunGlock40" count="1"/>
 			<item name="mayicammo40cal" count="4,16"/>
+		</lootgroup>
+		<lootgroup name="a1911" count="all">
+			<item name="mayicgun1911" count="1"/>
+			<item name="mayicammo45acp" count="4,16"/>
 		</lootgroup>
 		<lootgroup name="DesertEagle" count="all">
 			<item name="mayicgunDesertEagle" count="1"/>
@@ -57,35 +57,35 @@
 		<!-- SMG -->
 		<lootgroup name="Klob" count="all">
 			<item name="mayicgunKlob" count="1"/>
-			<item name="mayicammo10mm" count="12,26"/>
+			<item name="mayicammo9x19mm" count="12,26"/>
 		</lootgroup>
 		<lootgroup name="Mac10" count="all">
 			<item name="mayicgunMac10" count="1"/>
-			<item name="mayicammo9x19mm" count="12,26"/>
-		</lootgroup>
-		<lootgroup name="MP5" count="all">
-			<item name="mayicgunMP5" count="1"/>
-			<item name="mayicammo9x19mm" count="12,26"/>
-		</lootgroup>
-		<lootgroup name="Rcp90" count="all">
-			<item name="mayicgunRCP90" count="1"/>
-			<item name="mayicammo5.7x28mm" count="25,60"/>
-		</lootgroup>
-		<lootgroup name="Vector" count="all">
-			<item name="mayicgunVector" count="1"/>
 			<item name="mayicammo9x19mm" count="12,26"/>
 		</lootgroup>
 		<lootgroup name="Mk1" count="all">
 			<item name="mayicgunMK1" count="1"/>
 			<item name="mayicammo9x19mm" count="12,26"/>
 		</lootgroup>
-		<lootgroup name="Tommy" count="all">
-			<item name="mayicgunM1A1Thompson" count="1"/>
-			<item name="mayicammo45acp" count="12,26"/>
-		</lootgroup>
 		<lootgroup name="MP40" count="all">
 			<item name="mayicgunMP40" count="1"/>
-			<item name="mayicammo9x19mm" count="9,21"/>
+			<item name="mayicammo10mm" count="9,21"/>
+		</lootgroup>
+		<lootgroup name="MP5" count="all">
+			<item name="mayicgunMP5" count="1"/>
+			<item name="mayicammo40cal" count="12,26"/>
+		</lootgroup>
+		<lootgroup name="Vector" count="all">
+			<item name="mayicgunVector" count="1"/>
+			<item name="mayicammo9mm" count="12,26"/>
+		</lootgroup>
+		<lootgroup name="Tommy" count="all">
+			<item name="mayicgunM1A1Thompson" count="1"/>
+			<item name="mayicammo40cal" count="12,26"/>
+		</lootgroup>
+		<lootgroup name="Rcp90" count="all">
+			<item name="mayicgunRCP90" count="1"/>
+			<item name="mayicammo5.7x28mm" count="25,60"/>
 		</lootgroup>
 		<!-- Shotguns -->
 		<lootgroup name="DBS" count="all">
@@ -96,13 +96,13 @@
 			<item name="mayicgunSawedOff" count="1" />
 			<item name="ammoShotgunShell" count="1,5"/>
 		</lootgroup>
-		<lootgroup name="Huntingshot" count="all">
-			<item name="mayicgunHuntingShotgun" count="1" />
-			<item name="ammoShotgunShell" count="1,5"/>
-		</lootgroup>
 		<lootgroup name="Fallout" count="all">
 			<item name="mayicgunFalloutShotgun" count="1" />
 			<item name="ammoShotgunShell" count="1,5"/>
+		</lootgroup>
+		<lootgroup name="Huntingshot" count="all">
+			<item name="mayicgunHuntingShotgun" count="1" />
+			<item name="mayicammoBirdShot" count="1,5"/>
 		</lootgroup>
 		<lootgroup name="Mossberg" count="all">
 			<item name="mayicgunMossberg590A1" count="1"/>
@@ -112,30 +112,34 @@
 			<item name="mayicgunSpaz12" count="1"/>
 			<item name="mayicammo20gauge" count="4,16"/>
 		</lootgroup>
+		<lootgroup name="AA12" count="all">
+			<item name="mayicgunAA12" count="1"/>
+			<item name="mayicammo20gauge" count="8,32"/>
+		</lootgroup>
 		<!-- Rifles -->
-		<lootgroup name="FNFAL" count="all">
-			<item name="mayicgunFNFAL" count="1"/>
-			<item name="mayicammo22lr" count="7,25"/>
+		<lootgroup name="Bull" count="all">
+			<item name="mayicgunBullpup" count="1"/>
+			<item name="mayicammo223cal" count="7,25"/>
 		</lootgroup>
 		<lootgroup name="Rustak" count="all">
 			<item name="mayicgunRustAK" count="1"/>
-			<item name="mayicammo22lr" count="7,25"/>
-		</lootgroup>
-		<lootgroup name="M16" count="all">
-			<item name="mayicgunM16" count="1"/>
 			<item name="mayicammo223cal" count="7,25"/>
 		</lootgroup>
 		<lootgroup name="AK47" count="all">
 			<item name="mayicgunAK47" count="1"/>
-			<item name="mayicammo7.62x39mm" count="7,25"/>
+			<item name="mayicammo5.56x45mm" count="7,25"/>
+		</lootgroup>
+		<lootgroup name="FNFAL" count="all">
+			<item name="mayicgunFNFAL" count="1"/>
+			<item name="mayicammo223cal" count="7,25"/>
+		</lootgroup>
+		<lootgroup name="M16" count="all">
+			<item name="mayicgunM16" count="1"/>
+			<item name="mayicammo5.56x45mm" count="7,25"/>
 		</lootgroup>
 		<lootgroup name="AR15" count="all">
 			<item name="mayicgunAR15" count="1"/>
 			<item name="mayicammo223cal" count="7,15"/>
-		</lootgroup>
-		<lootgroup name="Bull" count="all">
-			<item name="mayicgunBullpup" count="1"/>
-			<item name="mayicammo22lr" count="7,25"/>
 		</lootgroup>
 		<lootgroup name="ACW" count="all">
 			<item name="mayicgunACW" count="1"/>
@@ -147,11 +151,11 @@
 		</lootgroup>
 		<lootgroup name="M4A1" count="all">
 			<item name="mayicgunM4A1" count="1"/>
-			<item name="mayicammo5.56x45mm" count="7,25"/>
+			<item name="mayicammo7.62x51mm" count="7,25"/>
 		</lootgroup>
 		<lootgroup name="SCAR" count="all">
 			<item name="mayicgunSCAR" count="1"/>
-			<item name="mayicammo5.56x45mm" count="7,25"/>
+			<item name="mayicammo7.62x51mm" count="7,25"/>
 		</lootgroup>
 		<lootgroup name="M1" count="all">
 			<item name="mayicgunM1" count="1"/>
@@ -168,7 +172,7 @@
 		</lootgroup>
 		<lootgroup name="M240" count="all">
 			<item name="mayicgunM240" count="1"/>
-			<item name="mayicammo5.56x45mm" count="30,80"/>
+			<item name="mayicammo7.62x51mm" count="30,80"/>
 		</lootgroup>
 		<lootgroup name="SR25" count="all">
 			<item name="mayicgunSR25" count="1"/>
@@ -176,11 +180,7 @@
 		</lootgroup>
 		<lootgroup name="Mrad" count="all">
 			<item name="mayicgunMrad" count="1"/>
-			<item name="mayicammo7.62x51mm" count="5,18"/>
-		</lootgroup>
-		<lootgroup name="M82" count="all">
-			<item name="mayicgunM82" count="1"/>
-			<item name="mayicammo50cal" count="1,10"/>
+			<item name="mayicammo338cal" count="5,18"/>
 		</lootgroup>
 		<lootgroup name="JNG90" count="all">
 			<item name="mayicgunJNG90" count="1"/>
@@ -190,101 +190,432 @@
 			<item name="mayicgunM98" count="1"/>
 			<item name="mayicammo338cal" count="1,10"/>
 		</lootgroup>
+		<lootgroup name="M82" count="all">
+			<item name="mayicgunM82" count="1"/>
+			<item name="mayicammo50cal" count="1,10"/>
+		</lootgroup>
 		<!-- Specials -->
-		<lootgroup name="M79" count="all">
-			<item name="mayicgunM79GL40" count="1"/>
-			<item name="mayicammo40mmExplosive" count="1,3"/>
-		</lootgroup>
-		<lootgroup name="Handcannon" count="all">
-			<item name="mayicgunHandCannon" count="1"/>
-			<item name="mayicammoExplosiveround" count="1,2"/>
-		</lootgroup>
 		<lootgroup name="Argh" count="all">
 			<item name="mayicgunArgh" count="1"/>
 			<item name="ammoBlunderbuss" count="1,10"/>
+		</lootgroup>
+		<lootgroup name="Handcannon" count="all">
+			<item name="mayicgunHandCannon" count="1"/>
+			<item name="mayicammo40mmMini" count="1,2"/>
+		</lootgroup>
+		<lootgroup name="M79" count="all">
+			<item name="mayicgunM79GL40" count="1"/>
+			<item name="mayicammo40mmExplosive" count="1,3"/>
 		</lootgroup>
 		<lootgroup name="Chaingun" count="all">
 			<item name="mayicgunChaingun" count="1"/>
 			<item name="mayicammo5mm" count="50,200"/>
 		</lootgroup>
+		<lootgroup name="Alien" count="all">
+			<item name="mayicgunLaserRifle" count="1"/>
+			<item name="mayicammoLaserRound" count="5,22"/>
+		</lootgroup>
+		<lootgroup name="Flame" count="all">
+			<item name="mayicgunFlamethrower" count="1"/>
+			<item name="mayicammoFlameFuel" count="55,210"/>
+		</lootgroup>
+		<lootgroup name="SpecialAmmo" count="1">
+			<item name="mayicammoIncendiary" count="5,22"/>
+			<item name="mayicammoExplosive" count="5,22"/>
+			<item name="mayicammoCorrosive" count="5,22"/>
+			<item name="mayicammoDragonsbreath" count="2,7"/>
+			<item name="mayicammoElectricshell" count="2,7"/>
+		</lootgroup>
+		<lootgroup name="WorkbencheBlueprints" count="1">
+			<item name="mayicblockModWorkbenchSchematic" count="1" prob="0.5"/>
+			<item name="mayicblockResearchTableSchematic" count="1" prob="0.3"/>
+			<item name="mayicblockAmmoWorkbenchSchematic" count="1" prob="0.8"/>
+			<item name="mayicblockGunWorkbenchSchematic" count="1" prob="1"/>
+		</lootgroup>
+		<!-- Mods -->
+		<lootgroup name="Mods" count="1">
+			<item name="mayicmodHandGrip" count="1" prob="0.25"/>
+			<item name="mayicmodLaserSide" count="1" prob="0.05"/>
+			<item name="mayicmodBayonet" count="1" prob="0.35"/>
+			<item name="mayicmodExtendedSilencer" count="1" prob="0.2"/>
+			<item name="mayicmodQuickMag" count="1" prob="0.15"/>
+			<item name="mayicmodBlockBuster" count="1" prob="0.1"/>
+			<item name="mayicmodDrumMagSchematic" prob="0.05"/>
+			<item name="mayicmodBananaClipSchematic" prob="0.1"/>
+		</lootgroup>
+		<lootgroup name="Scopes" count="1">
+			<item name="mayicmodHoloSightRed" count="1" prob="0.03"/>
+			<item name="mayicmodHoloSightBlue" count="1" prob="0.03"/>
+			<item name="mayicmodHoloSightGreen" count="1" prob="0.03"/>
+			<item name="mayicmodBlueDotSight" count="1" prob="0.04"/>
+			<item name="mayicmodGreenDotSight" count="1" prob="0.04"/>
+			<item name="mayicmodRedDotSight" count="1" prob="0.04"/>
+			<item name="mayicmodACOGBlue" count="1" prob="0.02"/>
+			<item name="mayicmodACOGGreen" count="1" prob="0.02"/>
+			<item name="mayicmodACOGRed" count="1" prob="0.02"/>
+			<item name="mayicmodACOGx2Blue" count="1" prob="0.015"/>
+			<item name="mayicmodACOGx2Green" count="1" prob="0.015"/>
+			<item name="mayicmodACOGx2Red" count="1" prob="0.015"/>
+			<item name="mayicmodHairSight" count="1" prob="0.035"/>
+			<item name="mayicmodHairSightx2" count="1" prob="0.025"/>
+			<item name="mayicmodHairSightx4" count="1" prob="0.015"/>
+			<item name="mayicmodAlienScope" count="1" prob="0.0005"/>
+		</lootgroup>
+		<!-- Workstation Tools -->
+		<lootgroup name="GunTools" count="1">
+			<item name="mayictoolFirearmsKit" count="1" prob="0.5"/>
+			<item name="mayictoolReceiverVise" count="1" prob="0.3"/>
+			<item name="mayictoolMicrometer" count="1" prob="0.15"/>
+			<item name="mayictoolSightPusher" count="1" prob="0.35"/>
+			<item name="mayictoolChannelLocks" count="1" prob="0.2"/>
+			<item name="mayictoolHandguardGrips" count="1" prob="0.05"/>
+			<item name="mayictoolArmorersWrench" count="1" prob="0.09"/>
+		</lootgroup>
+		<lootgroup name="AmmoTools" count="1">
+			<item name="mayictoolTipExtractor" count="1" prob="0.5"/>
+			<item name="mayictoolCasingGrip" count="1" prob="0.3"/>
+			<item name="mayictoolPowderFunnel" count="1" prob="0.25"/>
+			<item name="mayictoolViseGrips" count="1" prob="0.05"/>
+			<item name="mayictoolBulletPress" count="1" prob="0.05"/>
+			<item name="mayictoolPowderKeg" count="1" prob="0.005"/>
+		</lootgroup>
+		<lootgroup name="ResearchTools" count="1">
+			<item name="mayictoolAmmoManual" count="1"/>
+			<item name="mayictoolModificationManual" count="1"/>
+			<item name="mayictoolGunManual" count="1"/>
+		</lootgroup>
+		<lootgroup name="AllTools" count="1">
+			<item group="ResearchTools"/>
+			<item group="GunTools"/>
+			<item group="AmmoTools"/>
+		</lootgroup>
+		<lootgroup name="GunParts" count="2">
+			<item name="mayicpartSmReceiver" count="1" prob=".25"/>
+			<item name="mayicpartSmBarrel" count="1" prob=".25"/>
+			<item name="mayicpartSmStock" count="1" prob=".25"/>
+			<item name="mayicpartSmGrip" count="1" prob=".25"/>
+			<item name="mayicpartMedReceiver" count="1" prob=".15"/>
+			<item name="mayicpartMedBarrel" count="1" prob=".15"/>
+			<item name="mayicpartMedStock" count="1" prob=".15"/>
+			<item name="mayicpartMedGrip" count="1" prob=".15"/>
+			<item name="mayicpartLrgReceiver" count="1" prob=".07"/>
+			<item name="mayicpartLrgBarrel" count="1" prob=".07"/>
+			<item name="mayicpartLrgStock" count="1" prob=".07"/>
+			<item name="mayicpartLrgGrip" count="1" prob=".07"/>
+			
+			<item name="mayicpartShortBarrel" count="1" prob=".23"/>
+			<item name="mayicpartMountRails" count="1" prob=".13"/>
+			<item name="mayicpartLongBarrel" count="1" prob=".05"/>
+			
+			<item name="mayicpartForwardAssist" count="1" prob=".23"/>
+			<item name="mayicpartSlideBar" count="1" prob=".13"/>
+			<item name="mayicpartBreechBolt" count="1" prob=".05"/>
+			
+			<item name="mayicpartTrigger" count="1" prob=".23"/>
+			<item name="mayicpartHammer" count="1" prob=".13"/>
+			<item name="mayicpartCompressor" count="1" prob=".13"/>
+			<item name="mayicpartHandguard" count="1" prob=".05"/>
+			
+			<item name="mayicpartFlamethrowerTank" count="1" prob=".005"/>
+			<item name="mayicpartChaingunGear" count="1" prob=".00005"/>
+			<item name="mayicpartAlienFrame" count="1" prob=".00005"/>
+		</lootgroup>
+		<!-- Master Grouping -->
+		<lootgroup name="PistolT1" count="1">
+			<item group="luger" prob="0.5"/>
+			<item group="r338sn" prob="0.65"/>
+			<item group="nano" prob="0.25"/>
+			<item group="makarov" prob="0.35"/>
+		</lootgroup>
+		<lootgroup name="PistolT2" count="1">
+			<item group="P226" prob="0.5"/>
+			<item group="M9" prob="0.4"/>
+			<item group="B92" prob="0.4"/>
+			<item group="USP" prob="0.25"/>
+			<item group="Glock40" prob="0.2"/>
+			<item group="a1911" prob="0.05"/>
+		</lootgroup>
+		<lootgroup name="PistolT3" count="1">
+			<item group="DesertEagle" prob="0.02"/>
+			<item group="ColtPython" prob="0.05"/>
+		</lootgroup>
+		<lootgroup name="SMGT1" 		count="1">
+			<item group="Klob" prob="0.4"/>
+			<item group="Mac10" prob="0.6"/>
+			<item group="Mk1" prob="0.35"/>
+		</lootgroup>
+		<lootgroup name="SMGT2" count="1">
+			<item group="MP40" prob="0.25"/>
+			<item group="MP5" prob="0.5"/>
+			<item group="Tommy" prob="0.15"/>
+		</lootgroup>
+		<lootgroup name="SMGT3" count="1">
+			<item group="Vector" prob="0.3"/>
+			<item group="Rcp90" prob="0.05"/>
+		</lootgroup>
+		<lootgroup name="ShotgunT1" count="1">
+			<item group="DBS" prob="0.5"/>
+			<item group="Sawed" prob="0.5"/>
+		</lootgroup>
+		<lootgroup name="ShotgunT2" count="1">
+			<item group="Huntingshot" prob="0.3"/>
+			<item group="Mossberg" prob="0.15"/>
+		</lootgroup>
+		<lootgroup name="ShotgunT3" count="1">
+			<item group="Fallout" prob="0.14"/>
+			<item group="Spaz12" prob="0.005"/>
+			<item group="AA12" prob="0.005"/>
+		</lootgroup>
+		<lootgroup name="RifleT1" count="1">
+			<item group="Bull" prob="0.5"/>
+			<item group="Rustak" prob="0.35"/>
+			<item group="AK47" prob="0.3"/>
+			<item group="FNFAL" prob="0.15"/>
+			<item group="M16" prob="0.25"/>
+		</lootgroup>
+		<lootgroup name="RifleT2" count="1">
+			<item group="AR15" prob="0.75"/>
+			<item group="ACW" prob="0.45"/>
+			<item group="ARX160" prob="0.25"/>
+			<item group="M4A1" prob="0.1"/>
+			<item group="SCAR" prob="0.1"/>
+		</lootgroup>
+		<lootgroup name="RifleT3" count="1">
+			<item group="M1" prob="0.05"/>
+			<item group="Nagant" prob="0.07"/>
+		</lootgroup>
+		<lootgroup name="LargeT1" count="1">
+			<item group="SR25" prob="0.15"/>
+			<item group="Mrad" prob="0.15"/>
+		</lootgroup>
+		<lootgroup name="LargeT2" count="1">
+			<item group="JNG90" prob="0.09"/>
+			<item group="M98" prob="0.07"/>
+		</lootgroup>
+		<lootgroup name="LargeT3" count="1">
+			<item group="M249Saw" prob="0.008"/>
+			<item group="M240" prob="0.005"/>
+			<item group="M82" prob="0.005"/>
+		</lootgroup>
+		<lootgroup name="SpecialT1" count="1">
+			<item group="Argh" prob="0.25"/>
+			<item group="Handcannon" prob="0.1"/>
+		</lootgroup>
+		<lootgroup name="SpecialT2" count="1">
+			<item group="M79" prob="0.08"/>
+			<item group="Flame" prob="0.08"/>
+		</lootgroup>
+		<lootgroup name="SpecialT3" count="1">
+			<item group="Chaingun" prob="0.0005"/>
+			<item group="Alien" prob="0.000005"/>
+		</lootgroup>
 	</insertBefore>
+	<append xpath="lootcontainers/lootgroup[@name='ammo']">
+		<item name="mayicammo38cal" count="8,24" prob="1.5"/>
+		<item name="mayicammo38calSteel" count="8,24" prob="1.5"/>
+		<item name="mayicammo9mm" count="4,16" prob="0.25"/>
+		<item name="mayicammo9mmSteel" count="4,16" prob="0.25"/>
+		<item name="mayicammo40cal" count="4,16" prob="0.25"/>
+		<item name="mayicammo40calSteel" count="4,16" prob="0.25"/>
+		<item name="mayicammo45acp" count="4,16" prob="0.25"/>
+		<item name="mayicammo45acpSteel" count="4,16" prob="0.25"/>
+		<item name="mayicammo357magnum" count="1,7" prob="0.25"/>
+		<item name="mayicammo357magnumSteel" count="1,7" prob="0.25"/>
+		<item name="mayicammo50ae" count="1,7" prob="0.25"/>
+		<item name="mayicammo50aeSteel" count="1,7" prob="0.25"/>
+		
+		<item name="mayicammo20gauge" count="4,16" prob="0.55"/>
+		<item name="mayicammoBirdShot" count="4,16" prob="0.85"/>
+		
+		<item name="mayicammo9x19mm" count="9,21" prob="1.5"/>
+		<item name="mayicammo9x19mmSteel" count="9,21" prob="1.5"/>
+		<item name="mayicammo10mm" count="12,26" prob="1.5"/>
+		<item name="mayicammo10mmSteel" count="12,26" prob="1.5"/>
+		<item name="mayicammo5.7x28mm" count="12,26" prob="1.5"/>
+		<item name="mayicammo5.7x28mmSteel" count="12,26" prob="1.5"/>
+		
+		<item name="mayicammo22lr" count="4,16" prob="0.25"/>
+		<item name="mayicammo22lrSteel" count="4,16" prob="0.25"/>
+		<item name="mayicammo223cal" count="7,15" prob="0.8"/>
+		<item name="mayicammo223calSteel" count="7,15" prob="0.8"/>
+		<item name="mayicammo5.56x45mm" count="30,160" prob="0.25"/>
+		<item name="mayicammo5.56x45mmSteel" count="30,160" prob="0.25"/>
+		<item name="mayicammo7.62x39mm" count="7,25" prob="0.2"/>
+		<item name="mayicammo7.62x39mmSteel" count="7,25" prob="0.2"/>
+		<item name="mayicammo7.62x51mm" count="7,25" prob="0.2"/>
+		<item name="mayicammo7.62x51mmSteel" count="7,25" prob="0.2"/>
+		<item name="mayicammo30-06" count="4,16" prob="0.3"/>
+		<item name="mayicammo30-06Steel" count="4,16" prob="0.3"/>
+		
+		
+		<item name="mayicammo338cal" count="4,16" prob="0.3"/>
+		<item name="mayicammo338calSteel" count="4,16" prob="0.3"/>
+		<item name="mayicammo50cal" count="1,10" prob="0.2"/>
+		<item name="mayicammo50calSteel" count="1,10" prob="0.2"/>
+		
+		<item name="mayicammo5mm" count="50,600" prob="0.2"/>
+		<item name="mayicammo5mmSteel" count="50,600" prob="0.2"/>
+		<item name="mayicammo40mmExplosive" count="1,3" prob="0.05"/>
+		<item name="mayicammo40mmMini" count="1,10" prob="0.1"/>
+		<item name="mayicammoFlameFuel" count="1,10" prob="0.2"/>
+		<item name="mayicammoGoldenbullet" count="1,3" prob="0.001"/>
+		
+		<item name="mayicammoLaserRound" count="5,12" prob="0.001"/>
+		<item name="mayicammoDragonsbreath" count="4,12" prob="0.03"/>
+		<item name="mayicammoElectricshell" count="4,12" prob="0.03"/>
+		
+		<item name="mayicammoIncendiary" count="5,15" prob="0.03"/>
+		<item name="mayicammoExplosive" count="5,15" prob="0.03"/>
+		<item name="mayicammoCorrosive" count="5,15" prob="0.03"/>
+	</append>
 	<append xpath="lootcontainers/lootgroup[@name='commonBooks']">
-		<item name="mayicmodACOGSchematic" prob="0.1"/>
-		<item name="mayicmodDotSchematic" prob="0.1"/>
-		<item name="mayicmodHoloSchematic" prob="0.1"/>
-		<item name="mayicgunFNFALSchematic" prob="0.08"/>
-		<item name="mayicgunRustAKSchematic" prob="0.08"/>
-		<item name="mayicgunACWSchematic" prob="0.08"/>
-		<item name="mayicgunBullpupSchematic" prob="0.08"/>
-		<item name="mayicgunAR15Schematic" prob="0.08"/>
-		<item name="mayicgunAK47Schematic" prob="0.04"/>
-		<item name="mayicgunM16Schematic" prob="0.04"/>
-		<item name="mayicgunDoubleBarrelShotgunSchematic" prob="0.1"/>
-		<item name="mayicgunSawedOffSchematic" prob="0.1"/>
-		<item name="mayicgunKlobSchematic" prob="0.1"/>
-		<item name="mayicgunMac10Schematic" prob="0.1"/>
-		<item name="mayicgunMK1Schematic" prob="0.1"/>
-		<item name="mayicgunMP40Schematic" prob="0.08"/>
-		<item name="mayicgunLugerSchematic" prob="0.12"/>
-		<item name="mayicgun38SnubnoseSchematic" prob="0.12"/>
-		<item name="mayicgunBerettaNanoSchematic" prob="0.12"/>
-		<item name="mayicgunMakarovSchematic" prob="0.12"/>
-		<item name="mayicgunM9Schematic" prob="0.08"/>
-		<item name="mayicgunBeretta92Schematic" prob="0.08"/>
-		<item name="mayicgunP226Schematic" prob="0.08"/>
-		<item name="mayicammo10mmSchematic" prob="0.08"/>
-		<item name="mayicammo9x19mmSchematic" prob="0.08"/>
-		<item name="mayicammo9mmSchematic" prob="0.08"/>
-		<item name="mayicammo5.7x28mmSchematic" prob="0.08"/>
-		<item name="mayicammo38calSchematic" prob="0.08"/>
-		<item name="mayicammo40calSchematic" prob="0.04"/>
-		<item name="mayicammo223calSchematic" prob="0.04"/>
-		<item name="mayicammo22lrSchematic" prob="0.04"/>
-		<item name="mayicammo5.56x45mmSchematic" prob="0.04"/>
-		<item name="mayicammo20gaugeSchematic" prob="0.04"/>
-		<item name="mayicammoBirdShotSchematic" prob="0.06"/>
+		<item name="mayicmodACOGSchematic" prob="0.4"/>
+		<item name="mayicmodACOGx2Schematic" prob="0.2"/>
+		<item name="mayicmodDotSchematic" prob="0.4"/>
+		<item name="mayicmodHoloSchematic" prob="0.4"/>
+		<item name="mayicmodHairSightSchematic" prob="0.4"/>
+		<item name="mayicmodHairSightx2Schematic" prob="0.3"/>
+		<item name="mayicmodHairSightx4Schematic" prob="0.2"/>
+		<item name="mayicmodHandGripSchematic" prob="0.4"/>
+		<item name="mayicmodLaserSideSchematic" prob="0.4"/>
+		<item name="mayicmodQuickMagSchematic" prob="0.4"/>
+		<item name="mayicmodDrumMagSchematic" prob="0.2"/>
+		<item name="mayicmodBananaClipSchematic" prob="0.3"/>
+		<item name="mayicmodBayonetSchematic" prob="0.4"/>
+		<item name="mayicmodExtendedSilencerSchematic" prob="0.4"/>
+		<item name="mayicmodBlockBusterSchematic" prob="0.3"/>
+		<item name="mayicmodAlienScopeSchematic" prob="0.2"/>
+		<item group="ResearchTools" prob="0.5"/>
+		<item group="WorkbencheBlueprints" prob="0.5"/>
+		<item name="mayicpartSmReceiverSchematic" count="1" prob=".5"/>
+		<item name="mayicpartSmBarrelSchematic" count="1" prob=".5"/>
+		<item name="mayicpartSmStockSchematic" count="1" prob=".5"/>
+		<item name="mayicpartSmGripSchematic" count="1" prob=".5"/>
+		<item name="mayicpartMedReceiverSchematic" count="1" prob=".3"/>
+		<item name="mayicpartMedBarrelSchematic" count="1" prob=".3"/>
+		<item name="mayicpartMedStockSchematic" count="1" prob=".3"/>
+		<item name="mayicpartMedGripSchematic" count="1" prob=".3"/>
+		<item name="mayicpartShortBarrelSchematic" count="1" prob=".46"/>
+		<item name="mayicpartMountRailsSchematic" count="1" prob=".26"/>
+		<item name="mayicpartForwardAssistSchematic" count="1" prob=".46"/>
+		<item name="mayicpartTriggerSchematic" count="1" prob=".46"/>
+		<item name="mayicpartHammerSchematic" count="1" prob=".26"/>
+		
+		<item name="mayicgunBerettaNanoSchematic" prob="0.76"/>
+		<item name="mayicgunM9Schematic" prob="0.5"/>
+		<item name="mayicgunBeretta92Schematic" prob="0.5"/>
+		<item name="mayicgunP226Schematic" prob="0.5"/>
+		<item name="mayicgunMac10Schematic" prob="0.5"/>
+		<item name="mayicgunMK1Schematic" prob="0.64"/>
+		<item name="mayicgunMP40Schematic" prob="0.5"/>
+		<item name="mayicgunSawedOffSchematic" prob="0.64"/>
+		<item name="mayicgunFNFALSchematic" prob="0.5"/>
+		<item name="mayicgunRustAKSchematic" prob="0.5"/>
+		<item name="mayicgunACWSchematic" prob="0.48"/>
+		<item name="mayicgunBullpupSchematic" prob="0.56"/>
+		<item name="mayicgunAR15Schematic" prob="0.36"/>
+		<item name="mayicgunAK47Schematic" prob="0.36"/>
+		<item name="mayicgunM16Schematic" prob="0.4"/>
+		<item name="mayicammo10mmSchematic" prob="0.8"/>
+		<item name="mayicammo9mmSchematic" prob="0.64"/>
+		<item name="mayicammo5.7x28mmSchematic" prob="0.58"/>
+		<item name="mayicammo40calSchematic" prob="0.66"/>
+		<item name="mayicammo223calSchematic" prob="0.50"/>
+		<item name="mayicammo22lrSchematic" prob="0.56"/>
+		<item name="mayicammo5.56x45mmSchematic" prob="0.3"/>
+		<item name="mayicammo10mmSteelSchematic" prob="0.8"/>
+		<item name="mayicammo9mmSteelSchematic" prob="0.64"/>
+		<item name="mayicammo5.7x28mmSteelSchematic" prob="0.56"/>
+		<item name="mayicammo40calSteelSchematic" prob="0.66"/>
+		<item name="mayicammo223calSteelSchematic" prob="0.5"/>
+		<item name="mayicammo22lrSteelSchematic" prob="0.56"/>
+		<item name="mayicammo5.56x45mmSteelSchematic" prob="0.3"/>
+		<item name="mayicammo20gaugeSchematic" prob="0.2"/>
+		<item name="mayicammoBirdShotSchematic" prob="0.5"/>
 	</append>
 	<append xpath="lootcontainers/lootgroup[@name='rareBooks']">
-		<item name="mayicmodACOGSchematic" prob="0.1"/>
-		<item name="mayicmodDotSchematic" prob="0.1"/>
-		<item name="mayicmodHoloSchematic" prob="0.1"/>
-		<item name="mayicgunARX160Schematic" prob="0.08"/>
-		<item name="mayicgunM4A1Schematic" prob="0.06"/>
-		<item name="mayicgunSCARSchematic" prob="0.06"/>
-		<item name="mayicgunM1Schematic" prob="0.04"/>
-		<item name="mayicgunM249SawSchematic" prob="0.005"/>
-		<item name="mayicgunM240Schematic" prob="0.005"/>
-		<item name="mayicgunMosinNagantSchematic" prob="0.04"/>
-		<item name="mayicgunSR25Schematic" prob="0.02"/>
-		<item name="mayicgunMradSchematic" prob="0.02"/>
-		<item name="mayicgunJNG90Schematic" prob="0.01"/>
-		<item name="mayicgunM98Schematic" prob="0.01"/>
-		<item name="mayicgunM82Schematic" prob="0.005"/>
-		<item name="mayicgunFalloutShotgunSchematic" prob="0.08"/>
-		<item name="mayicgunHuntingShotgunSchematic" prob="0.12"/>
-		<item name="mayicgunMossberg590A1Schematic" prob="0.06"/>
-		<item name="mayicgunSpaz12Schematic" prob="0.005"/>
-		<item name="mayicgunVectorSchematic" prob="0.05"/>
-		<item name="mayicgunMP5Schematic" prob="0.08"/>
-		<item name="mayicgunM1A1ThompsonSchematic" prob="0.08"/>
-		<item name="mayicgunRCP90Schematic" prob="0.02"/>
-		<item name="mayicgunGlock40Schematic" prob="0.12"/>
-		<item name="mayicgunUSPSchematic" prob="0.12"/>
-		<item name="mayicgun1911Schematic" prob="0.1"/>
-		<item name="mayicgunDesertEagleSchematic" prob="0.005"/>
-		<item name="mayicgunColtPythonSchematic" prob="0.02"/>
-		<item name="mayicammo45acpSchematic" prob="0.04"/>
-		<item name="mayicammo50aeSchematic" prob="0.005"/>
-		<item name="mayicammo357magnumSchematic" prob="0.02"/>
-		<item name="mayicammo7.62x39mmSchematic" prob="0.03"/>
-		<item name="mayicammo30-06Schematic" prob="0.008"/>
-		<item name="mayicammo7.62x51mmSchematic" prob="0.05"/>
-		<item name="mayicammo338calSchematic" prob="0.01"/>
-		<item name="mayicammo50calSchematic" prob="0.005"/>
-		<item name="mayicammo5mmSchematic" prob="0.02"/>
-		<item name="mayicammoGoldenbulletSchematic" prob="0.005"/>
-		<item name="mayicammoExplosiveroundSchematic" prob="0.01"/>
-		<item name="mayicammo40mmExplosiveSchematic" prob="0.005"/>
+		<item name="mayicmodACOGSchematic" prob="0.4"/>
+		<item name="mayicmodACOGx2Schematic" prob="0.2"/>
+		<item name="mayicmodDotSchematic" prob="0.4"/>
+		<item name="mayicmodHoloSchematic" prob="0.4"/>
+		<item name="mayicmodHairSightSchematic" prob="0.4"/>
+		<item name="mayicmodHairSightx2Schematic" prob="0.3"/>
+		<item name="mayicmodHairSightx4Schematic" prob="0.2"/>
+		<item name="mayicmodHandGripSchematic" prob="0.4"/>
+		<item name="mayicmodLaserSideSchematic" prob="0.4"/>
+		<item name="mayicmodQuickMagSchematic" prob="0.4"/>
+		<item name="mayicmodDrumMagSchematic" prob="0.2"/>
+		<item name="mayicmodBananaClipSchematic" prob="0.3"/>
+		<item name="mayicmodBayonetSchematic" prob="0.4"/>
+		<item name="mayicmodExtendedSilencerSchematic" prob="0.4"/>
+		<item name="mayicmodBlockBusterSchematic" prob="0.3"/>
+		<item name="mayicmodAlienScopeSchematic" prob="0.2"/>
+		<item group="ResearchTools" prob="0.75"/>
+		<item group="WorkbencheBlueprints" prob="0.75"/>
+		<item name="mayicpartLrgReceiverSchematic" count="1" prob=".45"/>
+		<item name="mayicpartLrgBarrelSchematic" count="1" prob=".45"/>
+		<item name="mayicpartLrgStockSchematic" count="1" prob=".45"/>
+		<item name="mayicpartLrgGripSchematic" count="1" prob=".45"/>
+		<item name="mayicpartLongBarrelSchematic" count="1" prob=".25"/>
+		<item name="mayicpartSlideBarSchematic" count="1" prob=".24"/>
+		<item name="mayicpartBreechBoltSchematic" count="1" prob=".2"/>
+		<item name="mayicpartCompressorSchematic" count="1" prob=".26"/>
+		<item name="mayicpartHandguardSchematic" count="1" prob=".18"/>
+		<item name="mayicpartFlamethrowerTank" count="1" prob=".1"/>
+		<item name="mayicpartChaingunGear" count="1" prob=".05"/>
+		<item name="mayicpartAlienFrame" count="1" prob=".005"/>
+		<item name="mayicgunGlock40Schematic" prob="0.9"/>
+		<item name="mayicgunUSPSchematic" prob="0.9"/>
+		<item name="mayicgun1911Schematic" prob="0.9"/>
+		<item name="mayicgunDesertEagleSchematic" prob="0.3"/>
+		<item name="mayicgunColtPythonSchematic" prob="0.35"/>
+		<item name="mayicgunVectorSchematic" prob="0.8"/>
+		<item name="mayicgunMP5Schematic" prob="0.9"/>
+		<item name="mayicgunM1A1ThompsonSchematic" prob="0.5"/>
+		<item name="mayicgunRCP90Schematic" prob="0.3"/>
+		<item name="mayicgunFalloutShotgunSchematic" prob="0.5"/>
+		<item name="mayicgunHuntingShotgunSchematic" prob="0.9"/>
+		<item name="mayicgunMossberg590A1Schematic" prob="0.6"/>
+		<item name="mayicgunSpaz12Schematic" prob="0.08"/>
+		<item name="mayicgunAA12Schematic" prob="0.06"/>
+		<item name="mayicgunARX160Schematic" prob="0.7"/>
+		<item name="mayicgunM4A1Schematic" prob="0.5"/>
+		<item name="mayicgunSCARSchematic" prob="0.5"/>
+		<item name="mayicgunM1Schematic" prob="0.3"/>
+		<item name="mayicgunMosinNagantSchematic" prob="0.3"/>
+		<item name="mayicgunM249SawSchematic" prob="0.1"/>
+		<item name="mayicgunM240Schematic" prob="0.1"/>
+		<item name="mayicgunSR25Schematic" prob="0.2"/>
+		<item name="mayicgunMradSchematic" prob="0.2"/>
+		<item name="mayicgunJNG90Schematic" prob="0.16"/>
+		<item name="mayicgunM98Schematic" prob="0.16"/>
+		<item name="mayicgunM82Schematic" prob="0.1"/>
+		<item name="mayicgunFlamethrowerSchematic" prob="0.1"/>
+		<item name="mayicgunChaingunSchematic" prob="0.006"/>
+		<item name="mayicgunLaserRifleSchematic" prob="0.006"/>
+		<item name="mayicammo45acpSchematic" prob="0.8"/>
+		<item name="mayicammo50aeSchematic" prob="0.2"/>
+		<item name="mayicammo357magnumSchematic" prob="0.3"/>
+		<item name="mayicammo7.62x39mmSchematic" prob="0.5"/>
+		<item name="mayicammo30-06Schematic" prob="0.3"/>
+		<item name="mayicammo7.62x51mmSchematic" prob="0.4"/>
+		<item name="mayicammo338calSchematic" prob="0.3"/>
+		<item name="mayicammo50calSchematic" prob="0.12"/>
+		<item name="mayicammo5mmSchematic" prob="0.25"/>
+		<item name="mayicammo45acpSteelSchematic" prob="0.8"/>
+		<item name="mayicammo50aeSteelSchematic" prob="0.2"/>
+		<item name="mayicammo357magnumSteelSchematic" prob="0.3"/>
+		<item name="mayicammo7.62x39mmSteelSchematic" prob="0.5"/>
+		<item name="mayicammo30-06SteelSchematic" prob="0.3"/>
+		<item name="mayicammo7.62x51mmSteelSchematic" prob="0.4"/>
+		<item name="mayicammo338calSteelSchematic" prob="0.3"/>
+		<item name="mayicammo50calSteelSchematic" prob="0.12"/>
+		<item name="mayicammo5mmSteelSchematic" prob="0.25"/>
+		<item name="mayicammoGoldenbulletSchematic" prob="0.008"/>
+		<item name="mayicammo40mmMiniSchematic" prob="0.16"/>
+		<item name="mayicammoFlameFuelSchematic" prob="0.16"/>
+		<item name="mayicammo40mmExplosiveSchematic" prob="0.06"/>
+		<item name="mayicammoLaserRoundSchematic" prob="0.005"/>
 	</append>
 	<append xpath="lootcontainers/lootgroup[@name='questChallenge']">
 		<item name="mayicchallengehandgun"/>
@@ -294,417 +625,289 @@
 		<item name="mayicchallengesniper"/>
 		<item name="mayicchallengechaingun"/>
 	</append>
+	<append xpath="lootcontainers/lootgroup[@name='workingStiffs']">
+		<item group="AmmoTools" 	count="1" prob="0.3"/>
+		<item group="GunTools" 		count="1" prob="0.3"/>
+		<item group="ResearchTools" count="1" prob="0.05"/>
+	</append>
+	
+	<!-- 
+	loot_prob_template="probTemplate1.0"
+	loot_prob_template="probTemplate0.75"
+	loot_prob_template="probTemplate0.5" 
+	-->
 	<!-- Nightstand/Dresser -->
 	<append xpath="/lootcontainers/lootcontainer[@id='6']">
-		<item group="luger" count="1" prob="0.6"/>
-		<item group="r338sn" count="1" prob="0.6"/>
-		<item group="a1911" count="1" prob="0.6"/>
-		<item group="Klob" count="1" prob="0.35"/>
-		<item group="Mac10" count="1" prob="0.35"/>
-		<item group="DBS" count="1" prob="0.35"/>
+		<item group="PistolT1" 		count="1" prob="0.6"/>
+		<item group="SMGT1" 		count="1" prob="0.15"/>
+		<item group="ShotgunT1" 	count="1" prob="0.3"/>
+		<item group="GunParts" 		count="1" prob="0.3"/>
+	</append>
+	<!-- Trash -->
+	<append xpath="/lootcontainers/lootcontainer[@id='1']">
+		<item group="GunParts"		count="1" prob=".35"/>
 	</append>
 	<!-- Safes/weapon caches/rare good loot -->
 	<append xpath="/lootcontainers/lootcontainer[@id='11']">
-		<item group="luger" count="1" prob="0.6"/>
-		<item group="r338sn" count="1" prob="0.6"/>
-		<item group="nano" count="1" prob="0.6"/>
-		<item group="makarov" count="1" prob="0.6"/>
-		<item group="USP" count="1" prob="0.25"/>
-		<item group="Vector" count="1" prob="0.2"/>
-		<item group="a1911" count="1" prob="0.6"/>
-		<item group="Glock40" count="1" prob="0.25"/>
-		<item group="P226" count="1" prob="0.25"/>
-		<item group="M9" count="1" prob="0.25"/>
-		<item group="B92" count="1" prob="0.25"/>
-		<item group="ColtPython" count="1" prob="0.005"/>
-		<item group="Rcp90" count="1" prob="0.2"/>
-		<item group="Mk1" count="1" prob="0.2"/>
-		<item group="DesertEagle" count="1" prob="0.005"/>
-		<item group="Klob" count="1" prob="0.35"/>
-		<item group="Mac10" count="1" prob="0.35"/>
-		<item group="Mossberg" count="1" prob="0.3"/>
-		<item group="DBS" count="1" prob="0.35"/>
-		<item group="Fallout" count="1" prob="0.3"/>
-		<item group="Huntingshot" count="1" prob="0.3"/>
-		<item group="Sawed" count="1" prob="0.35"/>
-		<item group="ACW" count="1" prob="0.06"/>
-		<item group="Bull" count="1" prob="0.08"/>
-		<item group="MP5" count="1" prob="0.2"/>
-		<item group="Tommy" count="1" prob="0.2"/>
-		<item group="Handcannon" count="1" prob="0.005"/>
-		<item group="SR25" count="1" prob="0.05"/>
+		<item group="PistolT1" 		count="1" prob="1.5"/>
+		<item group="PistolT2" 		count="1" prob="1.5"/>
+		<item group="PistolT3"		count="1" prob="0.05"/>
+		<item group="SMGT1" 		count="1" prob="1.5"/>
+		<item group="SMGT2" 		count="1" prob="1.25"/>
+		<item group="SMGT3" 		count="1" prob="0.05"/>
+		<item group="ShotgunT1" 	count="1" prob="1.25"/>
+		<item group="ShotgunT2" 	count="1" prob="1"/>
+		<item group="RifleT1" 		count="1" prob=".75"/>
+		<item group="LargeT1" 		count="1" prob=".5"/>
+		<item group="Scopes" 		count="1" prob=".25"/>
+		<item group="Mods" 			count="1" prob=".25"/>
+		<item group="ResearchTools" count="1" prob="1.5"/>
+		<item group="GunParts" count="1" prob="1"/>
+	</append>
+	<!-- Garage Stuff -->
+	<append xpath="/lootcontainers/lootcontainer[@id='22']">
+		<item group="AllTools" 		count="1" prob="0.05"/>
+		<item group="GunParts" 		count="1" prob="0.05"/>
 	</append>
 	<!-- Metal desk -->
 	<append xpath="/lootcontainers/lootcontainer[@id='24']">
-		<item group="luger" count="1" prob="0.6"/>
-		<item group="r338sn" count="1" prob="0.6"/>
-		<item group="nano" count="1" prob="0.6"/>
-		<item group="makarov" count="1" prob="0.6"/>
-		<item group="USP" count="1" prob="0.25"/>
-		<item group="Vector" count="1" prob="0.2"/>
-		<item group="a1911" count="1" prob="0.6"/>
-		<item group="Glock40" count="1" prob="0.025"/>
-		<item group="P226" count="1" prob="0.25"/>
-		<item group="M9" count="1" prob="0.25"/>
-		<item group="B92" count="1" prob="0.25"/>
-		<item group="ColtPython" count="1" prob="0.005"/>
-		<item group="Mk1" count="1" prob="0.2"/>
-		<item group="DesertEagle" count="1" prob="0.005"/>
-		<item group="Klob" count="1" prob="0.35"/>
-		<item group="Mac10" count="1" prob="0.35"/>
-		<item group="Huntingshot" count="1" prob="0.3"/>
-		<item group="Sawed" count="1" prob="0.35"/>
-		<item group="DBS" count="1" prob="0.35"/>
+		<item group="PistolT1" 		count="1" prob="1.5"/>
+		<item group="PistolT2" 		count="1" prob="1.5"/>
+		<item group="PistolT3" 		count="1" prob="0.05"/>
+		<item group="SMGT1"			count="1" prob="1.2"/>
+		<item group="SMGT2" 		count="1" prob="1.0"/>
+		<item group="ShotgunT1" 	count="1" prob="1.5"/>
+		<item group="ShotgunT2" 	count="1" prob="1.0"/>
+		<item group="GunParts" 		count="1" prob=".7"/>
+		<item group="RifleT1" 		count="1" prob="0.3"/>
+		<item group="ResearchTools" count="1" prob="0.3"/>
 	</append>
 	<!-- Supply drop General -->
 	<append xpath="/lootcontainers/lootcontainer[@id='34']">
-		<item group="a1911" count="1" prob="0.2"/>
-		<item group="nano" count="1" prob="0.6"/>
-		<item group="makarov" count="1" prob="0.6"/>
-		<item group="USP" count="1" prob="0.25"/>
-		<item group="Vector" count="1" prob="0.2"/>
-		<item group="Glock40" count="1" prob="0.25"/>
-		<item group="P226" count="1" prob="0.25"/>
-		<item group="M9" count="1" prob="0.25"/>
-		<item group="B92" count="1" prob="0.25"/>
-		<item group="ColtPython" count="1" prob="0.005"/>
-		<item group="Rcp90" count="1" prob="0.2"/>
-		<item group="Mk1" count="1" prob="0.2"/>
-		<item group="ARX160" count="1" prob="0.04"/>
-		<item group="Fallout" count="1" prob="0.3"/>
-		<item group="Huntingshot" count="1" prob="0.2"/>
-		<item group="Sawed" count="1" prob="0.25"/>
-		<item group="ACW" count="1" prob="0.06"/>
-		<item group="Bull" count="1" prob="0.06"/>
-		<item group="DesertEagle" count="1" prob="0.03"/>
-		<item group="Klob" count="1" prob="0.35"/>
-		<item group="Mac10" count="1" prob="0.35"/>
-		<item group="MP40" count="1" prob="0.25"/>
-		<item group="DBS" count="1" prob="0.35"/>
-		<item group="Spaz12" count="1" prob="0.3"/>
-		<item group="Mossberg" count="1" prob="0.3"/>
-		<item group="FNFAL" count="1" prob="0.4"/>
-		<item group="AR15" count="1" prob="0.35"/>
-		<item group="M4A1" count="1" prob="0.03"/>
-		<item group="SCAR" count="1" prob="0.03"/>
-		<item group="Handcannon" count="1" prob="0.005"/>
-		<item group="SR25" count="1" prob="0.005"/>
+		<item group="PistolT1" 		count="1" prob="1.0"/>
+		<item group="PistolT2" 		count="1" prob="1.0"/>
+		<item group="PistolT3" 		count="1" prob="0.05"/>
+		<item group="SMGT1" 		count="1" prob="1.0"/>
+		<item group="SMGT2" 		count="1" prob="0.8"/>
+		<item group="ShotgunT1" 	count="1" prob="1.0"/>
+		<item group="ShotgunT2" 	count="1" prob="0.8"/>
+		<item group="RifleT1" 		count="1" prob="0.8"/>
+		<item group="LargeT1" 		count="1" prob="0.3"/>
+		<item group="LargeT2" 		count="1" prob="0.1"/>
+		<item group="Scopes" 		count="1" prob="0.1"/>
+		<item group="GunParts" 		count="1" prob="0.1"/>
+		<item group="Mods" 			count="1" prob="0.05"/>
+		<item group="AllTools" 		count="1" prob="0.2"/>
 	</append>
 	<!-- Suitcase -->
 	<append xpath="/lootcontainers/lootcontainer[@id='36']">
-		<item group="Argh" count="1" prob="0.6"/>
-		<item group="luger" count="1" prob="0.6"/>
-		<item group="nano" count="1" prob="0.6"/>
-		<item group="makarov" count="1" prob="0.6"/>
-		<item group="USP" count="1" prob="0.25"/>
-		<item group="Vector" count="1" prob="0.2"/>
-		<item group="r338sn" count="1" prob="0.6"/>
-		<item group="P226" count="1" prob="0.25"/>
-		<item group="M9" count="1" prob="0.25"/>
-		<item group="B92" count="1" prob="0.25"/>
-		<item group="a1911" count="1" prob="0.2"/>
-		<item group="Mk1" count="1" prob="0.2"/>
-		<item group="Huntingshot" count="1" prob="0.3"/>
-		<item group="Sawed" count="1" prob="0.35"/>
-		<item group="Bull" count="1" prob="0.1"/>
-		<item group="Klob" count="1" prob="0.35"/>
-		<item group="Mac10" count="1" prob="0.35"/>
-		<item group="DBS" count="1" prob="0.35"/>
+		<item group="PistolT1" 		count="1" prob="0.03"/>
+		<item group="PistolT2" 		count="1" prob="0.01"/>
+		<item group="GunParts" 		count="1" prob="0.01"/>
+		<item group="SMGT1" 		count="1" prob="0.01"/>
+		<item group="ShotgunT1" 	count="1" prob="0.03"/>
 	</append>
 	<!-- Gun Safe -->
-	<append xpath="/lootcontainers/lootcontainer[@id='42']">
-		<item group="luger" count="1" prob="0.6"/>
-		<item group="r338sn" count="1" prob="0.6"/>
-		<item group="nano" count="1" prob="0.6"/>
-		<item group="makarov" count="1" prob="0.6"/>
-		<item group="USP" count="1" prob="0.25"/>
-		<item group="Vector" count="1" prob="0.2"/>
-		<item group="a1911" count="1" prob="0.2"/>
-		<item group="Klob" count="1" prob="0.35"/>
-		<item group="Mac10" count="1" prob="0.35"/>
-		<item group="DBS" count="1" prob="0.35"/>
-		<item group="Fallout" count="1" prob="0.1"/>
-		<item group="Huntingshot" count="1" prob="0.3"/>
-		<item group="Sawed" count="1" prob="0.35"/>
-		<item group="ACW" count="1" prob="0.06"/>
-		<item group="Bull" count="1" prob="0.1"/>
-		<item group="P226" count="1" prob="0.25"/>
-		<item group="M9" count="1" prob="0.25"/>
-		<item group="B92" count="1" prob="0.25"/>
-		<item group="ColtPython" count="1" prob="0.005"/>
-		<item group="Rcp90" count="1" prob="0.2"/>
-		<item group="Mk1" count="1" prob="0.2"/>
-		<item group="ARX160" count="1" prob="0.04"/>
-		<item group="MP5" count="1" prob="0.2"/>
-		<item group="Tommy" count="1" prob="0.2"/>
-		<item group="Handcannon" count="1" prob="0.005"/>
-		<item group="M16" count="1" prob="0.2"/>
-		<item group="M4A1" count="1" prob="0.05"/>
-		<item group="SCAR" count="1" prob="0.05"/>
-		<item group="M249Saw" count="1" prob="0.01"/>
-		<item group="SR25" count="1" prob="0.05"/>
+	<remove xpath="/lootcontainers/lootcontainer[@id='42']"/>
+	<append xpath="/lootcontainers">
+	<lootcontainer id="42" count="2,6" size="8,8" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="1" loot_quality_template="baseTemplate">
+		<item group="PistolT1" 		count="1" prob="0.05"/>
+		<item group="PistolT2" 		count="1" prob="0.05"/>
+		<item group="PistolT3" 		count="1" prob="0.05"/>
+		<item group="SMGT1" 		count="1" prob="0.05"/>
+		<item group="SMGT2" 		count="1" prob="0.05"/>
+		<item group="ShotgunT1" 	count="1" prob="0.05"/>
+		<item group="ShotgunT2" 	count="1" prob="0.05"/>
+		<item group="RifleT1" 		count="1" prob="0.05"/>
+		<item group="RifleT2" 		count="1" prob="0.05"/>
+		<item group="RifleT3" 		count="1" prob="0.05"/>
+		<item group="LargeT1" 		count="1" prob="0.05"/>
+		<item group="Scopes" 		count="1" prob="0.05"/>
+		<item group="Mods" 			count="1" prob="0.05"/>
+		<item group="GunParts" 		count="1" prob="0.05"/>
+		<item group="AllTools" 		count="1" prob="0.05"/>
+		
+		<item group="weaponsBasicGuns+ammo" loot_prob_template="0.05"/>
+		<item name="oldCash"		count="10,450" prob="0.1"/>
+		<item group="ammo" 			count="3,5"/>
+		<item group="ammoSteel" 	count="1,2"/>
+		<item group="modAllT1" 		prob=".1"/>
+		<item group="modAllT2" 		prob=".1"/>
+		<item group="modAllT3" 		prob=".1"/>
+	</lootcontainer>
 	</append>
 	<!-- Purse -->
 	<append xpath="/lootcontainers/lootcontainer[@id='48']">
-		<item group="Argh" count="1" prob="0.6"/>
-		<item group="luger" count="1" prob="0.9"/>
-		<item group="r338sn" count="1" prob="0.9"/>
-		<item group="nano" count="1" prob="0.6"/>
-		<item group="makarov" count="1" prob="0.6"/>
+		<item group="PistolT1" 		count="1" prob="0.3"/>
+		<item group="SpecialT1" 	count="1" prob="0.32"/>
+		<item group="GunParts" 	count="1" prob="0.2"/>
 	</append>
 	<!-- Fancy chest -->
 	<append xpath="/lootcontainers/lootcontainer[@id='41']">
-		<item group="luger" count="1" prob="0.6"/>
-		<item group="nano" count="1" prob="0.6"/>
-		<item group="makarov" count="1" prob="0.6"/>
-		<item group="USP" count="1" prob="0.25"/>
-		<item group="Vector" count="1" prob="0.2"/>
-		<item group="r338sn" count="1" prob="0.6"/>
-		<item group="a1911" count="1" prob="0.6"/>
-		<item group="Klob" count="1" prob="0.35"/>
-		<item group="Mac10" count="1" prob="0.35"/>
-		<item group="MP40" count="1" prob="0.25"/>
-		<item group="MP5" count="1" prob="0.2"/>
-		<item group="Tommy" count="1" prob="0.2"/>
-		<item group="DBS" count="1" prob="0.35"/>
-		<item group="Spaz12" count="1" prob="0.3"/>
-		<item group="Mossberg" count="1" prob="0.3"/>
-		<item group="P226" count="1" prob="0.25"/>
-		<item group="M9" count="1" prob="0.25"/>
-		<item group="B92" count="1" prob="0.25"/>
-		<item group="Fallout" count="1" prob="0.3"/>
-		<item group="Huntingshot" count="1" prob="0.3"/>
-		<item group="Sawed" count="1" prob="0.35"/>
-		<item group="ACW" count="1" prob="0.06"/>
-		<item group="Bull" count="1" prob="0.1"/>
-		<item group="ColtPython" count="1" prob="0.005"/>
-		<item group="Rcp90" count="1" prob="0.2"/>
-		<item group="Mk1" count="1" prob="0.2"/>
-		<item group="ARX160" count="1" prob="0.04"/>
-		<item group="FNFAL" count="1" prob="0.4"/>
-		<item group="AR15" count="1" prob="0.35"/>
-		<item group="M4A1" count="1" prob="0.3"/>
-		<item group="SCAR" count="1" prob="0.3"/>
-		<item group="M1" count="1" prob="0.1"/>
-		<item group="M16" count="1" prob="0.3"/>
-		<item group="M79" count="1" prob="0.05"/>
-		<item group="SR25" count="1" prob="0.15"/>
-		<item group="Handcannon" count="1" prob="0.005"/>
-		<item group="M249Saw" count="1" prob="0.01"/>
-		<item group="M240" count="1" prob="0.01"/>
-		<item group="M82" count="1" prob="0.08"/>
-		<item group="Nagant" count="1" prob="0.01"/>
-		<item group="Mrad" count="1" prob="0.05"/>
-		<item group="M98" count="1" prob="0.08"/>
-		<item group="JNG90" count="1" prob="0.08"/>
-		<item group="Chaingun" count="1" prob="0.0005"/>
+		<item group="PistolT1" 		count="1" prob="0.5"/>
+		<item group="PistolT2" 		count="1" prob="0.5"/>
+		<item group="PistolT3" 		count="1" prob="0.1"/>
+		<item group="SMGT1" 		count="1" prob="0.5"/>
+		<item group="SMGT2" 		count="1" prob="0.5"/>
+		<item group="SMGT3" 		count="1" prob="0.1"/>
+		<item group="ShotgunT1" 	count="1" prob="0.5"/>
+		<item group="ShotgunT2" 	count="1" prob="0.5"/>
+		<item group="ShotgunT3" 	count="1" prob="0.05"/>
+		<item group="RifleT1" 		count="1" prob="0.5"/>
+		<item group="RifleT2" 		count="1" prob="0.35"/>
+		<item group="RifleT3" 		count="1" prob="0.2"/>
+		<item group="LargeT1" 		count="1" prob="0.15"/>
+		<item group="LargeT2" 		count="1" prob="0.1"/>
+		<item group="LargeT3" 		count="1" prob="0.03"/>
+		<item group="SpecialT2" 	count="1" prob="0.1"/>
+		<item group="SpecialT3" 	count="1" prob="0.000005"/>
+		<item group="Scopes" 		count="1" prob="0.1"/>
+		<item group="GunParts" 		count="1" prob="0.1"/>
+		<item group="Mods" 			count="1" prob="0.1"/>
 	</append>
 	<!-- Shotgun Messiah -->
-	<append xpath="/lootcontainers/lootcontainer[@id='50']">
-		<item group="luger" count="1" prob="0.6"/>
-		<item group="nano" count="1" prob="0.6"/>
-		<item group="makarov" count="1" prob="0.6"/>
-		<item group="USP" count="1" prob="0.25"/>
-		<item group="Vector" count="1" prob="0.2"/>
-		<item group="r338sn" count="1" prob="0.6"/>
-		<item group="a1911" count="1" prob="0.6"/>
-		<item group="Klob" count="1" prob="0.35"/>
-		<item group="Mac10" count="1" prob="0.35"/>
-		<item group="MP40" count="1" prob="0.25"/>
-		<item group="MP5" count="1" prob="0.2"/>
-		<item group="Tommy" count="1" prob="0.2"/>
-		<item group="Mossberg" count="1" prob="0.3"/>
-		<item group="P226" count="1" prob="0.25"/>
-		<item group="M9" count="1" prob="0.25"/>
-		<item group="B92" count="1" prob="0.25"/>
-		<item group="ColtPython" count="1" prob="0.005"/>
-		<item group="Rcp90" count="1" prob="0.1"/>
-		<item group="Mk1" count="1" prob="0.2"/>
-		<item group="Fallout" count="1" prob="0.1"/>
-		<item group="Huntingshot" count="1" prob="0.3"/>
-		<item group="Sawed" count="1" prob="0.35"/>
-		<item group="ACW" count="1" prob="0.06"/>
-		<item group="Bull" count="1" prob="0.1"/>
-		<item group="ARX160" count="1" prob="0.04"/>
-		<item group="DBS" count="1" prob="0.35"/>
-		<item group="Spaz12" count="1" prob="0.3"/>
-		<item group="FNFAL" count="1" prob="0.4"/>
-		<item group="AR15" count="1" prob="0.35"/>
-		<item group="M4A1" count="1" prob="0.3"/>
-		<item group="SCAR" count="1" prob="0.3"/>
-		<item group="M1" count="1" prob="0.1"/>
-		<item group="M16" count="1" prob="0.3"/>
-		<item group="M79" count="1" prob="0.05"/>
-		<item group="SR25" count="1" prob="0.15"/>
-		<item group="Handcannon" count="1" prob="0.005"/>
-		<item group="M249Saw" count="1" prob="0.01"/>
-		<item group="M240" count="1" prob="0.01"/>
-		<item group="M82" count="1" prob="0.08"/>
-		<item group="Nagant" count="1" prob="0.01"/>
-		<item group="Mrad" count="1" prob="0.05"/>
-		<item group="M98" count="1" prob="0.08"/>
-		<item group="JNG90" count="1" prob="0.08"/>
-		<item group="Chaingun" count="1" prob="0.0005"/>
+	<remove xpath="/lootcontainers/lootcontainer[@id='50']"/>
+	<append xpath="/lootcontainers">
+		<lootcontainer id="50" 		count="1,3" size="5,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="baseTemplate">
+			<item group="PistolT1" 	count="1" prob="0.8"/>
+			<item group="PistolT2"	count="1" prob="1.5"/>
+			<item group="PistolT3" 	count="1" prob="0.3"/>
+			<item group="SMGT1" 	count="1" prob="1.0"/>
+			<item group="SMGT2" 	count="1" prob="1.5"/>
+			<item group="SMGT3" 	count="1" prob="0.3"/>
+			<item group="ShotgunT1" count="1" prob="1.0"/>
+			<item group="ShotgunT2" count="1" prob="1.5"/>
+			<item group="ShotgunT3" count="1" prob="0.2"/>
+			<item group="RifleT1" 	count="1" prob="1.5"/>
+			<item group="RifleT2" 	count="1" prob="1.3"/>
+			<item group="RifleT3" 	count="1" prob="0.8"/>
+			<item group="LargeT1" 	count="1" prob="0.7"/>
+			<item group="LargeT2" 	count="1" prob="0.7"/>
+			<item group="LargeT3" 	count="1" prob="0.05"/>
+			<item group="SpecialT2" count="1" prob="0.3"/>
+			<item group="SpecialT3" count="1" prob="0.000005"/>
+			<item group="Scopes" 	count="1" prob="0.2"/>
+			<item group="Mods" 		count="1" prob="0.2"/>
+			<item group="GunParts" 	count="1" prob="0.3"/>
+			<item group="AllTools" 	count="1" prob="0.25"/>
+			
+			<item group="ammo" prob="1.2"/>
+			<item group="weaponsBasicGuns+ammo" prob="0.5"/>
+			<item group="modAllT1" 	prob="0.2"/>
+			<item group="modAllT2" 	prob="0.2"/>
+			<item group="modAllT3" 	prob="0.2"/>
+		</lootcontainer>
+	</append>
+	<!-- working Stiffs -->
+	<append xpath="/lootcontainers/lootcontainer[@id='53']">
+			<item group="AllTools" 	count="1" prob="0.25"/>
+			<item group="GunParts" 	count="1" prob="0.05"/>
 	</append>
 	<!-- Treasure Chest -->
 	<append xpath="/lootcontainers/lootcontainer[@id='61']">
-		<item group="a1911" count="1" prob="0.6"/>
-		<item group="nano" count="1" prob="0.6"/>
-		<item group="makarov" count="1" prob="0.6"/>
-		<item group="USP" count="1" prob="0.25"/>
-		<item group="Vector" count="1" prob="0.2"/>
-		<item group="Glock40" count="1" prob="0.25"/>
-		<item group="DesertEagle" count="1" prob="0.3"/>
-		<item group="Klob" count="1" prob="0.35"/>
-		<item group="Mac10" count="1" prob="0.35"/>
-		<item group="P226" count="1" prob="0.25"/>
-		<item group="M9" count="1" prob="0.25"/>
-		<item group="B92" count="1" prob="0.25"/>
-		<item group="ColtPython" count="1" prob="0.005"/>
-		<item group="Rcp90" count="1" prob="0.2"/>
-		<item group="Mk1" count="1" prob="0.2"/>
-		<item group="Fallout" count="1" prob="0.3"/>
-		<item group="Huntingshot" count="1" prob="0.3"/>
-		<item group="Sawed" count="1" prob="0.35"/>
-		<item group="ACW" count="1" prob="0.06"/>
-		<item group="Bull" count="1" prob="0.1"/>
-		<item group="ARX160" count="1" prob="0.04"/>
-		<item group="MP40" count="1" prob="0.25"/>
-		<item group="MP5" count="1" prob="0.2"/>
-		<item group="Tommy" count="1" prob="0.2"/>
-		<item group="Mossberg" count="1" prob="0.3"/>
-		<item group="DBS" count="1" prob="0.35"/>
-		<item group="Spaz12" count="1" prob="0.3"/>
-		<item group="FNFAL" count="1" prob="0.35"/>
-		<item group="AR15" count="1" prob="0.35"/>
-		<item group="M4A1" count="1" prob="0.3"/>
-		<item group="SCAR" count="1" prob="0.3"/>
-		<item group="SR25" count="1" prob="0.15"/>
-		<item group="Nagant" count="1" prob="0.01"/>
-		<item group="Mrad" count="1" prob="0.05"/>
-		<item group="M1" count="1" prob="0.1"/>
-		<item group="M16" count="1" prob="0.3"/>
-		<item group="Handcannon" count="1" prob="0.05"/>
+		<item group="PistolT1" count="1" prob="0.8"/>
+		<item group="PistolT2" count="1" prob="0.8"/>
+		<item group="PistolT3" count="1" prob="0.05"/>
+		<item group="SMGT1" 		count="1" prob="0.8"/>
+		<item group="SMGT2" count="1" prob="0.8"/>
+		<item group="SMGT3" count="1" prob="0.03"/>
+		<item group="ShotgunT1" count="1" prob="0.8"/>
+		<item group="ShotgunT2" count="1" prob="0.8"/>
+		<item group="ShotgunT3" count="1" prob="0.01"/>
+		<item group="RifleT1" count="1" prob="0.8"/>
+		<item group="RifleT2" count="1" prob="0.6"/>
+		<item group="RifleT3" count="1" prob="0.5"/>
+		<item group="LargeT1" count="1" prob="0.45"/>
+		<item group="LargeT2" count="1" prob="0.35"/>
+		<item group="LargeT3" count="1" prob="0.005"/>
+		<item group="SpecialT2" count="1" prob="0.05"/>
+		<item group="SpecialT3" count="1" prob="0.000005"/>
+		<item group="Scopes" count="1" prob="0.2"/>
+		<item group="Mods" count="1" prob="0.2"/>
+		<item group="GunParts" 	count="1" prob="0.3"/>
+		<item group="AllTools" count="1" prob="0.25"/>
 	</append>
 	<!--  Zombie Loot 1 -->
 	<append xpath="/lootcontainers/lootcontainer[@id='70']">
-		<item group="luger" count="1" prob="0.6"/>
-		<item group="nano" count="1" prob="0.6"/>
-		<item group="makarov" count="1" prob="0.6"/>
-		<item group="USP" count="1" prob="0.25"/>
-		<item group="Vector" count="1" prob="0.2"/>
-		<item group="r338sn" count="1" prob="0.6"/>
-		<item group="a1911" count="1" prob="0.6"/>
-		<item group="Klob" count="1" prob="0.35"/>
-		<item group="P226" count="1" prob="0.25"/>
-		<item group="M9" count="1" prob="0.25"/>
-		<item group="B92" count="1" prob="0.25"/>
-		<item group="ColtPython" count="1" prob="0.005"/>
-		<item group="Rcp90" count="1" prob="0.2"/>
-		<item group="Fallout" count="1" prob="0.3"/>
-		<item group="Huntingshot" count="1" prob="0.3"/>
-		<item group="Sawed" count="1" prob="0.35"/>
-		<item group="ACW" count="1" prob="0.06"/>
-		<item group="Bull" count="1" prob="0.1"/>
-		<item group="Mk1" count="1" prob="0.2"/>
-		<item group="ARX160" count="1" prob="0.04"/>
-		<item group="Mac10" count="1" prob="0.35"/>
-		<item group="MP40" count="1" prob="0.25"/>
-		<item group="MP5" count="1" prob="0.2"/>
-		<item group="Mossberg" count="1" prob="0.3"/>
-		<item group="Tommy" count="1" prob="0.2"/>
-		<item group="DBS" count="1" prob="0.35"/>
-		<item group="Spaz12" count="1" prob="0.3"/>
-		<item group="FNFAL" count="1" prob="0.3"/>
-		<item group="AR15" count="1" prob="0.35"/>
-		<item group="M16" count="1" prob="0.35"/>
-		<item group="Nagant" count="1" prob="0.01"/>
-		<item group="Mrad" count="1" prob="0.05"/>
-		<item group="Handcannon" count="1" prob="0.05"/>
-		<item group="SR25" count="1" prob="0.05"/>
+		<item group="PistolT1" count="1" prob="5"/>
+		<item group="PistolT2" count="1" prob="5"/>
+		<item group="PistolT3" count="1" prob="0.3"/>
+		<item group="SMGT1" 		count="1" prob="5"/>
+		<item group="SMGT2" count="1" prob="5"/>
+		<item group="SMGT3" count="1" prob="0.25"/>
+		<item group="ShotgunT1" count="1" prob="5"/>
+		<item group="ShotgunT2" count="1" prob="5"/>
+		<item group="ShotgunT3" count="1" prob="0.05"/>
+		<item group="RifleT1" count="1" prob="5"/>
+		<item group="RifleT2" count="1" prob="5"/>
+		<item group="RifleT3" count="1" prob="1"/>
+		<item group="LargeT1" count="1" prob="4"/>
+		<item group="LargeT2" count="1" prob="3.2"/>
+		<item group="LargeT3" count="1" prob="0.05"/>
+		<item group="SpecialT2" count="1" prob="1"/>
+		<item group="SpecialT3" count="1" prob="0.000005"/>
+		<item group="Scopes" count="1" prob="2.5"/>
+		<item group="Mods" count="1" prob="2.5"/>
+		<item group="GunParts" count="1" prob="2.5"/>
+		<item group="AllTools" count="1" prob="3"/>
 	</append>
 	<!-- Zombie Loot 2 -->
 	<append xpath="/lootcontainers/lootcontainer[@id='71']">
-		<item group="Spaz12" count="1" prob="0.3"/>
-		<item group="Mossberg" count="1" prob="0.3"/>
-		<item group="M16" count="1" prob="0.35"/>
-		<item group="M79" count="1" prob="0.05"/>
-		<item group="FNFAL" count="1" prob="0.3"/>
-		<item group="ColtPython" count="1" prob="0.005"/>
-		<item group="Rcp90" count="1" prob="0.2"/>
-		<item group="ARX160" count="1" prob="0.04"/>
-		<item group="Fallout" count="1" prob="0.3"/>
-		<item group="Huntingshot" count="1" prob="0.3"/>
-		<item group="Sawed" count="1" prob="0.35"/>
-		<item group="ACW" count="1" prob="0.06"/>
-		<item group="Bull" count="1" prob="0.1"/>
-		<item group="AR15" count="1" prob="0.35"/>
-		<item group="M4A1" count="1" prob="0.3"/>
-		<item group="SCAR" count="1" prob="0.3"/>
-		<item group="SR25" count="1" prob="0.15"/>
-		<item group="M1" count="1" prob="0.1"/>
-		<item group="M249Saw" count="1" prob="0.01"/>
-		<item group="Nagant" count="1" prob="0.01"/>
-		<item group="Mrad" count="1" prob="0.05"/>
-		<item group="M98" count="1" prob="0.08"/>
-		<item group="JNG90" count="1" prob="0.08"/>
-		<item group="M240" count="1" prob="0.01"/>
-		<item group="M82" count="1" prob="0.08"/>
-		<item group="Chaingun" count="1" prob="0.0005"/>
+		<item group="PistolT1" count="1" prob="5"/>
+		<item group="PistolT2" count="1" prob="5"/>
+		<item group="PistolT3" count="1" prob="0.3"/>
+		<item group="SMGT1" 		count="1" prob="5"/>
+		<item group="SMGT2" count="1" prob="5"/>
+		<item group="SMGT3" count="1" prob="0.25"/>
+		<item group="ShotgunT1" count="1" prob="5"/>
+		<item group="ShotgunT2" count="1" prob="5"/>
+		<item group="ShotgunT3" count="1" prob="0.05"/>
+		<item group="RifleT1" count="1" prob="5"/>
+		<item group="RifleT2" count="1" prob="5"/>
+		<item group="RifleT3" count="1" prob="1"/>
+		<item group="LargeT1" count="1" prob="4"/>
+		<item group="LargeT2" count="1" prob="3.2"/>
+		<item group="LargeT3" count="1" prob="0.05"/>
+		<item group="SpecialT2" count="1" prob="1"/>
+		<item group="SpecialT3" count="1" prob="0.000005"/>
+		<item group="Scopes" count="1" prob="2.5"/>
+		<item group="Mods" count="1" prob="2.5"/>
+		<item group="GunParts" count="1" prob="2.5"/>
+		<item group="AllTools" count="1" prob="2.5"/>
 	</append>
 	<!-- Weapons Bag Small -->
 	<append xpath="/lootcontainers/lootcontainer[@id='100']">
-		<item group="luger" count="1" prob="0.6"/>
-		<item group="nano" count="1" prob="0.6"/>
-		<item group="makarov" count="1" prob="0.6"/>
-		<item group="USP" count="1" prob="0.25"/>
-		<item group="Vector" count="1" prob="0.2"/>
-		<item group="r338sn" count="1" prob="0.6"/>
-		<item group="a1911" count="1" prob="0.6"/>
-		<item group="Klob" count="1" prob="0.35"/>
-		<item group="Mac10" count="1" prob="0.35"/>
-		<item group="P226" count="1" prob="0.25"/>
-		<item group="M9" count="1" prob="0.25"/>
-		<item group="B92" count="1" prob="0.25"/>
-		<item group="Mk1" count="1" prob="0.2"/>
-		<item group="MP40" count="1" prob="0.25"/>
-		<item group="MP5" count="1" prob="0.2"/>
-		<item group="Tommy" count="1" prob="0.2"/>
-		<item group="Fallout" count="1" prob="0.05"/>
-		<item group="Huntingshot" count="1" prob="0.2"/>
-		<item group="Sawed" count="1" prob="0.22"/>
-		<item group="ACW" count="1" prob="0.16"/>
-		<item group="Bull" count="1" prob="0.1"/>
-		<item group="Mossberg" count="1" prob="0.3"/>
-		<item group="DBS" count="1" prob="0.35"/>
-		<item group="Spaz12" count="1" prob="0.3"/>
-		<item group="FNFAL" count="1" prob="0.4"/>
-		<item group="AR15" count="1" prob="0.35"/>
-		<item group="M16" count="1" prob="0.3"/>
-		<item group="Nagant" count="1" prob="0.01"/>
-		<item group="Mrad" count="1" prob="0.05"/>
-		<item group="SR25" count="1" prob="0.15"/>
-		<item group="Handcannon" count="1" prob="0.05"/>
+		<item group="PistolT1" count="1" loot_prob_template="probTemplate0.5"/>
+		<item group="PistolT2" count="1" loot_prob_template="probTemplate0.5"/>
+		<item group="SMGT1" 		count="1" loot_prob_template="probTemplate0.5"/>
+		<item group="SMGT2" count="1" loot_prob_template="probTemplate0.5"/>
+		<item group="ShotgunT1" count="1" loot_prob_template="probTemplate0.5"/>
+		<item group="ShotgunT2" count="1" loot_prob_template="probTemplate0.5"/>
+		<item group="RifleT1" count="1" loot_prob_template="probTemplate0.5"/>
+		<item group="RifleT2" count="1" loot_prob_template="probTemplate0.5"/>
+		<item group="LargeT1" count="1" loot_prob_template="probTemplate0.5"/>
+		<item group="SpecialT2" count="1" loot_prob_template="probTemplate0.5"/>
+		<item group="Scopes" count="1" loot_prob_template="probTemplate0.5"/>
+		<item group="Mods" count="1" loot_prob_template="probTemplate0.5"/>
+		<item group="AllTools" count="1" loot_prob_template="probTemplate0.75"/>
 	</append>
 	<!-- Weapons Bag Large -->
 	<append xpath="/lootcontainers/lootcontainer[@id='101']">
-		<item group="M4A1" count="1" prob="0.3"/>
-		<item group="SCAR" count="1" prob="0.3"/>
-		<item group="M1" count="1" prob="0.2"/>
-		<item group="SR25" count="1" prob="0.15"/>
-		<item group="Nagant" count="1" prob="0.15"/>
-		<item group="Mrad" count="1" prob="0.15"/>
-		<item group="M98" count="1" prob="0.08"/>
-		<item group="JNG90" count="1" prob="0.08"/>
-		<item group="ColtPython" count="1" prob="0.005"/>
-		<item group="Rcp90" count="1" prob="0.2"/>
-		<item group="ARX160" count="1" prob="0.04"/>
-		<item group="M79" count="1" prob="0.05"/>
-		<item group="M249Saw" count="1" prob="0.01"/>
-		<item group="Mossberg" count="1" prob="0.3"/>
-		<item group="M240" count="1" prob="0.01"/>
-		<item group="M82" count="1" prob="0.08"/>
-		<item group="Chaingun" count="1" prob="0.0005"/>
+		<item group="PistolT2" count="1" loot_prob_template="probTemplate1.0"/>
+		<item group="PistolT3" count="1" loot_prob_template="probTemplate0.5"/>
+		<item group="SMGT3" count="1"  loot_prob_template="probTemplate0.5"/>
+		<item group="ShotgunT2" count="1" loot_prob_template="probTemplate0.75"/>
+		<item group="ShotgunT3" count="1" loot_prob_template="probTemplate0.5"/>
+		<item group="RifleT2" count="1" loot_prob_template="probTemplate0.75"/>
+		<item group="RifleT3" count="1" loot_prob_template="probTemplate0.5"/>
+		<item group="LargeT1" count="1" loot_prob_template="probTemplate1.0"/>
+		<item group="LargeT2" count="1" loot_prob_template="probTemplate0.75"/>
+		<item group="LargeT3" count="1" prob="0.005"/>
+		<item group="SpecialT2" count="1" loot_prob_template="probTemplate0.75"/>
+		<item group="SpecialT3" count="1" prob="0.000005"/>
+		<item group="Scopes" count="1" loot_prob_template="probTemplate0.75"/>
+		<item group="Mods" count="1" loot_prob_template="probTemplate0.75"/>
+		<item group="AllTools" count="1" loot_prob_template="probTemplate1.0"/>
 	</append>
 	<!-- Ammo Piles -->
 	<append xpath="/lootcontainers/lootcontainer[@id='108']">
@@ -719,7 +922,7 @@
 		<item name="mayicammo10mm" count="12,26" prob="1.5"/>
 		<item name="mayicammo5.7x28mm" count="12,26" prob="1.5"/>
 		<item name="mayicammo5.7x28mmSteel" count="12,26" prob="1.5"/>
-		<item name="mayicammoExplosiveround" count="1,10" prob="0.1"/>
+		<item name="mayicammo40mmMini" count="1,10" prob="0.1"/>
 		<item name="mayicammo22lrSteel" count="4,16" prob="0.25"/>
 		<item name="mayicammo223calSteel" count="7,15" prob="0.8"/>
 		<item name="mayicammo7.62x39mmSteel" count="7,25" prob="0.2"/>
@@ -745,7 +948,7 @@
 		<item name="mayicammo5.7x28mm" count="12,26" prob="1.5"/>
 		<item name="mayicammo5.7x28mmSteel" count="12,26" prob="1.5"/>
 		<item name="mayicammo40mmExplosive" count="1,3" prob="0.05"/>
-		<item name="mayicammoExplosiveround" count="1,10" prob="0.1"/>
+		<item name="mayicammo40mmMini" count="1,10" prob="0.1"/>
 		<item name="mayicammo5.56x45mmSteel" count="30,160" prob="0.25"/>
 		<item name="mayicammo22lrSteel" count="4,16" prob="0.25"/>
 		<item name="mayicammo223calSteel" count="7,15" prob="0.8"/>
@@ -780,7 +983,7 @@
 		<item name="mayicammoGoldenbullet" count="1,3" prob="0.001"/>
 		<item name="mayicammo50cal" count="1,10" prob="0.2"/>
 		<item name="mayicammo40mmExplosive" count="1,3" prob="0.05"/>
-		<item name="mayicammoExplosiveround" count="1,10" prob="0.1"/>
+		<item name="mayicammo40mmMini" count="1,10" prob="0.1"/>
 		<item name="mayicammo5.56x45mmSteel" count="30,160" prob="0.25"/>
 		<item name="mayicammo30-06Steel" count="4,16" prob="0.3"/>
 		<item name="mayicammo338calSteel" count="4,16" prob="0.3"/>
@@ -798,5 +1001,14 @@
 		<item name="mayicammo10mmSteel" count="12,26" prob="1.5"/>
 		<item name="mayicammo5mmSteel" count="50,600" prob="0.2"/>
 		<item name="mayicammo50calSteel" count="1,10" prob="0.2"/>
+		<item name="mayicammoFlameFuel" count="1,10" prob="0.2"/>
+		<item group="AmmoTools" count="1,10" prob="0.2"/>
+		<item group="SpecialAmmo" count="1,10" prob="0.2"/>
+		<item name="mayicammoLaserRound" count="1,3" prob="0.001"/>
 	</append>
-</configs>
+	<append xpath="/lootcontainers">
+		<lootcontainer id="148" count="0" size="3,5" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="baseTemplate">
+			<item name="cobweb" count="1,2"/>
+		</lootcontainer>
+	</append>
+</potato>

@@ -3,9 +3,9 @@ mayicchallenge_handgunkill_subtitle,,Challenge Info,New,Kill some zombies with a
 mayicchallenge_handgunkill_offer,,Challenge Info,New,Thank god that held up to the end. Now take your looted gun and go shoot some zombies. Make sure you grab a handgun,,,,,
 mayicrequirementGroupHandgun,,Requirement Group,New,Holding Handgun,,,,,
 
-mayicchallenge_smgkill,,Challenge Info,New,Drive By Style,,,,,
+mayicchallenge_smgkill,,Challenge Info,New,Mafia Style,,,,,
 mayicchallenge_smgkill_subtitle,,Challenge Info,New,Kill some zombies with a SMG,,,,,
-mayicchallenge_smgkill_offer,,Challenge Info,New,Chiraq style but shockingly less of a body count. Bring a SMG and get ready for some fun,,,,,
+mayicchallenge_smgkill_offer,,Challenge Info,New,Think you're a wise guy eh?. Bring a SMG and get ready for some fun,,,,,
 mayicrequirementGroupSMG,,Requirement Group,New,Holding SMG,,,,,
 
 mayicchallenge_shotgunkill,,Challenge Info,New,GET OFF MY LAWN!,,,,,
@@ -20,7 +20,7 @@ mayicrequirementGroupRifle,,Requirement Group,New,Holding Rifle,,,,,
 
 mayicchallenge_sniperkill,,Challenge Info,New,Snipers Dream,,,,,
 mayicchallenge_sniperkill_subtitle,,Challenge Info,New,Kill some zombies with a Large Rifle,,,,,
-mayicchallenge_sniperkill_offer,,Challenge Info,New,Be not that far from me for trouble is near haste Thee to help me. Blessed be the Lord my strength which teacheth my hands to war and my fingers to fight. My goodness and my fortress my high tower and my deliverer my shield and he in whom I trust who subdueth my people under me. O my God I trust in thee: let me not be ashamed let not mine enemies triumph over me. .,,,,,
+mayicchallenge_sniperkill_offer,,Challenge Info,New,Do you have what it takes? Lets find out. Head to the checkpoint and bring your best Sniper Rifle.,,,,,
 mayicrequirementGroupSniper,,Requirement Group,New,Holding Large Rifle,,,,,
 
 mayicchallenge_chaingunkill,,Challenge Info,New,Chaingun Rampage!,,,,,

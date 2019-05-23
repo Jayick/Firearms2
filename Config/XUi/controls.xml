@@ -1,0 +1,108 @@
+<potato>
+<append xpath="/controls">
+<!-- Might want this for later for INFO PANNEL with crafting 
+	<item_action_entry>
+		<rect height="43" controller="ItemActionEntry" disabled_font_color="[disabledLabelColor]" default_font_color="[labelColor]" default_background_color="[mediumGrey]" >
+			<sprite depth="3" name="background" color="[mediumGrey]" type="sliced" on_press="true" on_hover="true" width="147"/>
+			<sprite depth="4" name="Icon" sprite="{actionicon}" size="24,24" color="{statuscolor}" pos="2,-10" foregroundlayer="true"/>
+			
+			<label depth="4" name="Name" pos="32,-22" width="78" height="26" text="{actionname}" font_size="26" color="{statuscolor}" effect="shadow" pivot="left" />
+			<gamepad_icon depth="4" name="gamepadIcon" pos="146,-22" pivot="Right" />
+			<label depth="4" name="keyboardButton" pos="145,-22" width="36" height="26" text="&lt;W&gt;" font_size="26" color="{statuscolor}" effect="shadow" pivot="right" justify="center" />
+
+		</rect>
+	</item_action_entry>
+	-->
+	
+	<item_part_slot_potato>
+		<rect controller="ItemPartStack" style="itemPartStack, hover" >
+			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="380" height="63" color="[black]" type="sliced" fillcenter="false" />	
+			<sprite name="background" color="[darkGrey]" height="59" pos="0,1" type="sliced"/>
+			<sprite name="background" color="[white_half_alpha]" height="59" width="73" pos="-75,1" type="sliced"/>
+			<sprite depth="3" name="background" sprite="menu_empty3px" height="59" width="73" pos="-75,1" color="[red]" type="sliced" fillcenter="false"/>
+			<label depth="4" pos="16,-13" width="250" height="35" text="{partname}" font_size="35" justify="left" />
+			<!-- <label depth="4" pos="230,-13" width="50" height="28" text="{partquality}" font_size="26" justify="right" /> -->
+			
+			<!-- <sprite depth="2" width="265" pos="15, -37" height="10" type="sliced" color="[black]" visible="{partvisible}" foregroundlayer="true" /> -->
+			<!-- <sprite depth="2" width="263" pos="16, -38" height="8" type="sliced" color="[mediumGrey]" visible="{partvisible}" foregroundlayer="true" /> -->
+			<!-- <sprite depth="2" name="sprFill" width="263" pos="16, -38" height="8" type="filled" color="{partcolor}" fill="{partfill}" visible="{partvisible}" foregroundlayer="true" /> -->
+			
+			<sprite name="itemIcon" depth="4" width="70" height="50" atlas="{partatlas}" sprite="{particon}" color="{particoncolor}" visible="{partvisible}" pos="-39,-30" pivot="center" foregroundlayer="true" />
+			
+			<label depth="4" pos="16,-16" width="350" height="28" text="EMPTY MODIFIER SLOT" font_size="28" justify="center" visible="{emptyvisible}" />
+		</rect>
+	</item_part_slot_potato>
+	
+	<ingredient_row_potato>
+		<rect name="row" width="447" height="47" controller="IngredientEntry">
+			<rect depth="2" width="65" height="48" pos="112,0">
+				<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,2" width="67" height="51" color="[black]" type="sliced" fillcenter="false" />	
+			
+				<sprite color="[lightGrey]" type="sliced" />
+				<sprite depth="2" name="icon" width="56" height="42" atlas="ItemIconAtlas" sprite="{itemicon}" color="{itemicontint}" pos="30,-22" pivot="center" foregroundlayer="true"/>
+			</rect>
+			<rect depth="2" width="236" height="48" pos="238,0">
+				<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,2" width="215" height="51" color="[black]" type="sliced" fillcenter="false" />	
+				<sprite color="[lightGrey]" type="sliced" width="209"/>
+				<label depth="3" name="name" pos="117,-22" width="230" height="27" font_size="27" color="[labelColor]" justify="left" pivot="center" text="{itemname}"/>
+			</rect>
+			<rect depth="2" width="139" height="48" pos="176,0">
+				<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,2" width="65" height="51" color="[black]" type="sliced" fillcenter="false" />	
+				<sprite color="[lightGrey]" type="sliced" pos="-3,2" width="65" height="48" />
+				<label depth="3" name="needCount" pos="35,-22" width="64" height="26" font_size="26" color="[labelColor]" justify="left" pivot="center" text="{haveneedcount}"/>
+			</rect>
+		</rect>
+	</ingredient_row_potato>
+	
+	<backpack_item_stack_potato>
+		<rect controller="ItemStack" style="itemStack, hover" collider_scale="1.1" >
+			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="70" height="70" color="[black]" type="sliced" fillcenter="false" />	
+			<sprite depth="3" name="background" sprite="menu_empty3px" width="65" height="65" color="[darkGrey]" type="sliced" globalopacity="true" fillcenter="false"/>
+			<sprite depth="2" name="highlightOverlay" width="64" height="64" color="[darkGrey]" pos="0,0" type="sliced" globalopacity="true"/>
+
+			<texture depth="3" name="backgroundTexture" material="Materials/Transparent Colored" size="65,65" globalopacity="true"/>
+			
+			<sprite depth="4" name="itemIcon" width="62" height="45" atlas="ItemIconAtlas" sprite="{itemicon}" pos="35,-30" pivot="center" foregroundlayer="true" color="{iconcolor}" />
+			<sprite depth="8" name="lockTypeIcon" width="24" height="24" sprite="" pos="2,-2" foregroundlayer="true"/>
+			
+			<sprite depth="3" name="durabilityBackground" width="63" height="10" sprite="menu_empty3px" color="[darkGrey]" type="sliced" pos="1, -55" foregroundlayer="true"/>
+			<filledsprite depth="4" name="durability" width="63" height="10" sprite="menu_empty2px" color="[transparent]" type="filled" pos="1, -55" foregroundlayer="true"/>
+			<sprite depth="5" name="assembleIcon" size="35,35" sprite="{stacklockicon}" color="{stacklockcolor}" visible="{isassemblelocked}" pos="14,-14" foregroundlayer="true" />
+			
+			<sprite depth="6" name="disabledOverlay" width="64" height="64" color="[darkGrey_half_alpha]" pos="1,-1" type="sliced" visible="false"/>
+			
+			<label depth="7" name="stackValue" pos="-2,-40" width="62" height="28" text="{itemcount}" font_size="26" effect="outline" justify="center" />
+			<label depth="7" name="timer" pos="35,-33" width="62" height="24" font_size="24" justify="center" pivot="center" effect="outline" color="[beige]"/>
+			<sprite depth="9" name="cancel" sprite="ui_game_symbol_x" width="62" height="62" color="255,0,0,255" type="sliced" visible="false" foregroundlayer="true"/>
+			<!--#$-IGS BEGIN: Setting itemName above the soft cursor. -$#-->
+			<label depth="12" name="itemName" pos="36,-30" width="0" height="0" text="" font_size="26" justify="center" overflow="resizefreely" effect="outline" pivot="center" above_soft_cursor="true"/>
+			<!--*#$-IGS END.-$#-->
+		</rect>
+	</backpack_item_stack_potato>
+	
+	<category_icon_custom>
+		<rect depth="1" size="43,43" controller="CategoryEntry" >
+			<!--#$-IGS BEGIN: Increasing collider scale to improve snap responsiveness -$#-->
+			<button name="categoryIcon" depth="1" size="50,50" atlas="ItemIconAtlas" pos="21, -14" sprite="{categoryicon|once}" tooltip="{categorydisplayname|once}" pivot="center" collider_scale="1.5" sound="[paging_click]" />
+			<!--*#$-IGS END.-$#-->
+		
+				<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-16,18" width="80" height="80" color="[black]" type="sliced" fillcenter="false" />	
+				<sprite color="[white_half_alpha]" type="sliced" width="80" height="80" pos="-16,18" />
+				<label depth="3" name="name" pos="23,-46" width="60" height="25" font_size="22" color="[labelColor]" justify="center" pivot="center" text="{categorydisplayname}"/>
+		</rect>
+	</category_icon_custom>
+	
+	<recipe_entry_potato>
+		<rect height="43" style="press, hover, scroll" controller="RecipeEntry" disabled_font_color="[disabledLabelColor]" enabled_font_color="[labelColor]" sound="[recipe_click]" >
+			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="298" height="49" color="[white_quarter_alpha]" type="sliced" fillcenter="false" />
+			<sprite depth="4" name="Icon" atlas="ItemIconAtlas" sprite="{recipeicon}" color="{recipeicontint}" size="52,38" pos="6,-4" foregroundlayer="true"/>
+			<sprite color="[white]" type="sliced" width="65" height="43" pos="0,0" />
+			<sprite depth="3" name="background" width="100%" height="45" pos="0,1" color="[black]" type="sliced" />
+			<label depth="4" name="Name" pos="195,-19" width="250" height="30" text="{recipename}" font_size="28" color="{hasingredientsstatecolor}" justify="left" pivot="center"/>
+			<sprite depth="5" name="Favorite" sprite="server_favorite" size="14,14" pos="6,-4" visible="{isfavorite}" foregroundlayer="true"/>
+			<sprite depth="4" name="Unlocked" sprite="{unlockicon}" size="24,24" pos="260,-10" visible="{isunlockable}" color="{unlockstatecolor}" foregroundlayer="true" />
+		</rect>
+	</recipe_entry_potato>
+	
+</append>
+</potato>
