@@ -2,11 +2,10 @@
 
 ![GameLogo](https://gamepedia.cursecdn.com/7daystodie_gamepedia/thumb/1/1f/OfficalWiki.png/600px-OfficalWiki.png?version=53cf53a4d2849bbdabf215f58b3b43ef)
 
-![Banner](https://i.imgur.com/510ZTWQ.png)
+![Banner](https://i.imgur.com/joKbBIf.png)
 
-## IMPORTANT:
-
-This is an NEW Firearms Modlet. It will NOT work along side the old, or update the old. Suggested that you start fresh. If you choose to update Firearms 1, to this modlet, please insure that ALL existing Firearms assets (guns, ammo, etc) are removed BEFORE you update/install new. There are changes to the progression files within this Modlet. Player Saved Data WILL BE WIPED. Sadly, there is nothing I can do about this, as it's TFP's core files that effects this.
+## For all Information, please go directly to the new Wiki:
+* https://github.com/Jayick/Firearms2/wiki
 
 ## Requirements:
 
@@ -14,22 +13,7 @@ Requires Alpha 17 version of 7 Days to Die. Will not work on A16.4 or lesser.
 Suggested for minigun that you have decent framerates. Pixle textures on fire may cause FPS drops in lower end clients.
 Some guns will skip your game upon loading in the hotbar. Their file size is quite large. Fix coming soon hopefully.
 
-----------------------------------------------------------------------------------------------------------------------------------------
-
-## Update: 
-Update: 1.06 4/9/19
-
-Updates: 
-- Added Scrap Schematics. Break down unused/unwanted Schematics into Scrap Schematics for independent Crafting Research (Guns will now cost Scrap Schematics to research them for further crafting)
-
-Changed: 
-- Removed Schematics from being SELLABLE to traders. You can still buy them, but price is now increased to appropriate costs.
-
-Fixed:
-- Balanced a few guns. AR15 is now single shot fire by default (full auto with mod)
-- Balanced shotgun ammo recipe costs. Now take Buckshot instead of bullet tips.
-
-
+Required to run Localization.bat file BEFORE launching mod. This will import all the names and descriptions for you, otherwise you will see every item start with "mayicgun...,mayicammo...,mayicblock..." 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 ## About:
@@ -38,101 +22,6 @@ Welcome to the new and VASTLY improved Firearms!
 This Modlet will give you full access to 50 custom Firearms, complete with animations, audio, full gun modification (vanilla and modded), custom sound, custom ammo, the Total Package!
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-# Crafting:
-
-![Image](https://i.imgur.com/BcMR19Y.png) ![Image](https://i.imgur.com/9bvx2G5.png)
-Crafting has changed in Firearms. It is now centralized entirely around 2 main Workbenches. Gun Workbench, and Ammo Workbench. 
-Inside, you will find the first category containing ALL the ammo and guns. Then each class of Gun and Ammo inside it's own category (Pistols, SMG, Shotguns, Rifles, Large Weapons, Special, Mods)
-
-![Image](https://i.imgur.com/WwTHrHE.png) The Ammo Bench , is very special. The last 2 categories contain Ammo, and Firearms Recycling. 
-Here, you can turn all your unwanted guns and ammo, back into highly valued parts to craft the items of your choosing. You may also CRAFT (not scrap) these while on-the-go, to help with inventory control, but the value is much greater at a Workbench.
-
-![Image](https://i.imgur.com/rQUGhST.png) The Research Table is very important to Firearms Crafting. This will control where you can create individual Schematics that you may learn to unlock that specific Firearms crafting. Progression unlocks total tiers of weapons, but this way, you can choose not to invest your points, and research the guns one by one using resources! 
-
-## Items you may receive from Scrap Ammo: ![Image](https://i.imgur.com/Z29PR5d.png)
-- 1 Bullet Tip
-- 1 Brass Casing
-- 1 Steel Casing
-- 3 Gun Powder
-- 1 Buckshot
-- 1 Rocket Tip (per 10)
-- 1 Rocket Casing (per 10)
-
-## Items you may receive from Firearms Recycling: ![Image](https://i.imgur.com/f5RJJOq.png)
-- 50 Scrap Iron
-- 25 Forged Iron
-- 10 Forged Steel
-- 2 Mechanical Parts 
-- 5 Scrap Polymers
-- 1 Military Fiber
-- 2 Duct Tape 
-- 1 SpringThe Ammo Bench , is very special. The last 2 categories contain Ammo, and Firearms Recycling. 
-
-Schematic Scrapping: [!Image](https://i.imgur.com/pQYdr8A.png)
-Scrap Schematics are very important for learning new Firearms to craft. You can find Schematics out in the world, but often, they are lower grade weapons. Take unused Schematics, and break them down to learn new Blueprints! Every Schematic recipe will require Scrap Schematics to craft. Both ammo and weapons
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
-# Custom Weapon Scopes:
-
-3 main scopes here: 
-## ACOG: 
-![Image](https://i.imgur.com/wTjhIoy.png)
-ACOG comes in Red, Blue, and Green sights. 
-
-## Dot Scopes: 
-![Image](https://i.imgur.com/x2QRaHv.png)
-Dot scopes come in Red, Green, and Blue dots as well.
-
-## Holo Scope: 
-![Image](https://i.imgur.com/Aj0gBWA.png)
-Standard Holo Scope, comes in only Red (for now)
-
-All mods can be crafted after obtaining the respective schematic, at the Gun Workshop 
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-# AMMO: 
-
-![Image](https://i.imgur.com/9nwjRsP.png) ![Image](https://i.imgur.com/FiVXzO6.png) ![Image](https://i.imgur.com/qf7v5BV.png)
-Ammo got a lot of loving! Completely redone icons, making it far easier for everyone to see what goes with what. Ontop of that, I opened up the guns to FAR more ammo options: 
-
-There are now several options for your shooting pleasure. And even new Elemental Ammo :)
-Elemental Ammo is expensive, but worth it. Explosive Rounds pack quite a punch, where as corrosive rounds while slowly eat away at a target, and incendiary to ignite your enemies ablaze! All of these 3 ammo types, work in all weapons.
-For Shotguns, we have Dragonsbreath (Incendiary shotgun version) and Electric Shells!
-Thankyou JaxTeller for the amazing idea of Dragonsbreath. It's truly an amazing thing to have in my mod! Thankyou :)
-
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-# PROGRESSION: 
-
-Everything is now in its own attribute location. This will make for some exciting updates, chalk full of great skills to compliment your Firearms. With that, will come various challenges and tasks to obtain skillpoints to invest.
-
-Our attribute section will be identified by a Revolver Icon, located at the end of all your perks. From there, we can unlock everything we need to get started on our journey! Because there are so many sections to purchase, the costs are very low (1 point) until the final perk, with the Chaingun and Golden Gun, that will cost 5.
-
-![Image](https://i.imgur.com/y9CWXGV.png)
-
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-## Animations: 
-
-All guns have atleast a casing ejection animations when shooting. Most are fully animated, reloads and all.
-This was all done by hand, without using scripting. It will take time for me to perfect every last gun. Some things might be off, some timers are a bit screwy. 
 
 ## Localization:
 
@@ -157,25 +46,10 @@ This will give you 1 level. Each level is roughly 10-20% more xp (not sure on ex
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-## Changes:
-
-- Fully animated most of the weapons, every gun atleast has shell expenditure. Most have reload/recoil animations.
-- Redid all item and ammo icons, making them far easier to read
-- Added all items to Gun Workshop, and Ammo Workshop for easier crafting and sorting
-- Added Scrap Guns, to compliment Scram Ammo Concept (details below)
-- Added new sound
-- Applied ALL gun modifications to (nearly) all the guns. Items such as the Luger, and M82 50 Cal, remain the same. Everything else has been vastly expanded, and custom tuned to fit all gun mods.
-- Opened up all guns to multiple ammo types. Up to 9 ammo selections per weapons
-- Added Elemental Ammo (details below)
-- Rebalanced trader, customized trade UI window to work with mod
-- Added new ammo types
-
-
 ## Known bugs:
 
 - Animations run off a bool call (not using scripting). They are all on timers. Sometimes, skills such as faster reloads, might make the animation go fast or slow in accordance with hand movement. I attuned the speeds based on the guns "unlock" level. Finding a M98 early game, might show a slower animation. This will fix itself as you get near the appropriate level
 - Audio might be too high, or too low. Currently in the process of adjusting levels. Feedback would be amazing. I am hard of hearing myself, too many guns IRL :P Nothing legally disabling me. Just god awful range in volume/pitch.
-- AR15 has crappy scopes. Need to break the model apart in 3ds. Will be patched eventually
 - Explosive Ammo has no physical graphical effect
 
 ----------------------------------------------------------------------------------------------------------------------------------------
