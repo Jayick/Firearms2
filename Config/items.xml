@@ -6709,7 +6709,7 @@ Mmetal
 			<property name="Weight" value="4"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="6600"/>
+			<property name="EconomicValue" value="1500"/>
 			<property name="Group" value="Books,CustomResearch,CustomRMods"/>
 			<!--<property class="Action0">
 				 <requirement name="CVarCompare" cvar="mayicmodACOGGreen,mayicmodACOGBlue,mayicmodACOGRed" operation="Equals" value="0"/> 
@@ -6725,7 +6725,7 @@ Mmetal
 			<property name="Weight" value="4"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="6600"/>
+			<property name="EconomicValue" value="3000"/>
 			<property name="Group" value="Books,CustomResearch,CustomRMods"/>
 			<!--<property class="Action0">
 				 <requirement name="CVarCompare" cvar="mayicmodACOGx2Green,mayicmodACOGx2Blue,mayicmodACOGx2Red" operation="Equals" value="0"/> 
@@ -6741,7 +6741,7 @@ Mmetal
 			<property name="Weight" value="2"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="4500"/>
+			<property name="EconomicValue" value="1100"/>
 			<property name="Group" value="Books,CustomResearch,CustomRMods"/>
 			<!--<property class="Action0">
 				 <requirement name="CVarCompare" cvar="mayicmodRedDotSight,mayicmodBlueDotSight,mayicmodGreenDotSight" operation="Equals" value="0"/> 
@@ -6757,7 +6757,7 @@ Mmetal
 			<property name="Weight" value="4"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="7500"/>
+			<property name="EconomicValue" value="1250"/>
 			<property name="Group" value="Books,CustomResearch,CustomRMods"/>
 			<!--<property class="Action0">
 				 <requirement name="CVarCompare" cvar="mayicmodHoloSightRed,mayicmodHoloSightBlue,mayicmodHoloSightGreen" operation="Equals" value="0"/> 
@@ -6773,7 +6773,7 @@ Mmetal
 			<property name="Weight" value="8"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="20000"/>
+			<property name="EconomicValue" value="5000"/>
 			<property name="Group" value="Books,CustomResearch,CustomRMods"/>
 			<!--<property class="Action0">
 				 <requirement name="CVarCompare" cvar="mayicmodAlienScope" operation="Equals" value="0"/> 
@@ -6789,7 +6789,7 @@ Mmetal
 			<property name="Weight" value="2"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="20000"/>
+			<property name="EconomicValue" value="1100"/>
 			<property name="Group" value="Books,CustomResearch,CustomRMods"/>
 			<!--<property class="Action0">
 				 <requirement name="CVarCompare" cvar="mayicmodHairSight" operation="Equals" value="0"/> 
@@ -6805,7 +6805,7 @@ Mmetal
 			<property name="Weight" value="4"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="20000"/>
+			<property name="EconomicValue" value="2200"/>
 			<property name="Group" value="Books,CustomResearch,CustomRMods"/>
 			<!--<property class="Action0">
 				 <requirement name="CVarCompare" cvar="mayicmodHairSightx2" operation="Equals" value="0"/> 
@@ -6821,7 +6821,7 @@ Mmetal
 			<property name="Weight" value="8"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="20000"/>
+			<property name="EconomicValue" value="2800"/>
 			<property name="Group" value="Books,CustomResearch,CustomRMods"/>
 			<!--<property class="Action0">
 				 <requirement name="CVarCompare" cvar="mayicmodHairSightx4" operation="Equals" value="0"/> 
@@ -6837,7 +6837,7 @@ Mmetal
 			<property name="Weight" value="2"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="20000"/>
+			<property name="EconomicValue" value="900"/>
 			<property name="Group" value="Books,CustomResearch,CustomRMods"/>
 			<!--<property class="Action0">
 				 <requirement name="CVarCompare" cvar="mayicmodHandGrip" operation="Equals" value="0"/> 
@@ -6853,7 +6853,7 @@ Mmetal
 			<property name="Weight" value="2"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="20000"/>
+			<property name="EconomicValue" value="900"/>
 			<property name="Group" value="Books,CustomResearch,CustomRMods"/>
 			<!--<property class="Action0">
 				 <requirement name="CVarCompare" cvar="mayicmodLaserSide" operation="Equals" value="0"/> 
@@ -6869,7 +6869,7 @@ Mmetal
 			<property name="Weight" value="2"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="20000"/>
+			<property name="EconomicValue" value="700"/>
 			<property name="Group" value="Books,CustomResearch,CustomRMods"/>
 			<!--<property class="Action0">
 				 <requirement name="CVarCompare" cvar="mayicmodBayonet" operation="Equals" value="0"/> 
@@ -6886,7 +6886,7 @@ Mmetal
 			<property name="Weight" value="2"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="20000"/>
+			<property name="EconomicValue" value="1200"/>
 			<property name="Group" value="Books,CustomResearch,CustomRMods"/>
 			<!--<property class="Action0">
 				 <requirement name="CVarCompare" cvar="mayicmodExtendedSilencer" operation="Equals" value="0"/> 
@@ -6902,7 +6902,7 @@ Mmetal
 			<property name="Weight" value="8"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="20000"/>
+			<property name="EconomicValue" value="3500"/>
 			<property name="Group" value="Books,CustomResearch,CustomRMods"/>
 			<!--<property class="Action0">
 				 <requirement name="CVarCompare" cvar="mayicmodBlockBuster" operation="Equals" value="0"/> 
@@ -6918,7 +6918,7 @@ Mmetal
 			<property name="Weight" value="2"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="20000"/>
+			<property name="EconomicValue" value="2500"/>
 			<property name="Group" value="Books,CustomResearch,CustomRMods"/>
 			<!--<property class="Action0">
 				 <requirement name="CVarCompare" cvar="mayicmodQuickMag" operation="Equals" value="0"/> 
@@ -6934,7 +6934,7 @@ Mmetal
 			<property name="Weight" value="3"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="20000"/>
+			<property name="EconomicValue" value="1200"/>
 			<property name="Group" value="Books,CustomResearch,CustomRMods"/>
 			<!--<property class="Action0">
 				 <requirement name="CVarCompare" cvar="mayicmodBananaClip" operation="Equals" value="0"/> 
@@ -6950,7 +6950,7 @@ Mmetal
 			<property name="Weight" value="5"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="20000"/>
+			<property name="EconomicValue" value="4500"/>
 			<property name="Group" value="Books,CustomResearch,CustomRMods"/>
 			<!--<property class="Action0">
 				 <requirement name="CVarCompare" cvar="mayicmodDrumMag" operation="Equals" value="0"/> 
@@ -6978,7 +6978,7 @@ Mmetal
 			<property name="DescriptionKey" value="mayicpartSmReceiverSchematicDesc"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="2700"/>
+			<property name="EconomicValue" value="900"/>
 			<property name="CustomIcon" value="7smreceivers"/>
 			<property name="Group" value="Books,CustomResearch,CustomRParts"/>
 			<!--<property class="Action0">
@@ -6994,7 +6994,7 @@ Mmetal
 			<property name="Weight" value="2"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="2700"/>
+			<property name="EconomicValue" value="900"/>
 			<property name="CustomIcon" value="7smbarrels"/>
 			<property name="Group" value="Books,CustomResearch,CustomRParts"/>
 			<!--<property class="Action0">
@@ -7010,7 +7010,7 @@ Mmetal
 			<property name="Weight" value="2"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="2700"/>
+			<property name="EconomicValue" value="900"/>
 			<property name="CustomIcon" value="7smstocks"/>
 			<property name="Group" value="Books,CustomResearch,CustomRParts"/>
 			<!--<property class="Action0">
@@ -7026,7 +7026,7 @@ Mmetal
 			<property name="Weight" value="2"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="2700"/>
+			<property name="EconomicValue" value="900"/>
 			<property name="CustomIcon" value="7smgrips"/>
 			<property name="Group" value="Books,CustomResearch,CustomRParts"/>
 			<!--<property class="Action0">
@@ -7044,7 +7044,7 @@ Mmetal
 			<property name="Weight" value="4"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="2700"/>
+			<property name="EconomicValue" value="1800"/>
 			<property name="CustomIcon" value="7medreceivers"/>
 			<property name="Group" value="Books,CustomResearch,CustomRParts"/>
 			<!--<property class="Action0">
@@ -7060,7 +7060,7 @@ Mmetal
 			<property name="Weight" value="4"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="2700"/>
+			<property name="EconomicValue" value="1800"/>
 			<property name="CustomIcon" value="7medbarrels"/>
 			<property name="Group" value="Books,CustomResearch,CustomRParts"/>
 			<!--<property class="Action0">
@@ -7076,7 +7076,7 @@ Mmetal
 			<property name="Weight" value="4"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="2700"/>
+			<property name="EconomicValue" value="1800"/>
 			<property name="CustomIcon" value="7medstocks"/>
 			<property name="Group" value="Books,CustomResearch,CustomRParts"/>
 			<!--<property class="Action0">
@@ -7092,7 +7092,7 @@ Mmetal
 			<property name="Weight" value="4"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="2700"/>
+			<property name="EconomicValue" value="1800"/>
 			<property name="CustomIcon" value="7medgrips"/>
 			<property name="Group" value="Books,CustomResearch,CustomRParts"/>
 			<!--<property class="Action0">
@@ -7176,7 +7176,7 @@ Mmetal
 			<property name="Weight" value="2"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="2700"/>
+			<property name="EconomicValue" value="900"/>
 			<property name="CustomIcon" value="7shortbarrels"/>
 			<property name="Group" value="Books,CustomResearch,CustomRParts"/>
 			<!--<property class="Action0">
@@ -7192,7 +7192,7 @@ Mmetal
 			<property name="Weight" value="4"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="2700"/>
+			<property name="EconomicValue" value="1800"/>
 			<property name="CustomIcon" value="7mountrails"/>
 			<property name="Group" value="Books,CustomResearch,CustomRParts"/>
 			<!--<property class="Action0">
@@ -7226,7 +7226,7 @@ Mmetal
 			<property name="Weight" value="2"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="2700"/>
+			<property name="EconomicValue" value="900"/>
 			<property name="CustomIcon" value="7forwards"/>
 			<property name="Group" value="Books,CustomResearch,CustomRParts"/>
 			<!--<property class="Action0">
@@ -7242,7 +7242,7 @@ Mmetal
 			<property name="Weight" value="4"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="2700"/>
+			<property name="EconomicValue" value="1800"/>
 			<property name="CustomIcon" value="7slides"/>
 			<property name="Group" value="Books,CustomResearch,CustomRParts"/>
 			<!--<property class="Action0">
@@ -7275,7 +7275,7 @@ Mmetal
 			<property name="Weight" value="2"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="2700"/>
+			<property name="EconomicValue" value="900"/>
 			<property name="CustomIcon" value="7hammers"/>
 			<property name="Group" value="Books,CustomResearch,CustomRParts"/>
 			<!--<property class="Action0">
@@ -7291,7 +7291,7 @@ Mmetal
 			<property name="Weight" value="4"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="2700"/>
+			<property name="EconomicValue" value="1800"/>
 			<property name="CustomIcon" value="7triggers"/>
 			<property name="Group" value="Books,CustomResearch,CustomRParts"/>
 			<!--<property class="Action0">
@@ -7307,7 +7307,7 @@ Mmetal
 			<property name="Weight" value="4"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="2700"/>
+			<property name="EconomicValue" value="1800"/>
 			<property name="CustomIcon" value="7compressors"/>
 			<property name="Group" value="Books,CustomResearch,CustomRParts"/>
 			<!--<property class="Action0">
@@ -7340,7 +7340,7 @@ Mmetal
 			<property name="Weight" value="6"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="2700"/>
+			<property name="EconomicValue" value="3500"/>
 			<property name="CustomIcon" value="7flametanks"/>
 			<property name="Group" value="Books,CustomResearch,CustomRParts"/>
 			<!--<property class="Action0">
@@ -7357,7 +7357,7 @@ Mmetal
 			<property name="Weight" value="6"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="2700"/>
+			<property name="EconomicValue" value="15000"/>
 			<property name="CustomIcon" value="7chaingungears"/>
 			<property name="Group" value="Books,CustomResearch,CustomRParts"/>
 			<!--<property class="Action0">
@@ -7374,7 +7374,7 @@ Mmetal
 			<property name="Weight" value="6"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="2700"/>
+			<property name="EconomicValue" value="15000"/>
 			<property name="CustomIcon" value="7alienframes"/>
 			<property name="Group" value="Books,CustomResearch,CustomRParts"/>
 			<!--<property class="Action0">
@@ -7393,7 +7393,7 @@ Mmetal
 			<property name="Weight" value="6"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="2700"/>
+			<property name="EconomicValue" value="200"/>
 			<property name="CustomIcon" value="7gunworkbenchs"/>
 			<property name="Group" value="Books,CustomResearch,CustomRBlocks"/>
 			<!--<property class="Action0">
@@ -7411,7 +7411,7 @@ Mmetal
 			<property name="Weight" value="6"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="2700"/>
+			<property name="EconomicValue" value="600"/>
 			<property name="CustomIcon" value="7modworkbenchs"/>
 			<property name="Group" value="Books,CustomResearch,CustomRBlocks"/>
 			<!--<property class="Action0">
@@ -7429,7 +7429,7 @@ Mmetal
 			<property name="Weight" value="6"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="2700"/>
+			<property name="EconomicValue" value="400"/>
 			<property name="CustomIcon" value="7researchtables"/>
 			<property name="Group" value="Books,CustomResearch,CustomRBlocks"/>
 			<!--<property class="Action0">
@@ -7447,7 +7447,7 @@ Mmetal
 			<property name="Weight" value="6"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="2700"/>
+			<property name="EconomicValue" value="300"/>
 			<property name="CustomIcon" value="7ammopresss"/>
 			<property name="Group" value="Books,CustomResearch,CustomRBlocks"/>
 			<!--<property class="Action0">

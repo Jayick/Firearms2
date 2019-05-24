@@ -623,10 +623,10 @@
 		<recipe name="mayicpartFlamethrowerTank" count="1" craft_time="30" craft_area="CustomMod" craft_tool="mayictoolFirearmsKit">
 			<ingredient name="mayicresourceScrapGun" count="50"/>
 		</recipe>
-		<recipe name="mayicpartChaingunGear" count="1" craft_time="30" craft_area="CustomMod">
+		<recipe name="mayicpartChaingunGear" count="1" craft_time="30" craft_area="CustomMod" craft_tool="mayictoolFirearmsKit">
 			<ingredient name="mayicresourceScrapGun" count="500"/>
 		</recipe>
-		<recipe name="mayicpartAlienFrame" count="1" craft_time="30" craft_area="CustomMod">
+		<recipe name="mayicpartAlienFrame" count="1" craft_time="30" craft_area="CustomMod" craft_tool="mayictoolFirearmsKit">
 			<ingredient name="mayicresourceScrapGun" count="500"/>
 		</recipe>
 		

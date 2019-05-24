@@ -36,7 +36,7 @@
 					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="7,10" tags="mayicgunM4A1,mayicgunSCAR,mayicgunSpaz12,mayicgunSR25,mayicgunAK47,mayicgunARX160,mayicgunMrad"/>
 					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="7,10" tags="mayicammo5.56x45mm,mayicammo20gauge,mayicammo7.62x51mm,mayicammo7.62x39mm,mayicammo5.56x45mmSteel,mayicammo7.62x51mmSteel,mayicammo7.62x39mmSteel"/>
 					
-					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="8,10" tags="mayicgunMosinNagant,mayicgunM1,mayicgunM98,mayicgunJNG90"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="8,10" tags="mayicgunAA12,mayicgunMosinNagant,mayicgunM1,mayicgunM98,mayicgunJNG90"/>
 					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="8,10" tags="mayicammo338cal,mayicammo338calSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
 					
 					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="9,10" tags="mayicgunM249Saw,mayicgunM82,mayicgunDesertEagle,mayicgunColtPython,mayicgunM79GL40,mayicgunM240,mayicgunFlameThrower"/>
@@ -54,7 +54,7 @@
 					<effect_description level="5" desc_key="AdvancedF5" desc_base="Unlocks: AR15, HandCannon, Mossberg590A1, Bullpup"/>
 					<effect_description level="6" desc_key="AdvancedF6" desc_base="Unlocks: MP40, M1A1Thompson, M16, ACW, RustAK, ARX160, Fallout Shotgun"/>
 					<effect_description level="7" desc_key="AdvancedF7" desc_base="Unlocks: M4A1, SCAR, Spaz12, SR25, Beretta MRAD, Ak47"/>
-					<effect_description level="8" desc_key="AdvancedF8" desc_base="Unlocks: Mosin Nagant, M1, JNG90, M98 Sniper Rifles, Elemental Ammo"/>
+					<effect_description level="8" desc_key="AdvancedF8" desc_base="Unlocks: AA12 Shotgun, Mosin Nagant, M1, JNG90, M98 Sniper Rifles, Elemental Ammo"/>
 					<effect_description level="9" desc_key="AdvancedF9" desc_base="Unlocks: M249Saw, M240, M82 Sniper, Flame Thrower, DesertEagle, Colt Python, M79GL40"/>
 					<effect_description level="10" desc_key="AdvancedF10" desc_base="Unlocks: Golden Gun and Chaingun"/>
 		</effect_group>

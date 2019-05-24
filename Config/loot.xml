@@ -289,7 +289,7 @@
 			<item group="GunTools"/>
 			<item group="AmmoTools"/>
 		</lootgroup>
-		<lootgroup name="GunParts" count="2">
+		<lootgroup name="GunParts" count="1">
 			<item name="mayicpartSmReceiver" count="1" prob=".25"/>
 			<item name="mayicpartSmBarrel" count="1" prob=".25"/>
 			<item name="mayicpartSmStock" count="1" prob=".25"/>
@@ -319,6 +319,39 @@
 			<item name="mayicpartFlamethrowerTank" count="1" prob=".005"/>
 			<item name="mayicpartChaingunGear" count="1" prob=".00005"/>
 			<item name="mayicpartAlienFrame" count="1" prob=".00005"/>
+		</lootgroup>
+		<lootgroup name="GunPartsSchematics" count="1">
+			<item name="mayicpartSmReceiverSchematic" count="1" prob=".25"/>
+			<item name="mayicpartSmBarrelSchematic" count="1" prob=".25"/>
+			<item name="mayicpartSmStockSchematic" count="1" prob=".25"/>
+			<item name="mayicpartSmGripSchematic" count="1" prob=".25"/>
+			
+			<item name="mayicpartMedReceiverSchematic" count="1" prob=".15"/>
+			<item name="mayicpartMedBarrelSchematic" count="1" prob=".15"/>
+			<item name="mayicpartMedStockSchematic" count="1" prob=".15"/>
+			<item name="mayicpartMedGripSchematic" count="1" prob=".15"/>
+			
+			<item name="mayicpartLrgReceiverSchematic" count="1" prob=".07"/>
+			<item name="mayicpartLrgBarrelSchematic" count="1" prob=".07"/>
+			<item name="mayicpartLrgStockSchematic" count="1" prob=".07"/>
+			<item name="mayicpartLrgGripSchematic" count="1" prob=".07"/>
+			
+			<item name="mayicpartShortBarrelSchematic" count="1" prob=".23"/>
+			<item name="mayicpartMountRailsSchematic" count="1" prob=".13"/>
+			<item name="mayicpartLongBarrelSchematic" count="1" prob=".05"/>
+			
+			<item name="mayicpartForwardAssistSchematic" count="1" prob=".23"/>
+			<item name="mayicpartSlideBarSchematic" count="1" prob=".13"/>
+			<item name="mayicpartBreechBoltSchematic" count="1" prob=".05"/>
+			
+			<item name="mayicpartTriggerSchematic" count="1" prob=".23"/>
+			<item name="mayicpartHammerSchematic" count="1" prob=".13"/>
+			<item name="mayicpartCompressorSchematic" count="1" prob=".13"/>
+			<item name="mayicpartHandguardSchematic" count="1" prob=".05"/>
+			
+			<item name="mayicpartFlamethrowerTankSchematic" count="1" prob=".005"/>
+			<item name="mayicpartChaingunGearSchematic" count="1" prob=".00005"/>
+			<item name="mayicpartAlienFrameSchematic" count="1" prob=".00005"/>
 		</lootgroup>
 		<!-- Master Grouping -->
 		<lootgroup name="PistolT1" count="1">
@@ -409,6 +442,166 @@
 			<item group="Chaingun" prob="0.0005"/>
 			<item group="Alien" prob="0.000005"/>
 		</lootgroup>
+		
+		<lootgroup name="ScopesT1" count="1">
+		<item name="mayicmodACOGSchematic" prob="0.4"/>
+		<item name="mayicmodDotSchematic" prob="0.4"/>
+		<item name="mayicmodHoloSchematic" prob="0.4"/>
+		<item name="mayicmodHairSightSchematic" prob="0.4"/>
+		</lootgroup>
+		<lootgroup name="ScopesT2" count="1">
+		<item name="mayicmodHairSightx2Schematic" prob="0.3"/>
+		<item name="mayicmodHairSightx4Schematic" prob="0.2"/>
+		<item name="mayicmodACOGx2Schematic" prob="0.2"/>
+		<item name="mayicmodAlienScopeSchematic" prob="0.2"/>
+		</lootgroup>
+		<lootgroup name="ModT1" count="1">
+		<item name="mayicmodHandGripSchematic" prob="0.4"/>
+		<item name="mayicmodLaserSideSchematic" prob="0.4"/>
+		<item name="mayicmodBananaClipSchematic" prob="0.3"/>
+		<item name="mayicmodBayonetSchematic" prob="0.4"/>
+		</lootgroup>
+		<lootgroup name="ModT2" count="1">
+		<item name="mayicmodExtendedSilencerSchematic" prob="0.4"/>
+		<item name="mayicmodBlockBusterSchematic" prob="0.3"/>
+		<item name="mayicmodQuickMagSchematic" prob="0.4"/>
+		<item name="mayicmodDrumMagSchematic" prob="0.2"/>
+		</lootgroup>
+		<lootgroup name="FirearmT1" count="1">
+		<item name="mayicgunBerettaNanoSchematic" prob="0.76"/>
+		<item name="mayicgunM9Schematic" prob="0.5"/>
+		<item name="mayicgunBeretta92Schematic" prob="0.5"/>
+		<item name="mayicgunP226Schematic" prob="0.5"/>
+		<item name="mayicgunMac10Schematic" prob="0.5"/>
+		<item name="mayicgunMK1Schematic" prob="0.64"/>
+		<item name="mayicgunMP40Schematic" prob="0.5"/>
+		<item name="mayicgunSawedOffSchematic" prob="0.64"/>
+		<item name="mayicgunRustAKSchematic" prob="0.5"/>
+		</lootgroup>
+		<lootgroup name="FirearmT2" count="1">
+		<item name="mayicgunGlock40Schematic" prob="0.9"/>
+		<item name="mayicgunUSPSchematic" prob="0.9"/>
+		<item name="mayicgun1911Schematic" prob="0.9"/>
+		<item name="mayicgunFalloutShotgunSchematic" prob="0.5"/>
+		<item name="mayicgunHuntingShotgunSchematic" prob="0.9"/>
+		<item name="mayicgunMossberg590A1Schematic" prob="0.6"/>
+		<item name="mayicgunM1A1ThompsonSchematic" prob="0.5"/>
+		<item name="mayicgunMP5Schematic" prob="0.9"/>
+		<item name="mayicgunFNFALSchematic" prob="0.5"/>
+		<item name="mayicgunACWSchematic" prob="0.48"/>
+		<item name="mayicgunBullpupSchematic" prob="0.56"/>
+		<item name="mayicgunAR15Schematic" prob="0.36"/>
+		<item name="mayicgunAK47Schematic" prob="0.36"/>
+		<item name="mayicgunM16Schematic" prob="0.4"/>
+		<item name="mayicgunARX160Schematic" prob="0.7"/>
+		</lootgroup>
+		<lootgroup name="FirearmT3" count="1">
+		<item name="mayicgunRCP90Schematic" prob="0.3"/>
+		<item name="mayicgunDesertEagleSchematic" prob="0.3"/>
+		<item name="mayicgunColtPythonSchematic" prob="0.35"/>
+		<item name="mayicgunSpaz12Schematic" prob="0.08"/>
+		<item name="mayicgunAA12Schematic" prob="0.06"/>
+		<item name="mayicgunVectorSchematic" prob="0.8"/>
+		<item name="mayicgunM4A1Schematic" prob="0.5"/>
+		<item name="mayicgunSCARSchematic" prob="0.5"/>
+		<item name="mayicgunM1Schematic" prob="0.3"/>
+		<item name="mayicgunMosinNagantSchematic" prob="0.3"/>
+		<item name="mayicgunM249SawSchematic" prob="0.1"/>
+		<item name="mayicgunM240Schematic" prob="0.1"/>
+		<item name="mayicgunSR25Schematic" prob="0.2"/>
+		<item name="mayicgunMradSchematic" prob="0.2"/>
+		<item name="mayicgunJNG90Schematic" prob="0.16"/>
+		<item name="mayicgunM98Schematic" prob="0.16"/>
+		<item name="mayicgunM82Schematic" prob="0.1"/>
+		</lootgroup>
+		<lootgroup name="FirearmSpe" count="1">
+		<item name="mayicgunFlamethrowerSchematic" prob="0.1"/>
+		<item name="mayicgunChaingunSchematic" prob="0.006"/>
+		<item name="mayicgunLaserRifleSchematic" prob="0.006"/>
+		</lootgroup>
+		<lootgroup name="AmmoT1" count="1">
+		<item name="mayicammo10mmSchematic" prob="0.8"/>
+		<item name="mayicammo10mmSteelSchematic" prob="0.8"/>
+		<item name="mayicammo9mmSchematic" prob="0.64"/>
+		<item name="mayicammo9mmSteelSchematic" prob="0.64"/>
+		<item name="mayicammo5.7x28mmSchematic" prob="0.58"/>
+		<item name="mayicammo5.7x28mmSteelSchematic" prob="0.56"/>
+		<item name="mayicammo40calSchematic" prob="0.66"/>
+		<item name="mayicammo40calSteelSchematic" prob="0.66"/>
+		<item name="mayicammoBirdShotSchematic" prob="0.5"/>
+		</lootgroup>
+		<lootgroup name="AmmoT2" count="1">
+		<item name="mayicammo20gaugeSchematic" prob="0.5"/>
+		<item name="mayicammo45acpSchematic" prob="0.8"/>
+		<item name="mayicammo45acpSteelSchematic" prob="0.8"/>
+		<item name="mayicammo223calSchematic" prob="0.50"/>
+		<item name="mayicammo223calSteelSchematic" prob="0.5"/>
+		<item name="mayicammo22lrSchematic" prob="0.56"/>
+		<item name="mayicammo22lrSteelSchematic" prob="0.56"/>
+		<item name="mayicammo5.56x45mmSchematic" prob="0.5"/>
+		<item name="mayicammo5.56x45mmSteelSchematic" prob="0.5"/>
+		<item name="mayicammo7.62x39mmSchematic" prob="0.4"/>
+		<item name="mayicammo7.62x39mmSteelSchematic" prob="0.4"/>
+		</lootgroup>
+		<lootgroup name="AmmoT3" count="1">
+		<item name="mayicammo50aeSchematic" prob="0.2"/>
+		<item name="mayicammo50aeSteelSchematic" prob="0.2"/>
+		<item name="mayicammo357magnumSchematic" prob="0.3"/>
+		<item name="mayicammo357magnumSteelSchematic" prob="0.3"/>
+		<item name="mayicammo30-06Schematic" prob="0.3"/>
+		<item name="mayicammo30-06SteelSchematic" prob="0.3"/>
+		<item name="mayicammo7.62x51mmSchematic" prob="0.4"/>
+		<item name="mayicammo7.62x51mmSteelSchematic" prob="0.4"/>
+		<item name="mayicammo338calSchematic" prob="0.3"/>
+		<item name="mayicammo338calSteelSchematic" prob="0.3"/>
+		<item name="mayicammo50calSchematic" prob="0.12"/>
+		<item name="mayicammo50calSteelSchematic" prob="0.12"/>
+		</lootgroup>
+		<lootgroup name="AmmoSpec" count="1">
+		<item name="mayicammo5mmSchematic" prob="0.25"/>
+		<item name="mayicammo5mmSteelSchematic" prob="0.25"/>
+		<item name="mayicammo40mmMiniSchematic" prob="0.2"/>
+		<item name="mayicammo40mmExplosiveSchematic" prob="0.12"/>
+		<item name="mayicammoFlameFuelSchematic" prob="0.16"/>
+		<item name="mayicammoIncendiarySchematic" prob="0.16"/>
+		<item name="mayicammoExplosiveSchematic" prob="0.16"/>
+		<item name="mayicammoCorrosiveSchematic" prob="0.16"/>
+		<item name="mayicammoDragonsbreathSchematic" prob="0.16"/>
+		<item name="mayicammoElectricshellSchematic" prob="0.16"/>
+		<item name="mayicammoLaserRoundSchematic" prob="0.005"/>
+		<item name="mayicammoGoldenbulletSchematic" prob="0.008"/>
+		</lootgroup>
+		<lootgroup name="PartT1" count="1">
+		<item name="mayicpartSmReceiverSchematic" count="1" prob=".5"/>
+		<item name="mayicpartSmBarrelSchematic" count="1" prob=".5"/>
+		<item name="mayicpartSmStockSchematic" count="1" prob=".5"/>
+		<item name="mayicpartSmGripSchematic" count="1" prob=".5"/>
+		<item name="mayicpartShortBarrelSchematic" count="1" prob=".46"/>
+		<item name="mayicpartHammerSchematic" count="1" prob=".26"/>
+		</lootgroup>
+		<lootgroup name="PartT2" count="1">
+		<item name="mayicpartMedReceiverSchematic" count="1" prob=".3"/>
+		<item name="mayicpartMedBarrelSchematic" count="1" prob=".3"/>
+		<item name="mayicpartMedStockSchematic" count="1" prob=".3"/>
+		<item name="mayicpartMedGripSchematic" count="1" prob=".3"/>
+		<item name="mayicpartMountRailsSchematic" count="1" prob=".26"/>
+		<item name="mayicpartCompressorSchematic" count="1" prob=".26"/>
+		<item name="mayicpartTriggerSchematic" count="1" prob=".46"/>
+		<item name="mayicpartSlideBarSchematic" count="1" prob=".24"/>
+		</lootgroup>
+		<lootgroup name="PartT3" count="1">
+		<item name="mayicpartLrgReceiverSchematic" count="1" prob=".45"/>
+		<item name="mayicpartLrgBarrelSchematic" count="1" prob=".45"/>
+		<item name="mayicpartLrgStockSchematic" count="1" prob=".45"/>
+		<item name="mayicpartLrgGripSchematic" count="1" prob=".45"/>
+		<item name="mayicpartLongBarrelSchematic" count="1" prob=".25"/>
+		<item name="mayicpartHandguardSchematic" count="1" prob=".18"/>
+		<item name="mayicpartForwardAssistSchematic" count="1" prob=".46"/>
+		<item name="mayicpartBreechBoltSchematic" count="1" prob=".2"/>
+		<item name="mayicpartFlamethrowerTankSchematic" count="1" prob=".5"/>
+		<item name="mayicpartChaingunGearSchematic" count="1" prob=".05"/>
+		<item name="mayicpartAlienFrameSchematic" count="1" prob=".04"/>
+		</lootgroup>
 	</insertBefore>
 	<append xpath="lootcontainers/lootgroup[@name='ammo']">
 		<item name="mayicammo38cal" count="8,24" prob="1.5"/>
@@ -467,7 +660,38 @@
 		<item name="mayicammoIncendiary" count="5,15" prob="0.03"/>
 		<item name="mayicammoExplosive" count="5,15" prob="0.03"/>
 		<item name="mayicammoCorrosive" count="5,15" prob="0.03"/>
+	</append><!--
+	<append xpath="lootcontainers/lootgroup[@name='commonBooks']">
+		<item group="ResearchTools"/>
+		<item group="WorkbencheBlueprints"/>
+		<item group="FirearmT1"/>
+		<item group="FirearmT2"/>
+		<item group="AmmoT1"/>
+		<item group="AmmoT2"/>
+		<item group="ScopesT1"/>
+		<item group="ModT1"/>
+		<item group="PartT1"/>
+		<item group="PartT2"/>
 	</append>
+	<append xpath="lootcontainers/lootgroup[@name='rareBooks']">
+		<item group="ResearchTools" prob="0.45"/>
+		<item group="WorkbencheBlueprints" prob="0.75"/>
+		<item group="FirearmT1" prob="0.6"/>
+		<item group="FirearmT2" prob="0.3"/>
+		<item group="FirearmT3" prob="0.15"/>
+		<item group="FirearmSpe" prob="0.005"/>
+		<item group="AmmoT1" prob="0.6"/>
+		<item group="AmmoT2" prob="0.3"/>
+		<item group="AmmoT3" prob="0.15"/>
+		<item group="AmmoSpec" prob="0.009"/>
+		<item group="ScopesT1" prob="0.4"/>
+		<item group="ScopesT2" prob="0.35"/>
+		<item group="ModT1" prob="0.4"/>
+		<item group="ModT2" prob="0.35"/>
+		<item group="PartT1" prob="0.65"/>
+		<item group="PartT2" prob="0.45"/>
+		<item group="PartT3" prob="0.25"/>
+	</append>--><!--
 	<append xpath="lootcontainers/lootgroup[@name='commonBooks']">
 		<item name="mayicmodACOGSchematic" prob="0.4"/>
 		<item name="mayicmodACOGx2Schematic" prob="0.2"/>
@@ -500,7 +724,10 @@
 		<item name="mayicpartForwardAssistSchematic" count="1" prob=".46"/>
 		<item name="mayicpartTriggerSchematic" count="1" prob=".46"/>
 		<item name="mayicpartHammerSchematic" count="1" prob=".26"/>
-		
+		<item name="mayicblockGunWorkbenchSchematic" count="1" prob=".6"/>
+		<item name="mayicblockModWorkbenchSchematic" count="1" prob=".25"/>
+		<item name="mayicblockResearchTableSchematic" count="1" prob=".25"/>
+		<item name="mayicblockAmmoWorkbenchSchematic" count="1" prob=".6"/>
 		<item name="mayicgunBerettaNanoSchematic" prob="0.76"/>
 		<item name="mayicgunM9Schematic" prob="0.5"/>
 		<item name="mayicgunBeretta92Schematic" prob="0.5"/>
@@ -532,6 +759,23 @@
 		<item name="mayicammo5.56x45mmSteelSchematic" prob="0.3"/>
 		<item name="mayicammo20gaugeSchematic" prob="0.2"/>
 		<item name="mayicammoBirdShotSchematic" prob="0.5"/>
+		
+		<item name="mayicpartSmReceiverSchematic" count="1" prob=".25"/>
+		<item name="mayicpartSmBarrelSchematic" count="1" prob=".25"/>
+		<item name="mayicpartSmStockSchematic" count="1" prob=".25"/>
+		<item name="mayicpartSmGripSchematic" count="1" prob=".25"/>
+		
+		<item name="mayicpartMedReceiverSchematic" count="1" prob=".15"/>
+		<item name="mayicpartMedBarrelSchematic" count="1" prob=".15"/>
+		<item name="mayicpartMedStockSchematic" count="1" prob=".15"/>
+		<item name="mayicpartMedGripSchematic" count="1" prob=".15"/>
+		<item name="mayicpartShortBarrelSchematic" count="1" prob=".23"/>
+		<item name="mayicpartMountRailsSchematic" count="1" prob=".13"/>
+		<item name="mayicpartForwardAssistSchematic" count="1" prob=".23"/>
+		<item name="mayicpartSlideBarSchematic" count="1" prob=".13"/>
+		<item name="mayicpartTriggerSchematic" count="1" prob=".23"/>
+		<item name="mayicpartHammerSchematic" count="1" prob=".13"/>
+		<item name="mayicpartCompressorSchematic" count="1" prob=".13"/>
 	</append>
 	<append xpath="lootcontainers/lootgroup[@name='rareBooks']">
 		<item name="mayicmodACOGSchematic" prob="0.4"/>
@@ -616,6 +860,161 @@
 		<item name="mayicammoFlameFuelSchematic" prob="0.16"/>
 		<item name="mayicammo40mmExplosiveSchematic" prob="0.06"/>
 		<item name="mayicammoLaserRoundSchematic" prob="0.005"/>
+		<item name="mayicpartLrgReceiverSchematic" count="1" prob=".07"/>
+		<item name="mayicpartLrgBarrelSchematic" count="1" prob=".07"/>
+		<item name="mayicpartLrgStockSchematic" count="1" prob=".07"/>
+		<item name="mayicpartLrgGripSchematic" count="1" prob=".07"/>
+		<item name="mayicpartMountRailsSchematic" count="1" prob=".13"/>
+		<item name="mayicpartLongBarrelSchematic" count="1" prob=".05"/>
+		<item name="mayicpartSlideBarSchematic" count="1" prob=".13"/>
+		<item name="mayicpartBreechBoltSchematic" count="1" prob=".05"/>
+		<item name="mayicpartHammerSchematic" count="1" prob=".13"/>
+		<item name="mayicpartCompressorSchematic" count="1" prob=".13"/>
+		<item name="mayicpartHandguardSchematic" count="1" prob=".05"/>
+		
+		<item name="mayicpartFlamethrowerTankSchematic" count="1" prob=".005"/>
+		<item name="mayicpartChaingunGearSchematic" count="1" prob=".00005"/>
+		<item name="mayicpartAlienFrameSchematic" count="1" prob=".00005"/>
+	</append>-->
+	<!-- This method gave the best results for spawning the schematics. Any overuse of probability tends to make it so
+	they will VERY rarely appear in loot. Paper, by default, has a prob value of 20 for rareBooks. So adjusting
+	is a bit of a pain. With the new crafting system, this is probably going to annoy people the least -->
+	<append xpath="lootcontainers/lootgroup[@name='commonBooks']">
+		<item group="ResearchTools"/>
+		<item group="WorkbencheBlueprints"/>
+		<item name="mayicmodACOGSchematic"/>
+		<item name="mayicmodDotSchematic"/>
+		<item name="mayicmodHoloSchematic"/>
+		<item name="mayicmodHairSightSchematic"/>
+		<item name="mayicmodHandGripSchematic"/>
+		<item name="mayicmodLaserSideSchematic"/>
+		<item name="mayicmodBananaClipSchematic"/>
+		<item name="mayicmodBayonetSchematic"/>
+		<item name="mayicgunBerettaNanoSchematic"/>
+		<item name="mayicgunM9Schematic"/>
+		<item name="mayicgunBeretta92Schematic"/>
+		<item name="mayicgunP226Schematic"/>
+		<item name="mayicgunMac10Schematic"/>
+		<item name="mayicgunMK1Schematic"/>
+		<item name="mayicgunMP40Schematic"/>
+		<item name="mayicgunSawedOffSchematic"/>
+		<item name="mayicgunRustAKSchematic"/>
+		<item name="mayicgunGlock40Schematic"/>
+		<item name="mayicgunUSPSchematic"/>
+		<item name="mayicgun1911Schematic"/>
+		<item name="mayicgunFalloutShotgunSchematic"/>
+		<item name="mayicgunHuntingShotgunSchematic"/>
+		<item name="mayicgunMossberg590A1Schematic"/>
+		<item name="mayicgunM1A1ThompsonSchematic"/>
+		<item name="mayicgunMP5Schematic"/>
+		<item name="mayicgunFNFALSchematic"/>
+		<item name="mayicgunACWSchematic"/>
+		<item name="mayicgunBullpupSchematic"/>
+		<item name="mayicgunAR15Schematic"/>
+		<item name="mayicgunAK47Schematic"/>
+		<item name="mayicgunM16Schematic"/>
+		<item name="mayicgunARX160Schematic"/>
+		<item name="mayicammo10mmSchematic"/>
+		<item name="mayicammo10mmSteelSchematic"/>
+		<item name="mayicammo9mmSchematic"/>
+		<item name="mayicammo9mmSteelSchematic"/>
+		<item name="mayicammo5.7x28mmSchematic"/>
+		<item name="mayicammo5.7x28mmSteelSchematic"/>
+		<item name="mayicammo40calSchematic"/>
+		<item name="mayicammo40calSteelSchematic"/>
+		<item name="mayicammoBirdShotSchematic"/>
+		<item name="mayicammo20gaugeSchematic"/>
+		<item name="mayicammo45acpSchematic"/>
+		<item name="mayicammo45acpSteelSchematic"/>
+		<item name="mayicammo223calSchematic"/>
+		<item name="mayicammo223calSteelSchematic"/>
+		<item name="mayicammo22lrSchematic"/>
+		<item name="mayicammo22lrSteelSchematic"/>
+		<item name="mayicammo5.56x45mmSchematic"/>
+		<item name="mayicammo5.56x45mmSteelSchematic"/>
+		<item name="mayicammo7.62x39mmSchematic"/>
+		<item name="mayicammo7.62x39mmSteelSchematic"/>
+		<item name="mayicpartSmReceiverSchematic"/>
+		<item name="mayicpartSmBarrelSchematic"/>
+		<item name="mayicpartSmStockSchematic"/>
+		<item name="mayicpartSmGripSchematic"/>
+		<item name="mayicpartShortBarrelSchematic"/>
+		<item name="mayicpartHammerSchematic"/>
+		<item name="mayicpartMedReceiverSchematic"/>
+		<item name="mayicpartMedBarrelSchematic"/>
+		<item name="mayicpartMedStockSchematic"/>
+		<item name="mayicpartMedGripSchematic"/>
+		<item name="mayicpartMountRailsSchematic"/>
+		<item name="mayicpartCompressorSchematic"/>
+		<item name="mayicpartTriggerSchematic"/>
+		<item name="mayicpartSlideBarSchematic"/>
+	</append>
+	<append xpath="lootcontainers/lootgroup[@name='rareBooks']">
+		<item group="ResearchTools"/>
+		<item group="WorkbencheBlueprints"/>
+		<item name="mayicpartLrgReceiverSchematic"/>
+		<item name="mayicpartLrgBarrelSchematic"/>
+		<item name="mayicpartLrgStockSchematic"/>
+		<item name="mayicpartLrgGripSchematic"/>
+		<item name="mayicpartLongBarrelSchematic"/>
+		<item name="mayicpartHandguardSchematic"/>
+		<item name="mayicpartForwardAssistSchematic"/>
+		<item name="mayicpartBreechBoltSchematic"/>
+		<item name="mayicpartFlamethrowerTankSchematic"/>
+		<item name="mayicpartChaingunGearSchematic" prob="0.005"/>
+		<item name="mayicpartAlienFrameSchematic" prob="0.005"/>
+		<item name="mayicammo5mmSchematic"/>
+		<item name="mayicammo5mmSteelSchematic"/>
+		<item name="mayicammo40mmMiniSchematic"/>
+		<item name="mayicammo40mmExplosiveSchematic"/>
+		<item name="mayicammoFlameFuelSchematic"/>
+		<item name="mayicammoIncendiarySchematic"/>
+		<item name="mayicammoExplosiveSchematic"/>
+		<item name="mayicammoCorrosiveSchematic"/>
+		<item name="mayicammoDragonsbreathSchematic"/>
+		<item name="mayicammoElectricshellSchematic"/>
+		<item name="mayicammoLaserRoundSchematic"/>
+		<item name="mayicammoGoldenbulletSchematic" prob="0.05"/>
+		<item name="mayicammo50aeSchematic"/>
+		<item name="mayicammo50aeSteelSchematic"/>
+		<item name="mayicammo357magnumSchematic"/>
+		<item name="mayicammo357magnumSteelSchematic"/>
+		<item name="mayicammo30-06Schematic"/>
+		<item name="mayicammo30-06SteelSchematic"/>
+		<item name="mayicammo7.62x51mmSchematic"/>
+		<item name="mayicammo7.62x51mmSteelSchematic"/>
+		<item name="mayicammo338calSchematic"/>
+		<item name="mayicammo338calSteelSchematic"/>
+		<item name="mayicammo50calSchematic"/>
+		<item name="mayicammo50calSteelSchematic"/>
+		<item name="mayicgunFlamethrowerSchematic"/>
+		<item name="mayicgunChaingunSchematic" prob="0.005"/>
+		<item name="mayicgunLaserRifleSchematic" prob="0.005"/>
+		<item name="mayicgunRCP90Schematic"/>
+		<item name="mayicgunDesertEagleSchematic"/>
+		<item name="mayicgunColtPythonSchematic"/>
+		<item name="mayicgunSpaz12Schematic"/>
+		<item name="mayicgunAA12Schematic"/>
+		<item name="mayicgunVectorSchematic"/>
+		<item name="mayicgunM4A1Schematic"/>
+		<item name="mayicgunSCARSchematic"/>
+		<item name="mayicgunM1Schematic"/>
+		<item name="mayicgunMosinNagantSchematic"/>
+		<item name="mayicgunM249SawSchematic"/>
+		<item name="mayicgunM240Schematic"/>
+		<item name="mayicgunSR25Schematic"/>
+		<item name="mayicgunMradSchematic"/>
+		<item name="mayicgunJNG90Schematic"/>
+		<item name="mayicgunM98Schematic"/>
+		<item name="mayicgunM82Schematic"/>
+		<item name="mayicmodHairSightx2Schematic"/>
+		<item name="mayicmodHairSightx4Schematic"/>
+		<item name="mayicmodACOGx2Schematic"/>
+		<item name="mayicmodAlienScopeSchematic"/>
+		<item name="mayicmodExtendedSilencerSchematic"/>
+		<item name="mayicmodBlockBusterSchematic"/>
+		<item name="mayicmodQuickMagSchematic"/>
+		<item name="mayicmodDrumMagSchematic"/>
 	</append>
 	<append xpath="lootcontainers/lootgroup[@name='questChallenge']">
 		<item name="mayicchallengehandgun"/>
@@ -707,6 +1106,52 @@
 		<item group="SMGT1" 		count="1" prob="0.01"/>
 		<item group="ShotgunT1" 	count="1" prob="0.03"/>
 	</append>
+	<!-- Military Box -->
+	<append xpath="/lootcontainers/lootcontainer[@id='40']">
+		<item group="PistolT1" 		count="1" prob="0.5"/>
+		<item group="PistolT2" 		count="1" prob="0.5"/>
+		<item group="PistolT3" 		count="1" prob="0.1"/>
+		<item group="SMGT1" 		count="1" prob="0.5"/>
+		<item group="SMGT2" 		count="1" prob="0.5"/>
+		<item group="SMGT3" 		count="1" prob="0.1"/>
+		<item group="ShotgunT1" 	count="1" prob="0.5"/>
+		<item group="ShotgunT2" 	count="1" prob="0.5"/>
+		<item group="ShotgunT3" 	count="1" prob="0.05"/>
+		<item group="RifleT1" 		count="1" prob="0.5"/>
+		<item group="RifleT2" 		count="1" prob="0.35"/>
+		<item group="RifleT3" 		count="1" prob="0.2"/>
+		<item group="LargeT1" 		count="1" prob="0.15"/>
+		<item group="LargeT2" 		count="1" prob="0.1"/>
+		<item group="LargeT3" 		count="1" prob="0.03"/>
+		<item group="SpecialT2" 	count="1" prob="0.1"/>
+		<item group="SpecialT3" 	count="1" prob="0.000005"/>
+		<item group="Scopes" 		count="1" prob="0.1"/>
+		<item group="GunParts" 		count="1" prob="0.1"/>
+		<item group="Mods" 			count="1" prob="0.1"/>
+	</append>
+	<!-- Fancy chest -->
+	<append xpath="/lootcontainers/lootcontainer[@id='41']">
+		<item group="PistolT1" 		count="1" prob="0.5"/>
+		<item group="PistolT2" 		count="1" prob="0.5"/>
+		<item group="PistolT3" 		count="1" prob="0.1"/>
+		<item group="SMGT1" 		count="1" prob="0.5"/>
+		<item group="SMGT2" 		count="1" prob="0.5"/>
+		<item group="SMGT3" 		count="1" prob="0.1"/>
+		<item group="ShotgunT1" 	count="1" prob="0.5"/>
+		<item group="ShotgunT2" 	count="1" prob="0.5"/>
+		<item group="ShotgunT3" 	count="1" prob="0.05"/>
+		<item group="RifleT1" 		count="1" prob="0.5"/>
+		<item group="RifleT2" 		count="1" prob="0.35"/>
+		<item group="RifleT3" 		count="1" prob="0.2"/>
+		<item group="LargeT1" 		count="1" prob="0.15"/>
+		<item group="LargeT2" 		count="1" prob="0.1"/>
+		<item group="LargeT3" 		count="1" prob="0.03"/>
+		<item group="SpecialT2" 	count="1" prob="0.1"/>
+		<item group="SpecialT3" 	count="1" prob="0.000005"/>
+		<item group="Scopes" 		count="1" prob="0.1"/>
+		<item group="GunParts" 		count="1" prob="0.1"/>
+		<item group="Mods" 			count="1" prob="0.1"/>
+	</append>
 	<!-- Gun Safe -->
 	<remove xpath="/lootcontainers/lootcontainer[@id='42']"/>
 	<append xpath="/lootcontainers">
@@ -741,29 +1186,6 @@
 		<item group="PistolT1" 		count="1" prob="0.3"/>
 		<item group="SpecialT1" 	count="1" prob="0.32"/>
 		<item group="GunParts" 	count="1" prob="0.2"/>
-	</append>
-	<!-- Fancy chest -->
-	<append xpath="/lootcontainers/lootcontainer[@id='41']">
-		<item group="PistolT1" 		count="1" prob="0.5"/>
-		<item group="PistolT2" 		count="1" prob="0.5"/>
-		<item group="PistolT3" 		count="1" prob="0.1"/>
-		<item group="SMGT1" 		count="1" prob="0.5"/>
-		<item group="SMGT2" 		count="1" prob="0.5"/>
-		<item group="SMGT3" 		count="1" prob="0.1"/>
-		<item group="ShotgunT1" 	count="1" prob="0.5"/>
-		<item group="ShotgunT2" 	count="1" prob="0.5"/>
-		<item group="ShotgunT3" 	count="1" prob="0.05"/>
-		<item group="RifleT1" 		count="1" prob="0.5"/>
-		<item group="RifleT2" 		count="1" prob="0.35"/>
-		<item group="RifleT3" 		count="1" prob="0.2"/>
-		<item group="LargeT1" 		count="1" prob="0.15"/>
-		<item group="LargeT2" 		count="1" prob="0.1"/>
-		<item group="LargeT3" 		count="1" prob="0.03"/>
-		<item group="SpecialT2" 	count="1" prob="0.1"/>
-		<item group="SpecialT3" 	count="1" prob="0.000005"/>
-		<item group="Scopes" 		count="1" prob="0.1"/>
-		<item group="GunParts" 		count="1" prob="0.1"/>
-		<item group="Mods" 			count="1" prob="0.1"/>
 	</append>
 	<!-- Shotgun Messiah -->
 	<remove xpath="/lootcontainers/lootcontainer[@id='50']"/>
