@@ -1352,11 +1352,6 @@
 		</recipe>
 		
 		
-		<recipe name="mayicammoFlameFuel" count="2" craft_area="CustomAmmo">
-			<ingredient name="ammoGasCan" count="6"/>
-		</recipe>
-		
-		
 		
 		
 		

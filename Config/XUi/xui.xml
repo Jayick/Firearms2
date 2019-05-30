@@ -31,7 +31,7 @@
 		<window_group name="workstation_mayicblockModWorkbench" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCustomCraftingList"/>
 			<window name="craftingCustomInfoPanel"/>
-			<window name="windowResearchTool"/>
+			<window name="windowModTool"/>
 			<window name="windowCustomQueue"/>
 			<window name="windowCustomOutput" />
 			<window name="windowCustomNonPagingHeader" />
