@@ -7485,4 +7485,87 @@ Mmetal
 	<set xpath="/items/item[@name='resourceMilitaryFiber']/property[@name='Group' and @value]/@value">,ScrapFirearmss</set>
 	<set xpath="/items/item[@name='resourceDuctTape']/property[@name='Group' and @value]/@value">,ScrapFirearmss</set>
 	<set xpath="/items/item[@name='resourceSpring']/property[@name='Group' and @value]/@value">,ScrapFirearmss</set>
+	
+	
+	<set xpath="/items/item[@name='gunPistol']/property[@name='Material' and @value]/@value">MayicScrapGun</set>
+	<set xpath="/items/item[@name='gunPistol']/property[@name='Weight' and @value]/@value">2</set>
+	
+	<set xpath="/items/item[@name='gun44Magnum']/property[@name='Material' and @value]/@value">MayicScrapGun</set>
+	<set xpath="/items/item[@name='gun44Magnum']/property[@name='Weight' and @value]/@value">5</set>
+	
+	<set xpath="/items/item[@name='gunSMG5']/property[@name='Material' and @value]/@value">MayicScrapGun</set>
+	<set xpath="/items/item[@name='gunSMG5']/property[@name='Weight' and @value]/@value">3</set>
+	
+	<set xpath="/items/item[@name='gunPumpShotgun']/property[@name='Material' and @value]/@value">MayicScrapGun</set>
+	<set xpath="/items/item[@name='gunPumpShotgun']/property[@name='Weight' and @value]/@value">2</set>
+	
+	<set xpath="/items/item[@name='gunHuntingRifle']/property[@name='Material' and @value]/@value">MayicScrapGun</set>
+	<set xpath="/items/item[@name='gunHuntingRifle']/property[@name='Weight' and @value]/@value">2</set>
+	
+	<set xpath="/items/item[@name='gunMR10']/property[@name='Material' and @value]/@value">MayicScrapGun</set>
+	<set xpath="/items/item[@name='gunMR10']/property[@name='Weight' and @value]/@value">4</set>
+	
+	<set xpath="/items/item[@name='gunAK47']/property[@name='Material' and @value]/@value">MayicScrapGun</set>
+	<set xpath="/items/item[@name='gunAK47']/property[@name='Weight' and @value]/@value">3</set>
+	
+	<set xpath="/items/item[@name='gunRocketLauncher']/property[@name='Material' and @value]/@value">MayicScrapGun</set>
+	<set xpath="/items/item[@name='gunRocketLauncher']/property[@name='Weight' and @value]/@value">3</set>
+	
+	<set xpath="/items/item[@name='ammo9mmBullet']/property[@name='Material' and @value]/@value">MayicScrapAmmo</set>
+	<append xpath="/items/item[@name='ammo9mmBullet']">
+	<property name="Weight" value="1"/>
+	</append>
+	
+	
+	<set xpath="/items/item[@name='ammo9mmBulletSteel']/property[@name='Material' and @value]/@value">MayicScrapAmmo</set>
+	<append xpath="/items/item[@name='ammo9mmBulletSteel']">
+	<property name="Weight" value="1"/>
+	</append>
+	
+	<set xpath="/items/item[@name='ammo44MagnumBulletSteel']/property[@name='Material' and @value]/@value">MayicScrapAmmo</set>
+	<append xpath="/items/item[@name='ammo44MagnumBulletSteel']">
+	<property name="Weight" value="2"/>
+	</append>
+	
+	<set xpath="/items/item[@name='ammo762mmBulletFMJSteel']/property[@name='Material' and @value]/@value">MayicScrapAmmo</set>
+	<append xpath="/items/item[@name='ammo762mmBulletFMJSteel']">
+	<property name="Weight" value="2"/>
+	</append>
+	
+	<set xpath="/items/item[@name='ammoShotgunShell']/property[@name='Material' and @value]/@value">MayicScrapAmmo</set>
+	<append xpath="/items/item[@name='ammoShotgunShell']">
+	<property name="Weight" value="1"/>
+	</append>
+	
+	<set xpath="/items/item[@name='ammoShotgunSlug']/property[@name='Material' and @value]/@value">MayicScrapAmmo</set>
+	<append xpath="/items/item[@name='ammoShotgunSlug']">
+	<property name="Weight" value="2"/>
+	</append>
+	
+	<set xpath="/items/item[@name='ammoRocketHE']/property[@name='Material' and @value]/@value">MayicScrapAmmo</set>
+	<append xpath="/items/item[@name='ammoRocketHE']">
+	<property name="Weight" value="5"/>
+	</append>
+	
+	<set xpath="/items/item[@name='ammoRocketFrag']/property[@name='Material' and @value]/@value">MayicScrapAmmo</set>
+	<append xpath="/items/item[@name='ammoRocketFrag']">
+	<property name="Weight" value="5"/>
+	</append>
+	
+	<set xpath="/items/item[@name='ammoShotgunSlug']/property[@name='Material' and @value]/@value">MayicScrapAmmo</set>
+	<append xpath="/items/item[@name='ammoShotgunSlug']">
+	<property name="Weight" value="2"/>
+	</append>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 </potato>
